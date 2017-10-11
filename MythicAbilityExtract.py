@@ -2,10 +2,8 @@ from bs4 import BeautifulSoup
 import re
 import csv
 
-#html_file = "html/mythic_heroes.html"
-#csv_file = "data/mythic_abilities.csv"
-html_file = "html/archmage.html"
-csv_file = "data/archmage.csv"
+html_files = ["html/mythic_heroes.html", "html/archmage.html"]
+csv_files = ["data/mythic_abilities.csv", "data/archmage.csv"]
 
 def clean(soup):
     # strip all attributes
@@ -54,13 +52,11 @@ def clean_p(soup):
     return soup
 
 
-def main():
-    extract_mythic_abilities()
-
-
-def extract_mythic_abilities():
+def extract_mythic_abilities(html_file, csv_file):
+    print(html_file)
+    print(csv_file)
     with open(html_file, 'r') as input_file:
-        raw_html = input_file.read()
+        raw_html = input_file.read().replace('&minus;', '-').replace('&mdash', '--').replace('&ndash;','-').replace('&times;', 'x').replace('—', '-')
     soup = BeautifulSoup(raw_html, 'html.parser')
 
     with open(csv_file, 'w', newline='') as output_file:
@@ -81,6 +77,10 @@ def extract_mythic_abilities():
                 ref = re.sub('[^0-9a-zA-Z]+', '-', name)[:-1]
                 writer.writerow([ref, name, description])
 
+
+def main():
+    for html_file, csv_file in zip(html_files, csv_files):
+        extract_mythic_abilities(html_file, csv_file)
 
 
 if __name__ == '__main__':
