@@ -2,8 +2,10 @@ from bs4 import BeautifulSoup
 import re
 import csv
 
-html_files = ["html/mythic_heroes.html", "html/archmage.html"]
-csv_files = ["data/mythic_abilities.csv", "data/archmage.csv"]
+html_folder = 'html'
+csv_folder = 'data'
+html_files = ["mythic_heroes.html", "archmage.html", "champion.html", "guardian.html", "hierophant.html", "marshal.html", "trickster.html"]
+csv_files = ["mythic_heroes.csv", "archmage.csv", "champion.csv", "guardian.csv", "hierophant.csv", "marshal.csv", "trickster.csv"]
 
 def clean(soup):
     # strip all attributes
@@ -54,7 +56,6 @@ def clean_p(soup):
 
 def extract_mythic_abilities(html_file, csv_file):
     print(html_file)
-    print(csv_file)
     with open(html_file, 'r') as input_file:
         raw_html = input_file.read().replace('&minus;', '-').replace('&mdash', '--').replace('&ndash;','-').replace('&times;', 'x').replace('—', '-')
     soup = BeautifulSoup(raw_html, 'html.parser')
@@ -63,7 +64,6 @@ def extract_mythic_abilities(html_file, csv_file):
         writer = csv.writer(output_file, delimiter ='\t', quotechar='"')
         for p in soup.find_all("p"):
             if p.has_attr('id'):
-                print(p)
                 p = clean(p)
                 if p.b == None:
                     p.i.unwrap()
@@ -80,7 +80,7 @@ def extract_mythic_abilities(html_file, csv_file):
 
 def main():
     for html_file, csv_file in zip(html_files, csv_files):
-        extract_mythic_abilities(html_file, csv_file)
+        extract_mythic_abilities("{0}/{1}".format(html_folder, html_file), "{0}/{1}".format(csv_folder, csv_file))
 
 
 if __name__ == '__main__':
