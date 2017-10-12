@@ -90,13 +90,14 @@ def extract_mythic_spells(soup, writer):
             soup_normal_spell = BeautifulSoup(raw_html, 'html.parser')
             row = [name, link] + extract_normal_spell(soup_normal_spell)
         except:
-            row = [name, sys.exc_info()[0]]
+            row = [name, sys.exc_info()]
         writer.writerow(row)
 
 
 def extract_normal_spell(soup):
     p = soup.find('p', 'stat-block-title')
     statblock = []
+    statblock.append(p.text)
     description = "<h>Normal Use</h>"
     tag = p
     while True:
@@ -116,16 +117,16 @@ def extract_normal_spell(soup):
 
 def parse_spell(statblock):
     try:
-        [school, level] = re.search('School (.*); Level (.*)', statblock[0]).groups()
-        cast_time = statblock[1].split('Casting Time ')[1]
-        components = statblock[2].split('Components ')[1]
-        range = statblock[3].split('Range ')[1]
-        target = statblock[4].split(' ', 1)[1]
-        duration = statblock[5].split(' ', 1)[1]
-        [save, sr] =  re.search('Saving Throw:? (.*); Spell Resistance:? (.*)', statblock[6]).groups()
+        [school, level] = re.search('School (.*); Level (.*)', statblock[1]).groups()
+        cast_time = statblock[2].split('Casting Time ')[1]
+        components = statblock[3].split('Components ')[1]
+        range = statblock[4].split('Range ')[1]
+        target = statblock[5].split(' ', 1)[1]
+        duration = statblock[6].split(' ', 1)[1]
+        [save, sr] =  re.search('Saving Throw:? (.*); Spell Resistance:? (.*)', statblock[7]).groups()
     except:
         print("Error !!!")
-        [school, level, cast_time, components, range, target, duration, save, sr] = [sys.exc_info()[0], statblock, " ",  " ", " ", " ", " ", " ", " ",]
+        [school, level, cast_time, components, range, target, duration, save, sr] = [sys.exc_info(), statblock, " ",  " ", " ", " ", " ", " ", " ",]
     return [school, level, cast_time, components, range, target, duration, save, sr]
 
 
