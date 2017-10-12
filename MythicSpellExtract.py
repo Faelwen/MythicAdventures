@@ -4,9 +4,8 @@ import csv
 import urllib.request
 import re
 
-html_file = 'test/Animate Dead.htm'
+spell_list = 'data/spell-links.txt'
 csv_file = 'data/mythic_spells.csv'
-url_test = 'http://paizo.com/pathfinderRPG/prd/mythicAdventures/mythicSpells/animateDead.html'
 
 
 def get_content(tag):
@@ -68,6 +67,7 @@ def extract_mythic_spells(soup, writer):
     for p in soup.find_all('p', "stat-block-title"):
         tag = p
         name = tag.string
+        print(name)
         description = "<h>Mythic Enhanced</h>"
         while (True):
             tag = tag.next_sibling
@@ -84,9 +84,12 @@ def extract_mythic_spells(soup, writer):
                         tag.b.string = "Mythic " + tag.b.string
                         tag.b.name = 'h'
                     description += '<p>' + get_content(clean(tag)) + '</p>'
-        raw_html = urllib.request.urlopen('http://paizo.com' + link).read().decode('utf-8').replace('&minus;', '-').replace('&mdash', '--').replace('&ndash;','-').replace('&times;', 'x').replace('—', '-')
-        soup_normal_spell = BeautifulSoup(raw_html, 'html.parser')
-        row = [name, link] +extract_normal_spell(soup_normal_spell)
+        try:
+            raw_html = urllib.request.urlopen('http://paizo.com' + link).read().decode('utf-8').replace('&minus;', '-').replace('&mdash', '--').replace('&ndash;','-').replace('&times;', 'x').replace('—', '-')
+            soup_normal_spell = BeautifulSoup(raw_html, 'html.parser')
+            row = [name, link] + extract_normal_spell(soup_normal_spell)
+        except:
+            row = [name]
         writer.writerow(row)
 
 
@@ -100,31 +103,38 @@ def extract_normal_spell(soup):
         if tag == None:
             break
         if tag.name == 'p':
-             if tag.has_attr("class"):
-                if tag["class"][0] == "stat-block-1":
-                    statblock.append(tag.text)
-             else:
-                description += '<p>' + get_content(clean(tag)) + '</p>'
+            if tag.has_attr("class"):
+                if tag["class"][0] == "stat-block-title":
+                    break
+                elif tag["class"][0] == "stat-block-1":
+                   statblock.append(tag.text)
+            else:
+               description += '<p>' + get_content(clean(tag)) + '</p>'
     return parse_spell(statblock)
 
 
 def parse_spell(statblock):
-    [school, level] = re.search('School (.*); Level (.*)', statblock[0]).groups()
-    cast_time = statblock[1].split('Casting Time ')[1]
-    components = statblock[2].split('Components ')[1]
-    range = statblock[3].split('Range ')[1]
-    target = statblock[4].split(' ', 1)[1]
-    duration = statblock[5].split(' ', 1)[1]
-    [save, sr] =  re.search('Saving Throw (.*); Spell Resistance (.*)', statblock[6]).groups()
+    try:
+        [school, level] = re.search('School (.*); Level (.*)', statblock[0]).groups()
+        cast_time = statblock[1].split('Casting Time ')[1]
+        components = statblock[2].split('Components ')[1]
+        range = statblock[3].split('Range ')[1]
+        target = statblock[4].split(' ', 1)[1]
+        duration = statblock[5].split(' ', 1)[1]
+        [save, sr] =  re.search('Saving Throw:? (.*); Spell Resistance:? (.*)', statblock[6]).groups()
+    except:
+        print("Error !!!")
+        [school, level, cast_time, components, range, target, duration, save, sr] = [statblock, 0, 0, 0, 0, 0, 0, 0, 0]
     return [school, level, cast_time, components, range, target, duration, save, sr]
 
 
 def main():
-    raw_html = urllib.request.urlopen(url_test).read().decode('utf-8').replace('&minus;', '-').replace('&mdash', '--').replace('&ndash;','-').replace('&times;', 'x').replace('—', '-')
-    soup = BeautifulSoup(raw_html, 'html.parser')
-    with open(csv_file, 'w', newline='') as output_file:
+    with open(spell_list, 'r') as spell_file, open(csv_file, 'w', newline='') as output_file:
         writer = csv.writer(output_file, delimiter ='\t', quotechar='"')
-        extract_mythic_spells(soup, writer)
+        for link in spell_file:
+            raw_html = urllib.request.urlopen(link.strip()).read().decode('utf-8').replace('&minus;', '-').replace('&mdash', '--').replace('&ndash;','-').replace('&times;', 'x').replace('—', '-')
+            soup = BeautifulSoup(raw_html, 'html.parser')
+            extract_mythic_spells(soup, writer)
 
 
 if __name__ == '__main__':
