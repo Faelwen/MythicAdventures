@@ -3,6 +3,7 @@ import re
 import csv
 import urllib.request
 import re
+import sys
 
 spell_list = 'data/spell-links.txt'
 csv_file = 'data/mythic_spells.csv'
@@ -89,7 +90,7 @@ def extract_mythic_spells(soup, writer):
             soup_normal_spell = BeautifulSoup(raw_html, 'html.parser')
             row = [name, link] + extract_normal_spell(soup_normal_spell)
         except:
-            row = [name]
+            row = [name, sys.exc_info()[0]]
         writer.writerow(row)
 
 
@@ -124,7 +125,7 @@ def parse_spell(statblock):
         [save, sr] =  re.search('Saving Throw:? (.*); Spell Resistance:? (.*)', statblock[6]).groups()
     except:
         print("Error !!!")
-        [school, level, cast_time, components, range, target, duration, save, sr] = [statblock, 0, 0, 0, 0, 0, 0, 0, 0]
+        [school, level, cast_time, components, range, target, duration, save, sr] = [sys.exc_info()[0], statblock, " ",  " ", " ", " ", " ", " ", " ",]
     return [school, level, cast_time, components, range, target, duration, save, sr]
 
 
