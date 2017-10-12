@@ -1,0 +1,379 @@
+<!DOCTYPE html>
+<html><head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0, minimum-scale=1.0, maximum-scale=1.0">
+	<title>Ablative Barrier</title>
+	<link rel="stylesheet" type="text/css" href="Ablative%20Barrier_fichiers/prd-stylesheet.css">
+	<link rel="stylesheet" type="text/css" href="Ablative%20Barrier_fichiers/jquery.htm">
+	<link rel="stylesheet" type="text/css" href="Ablative%20Barrier_fichiers/jquery-ui.htm">
+</head>
+
+<body class="js">
+
+<div class="header">
+	<!-- Logos -->
+	<div class="header-content">
+		<div id="header-full">
+			<a href="http://paizo.com/pathfinderRPG/prd"><img src="Ablative%20Barrier_fichiers/PRD-Logo.png" alt="Pathfinder Reference Document" style="margin: 15px 0 0 0;"></a>
+		</div>
+		<div id="header-mobile">
+			<a href="http://paizo.com/pathfinderRPG/prd"><img src="Ablative%20Barrier_fichiers/PRD-Logo_Mobile.png" alt="Pathfinder Reference Document" style="margin: 5px 0 0 10px;"></a>
+		</div>
+	</div>
+
+	<!-- Search & Navigation -->
+	<div id="nav-menu" class="nav-menu">
+		<a href="#menu" class="menu-link has-subnav"><img src="Ablative%20Barrier_fichiers/menu.png"></a>
+		<div id="menu" class="menu">
+			<ul class="active">
+				<!-- Search -->
+				<li class="search">
+					<form action="/search" method="get">
+						<input id="searchBox" maxlength="256" name="q" placeholder="Search" type="text">
+						<input name="what" value="prd" type="hidden">
+					</form>
+				</li>
+				<!-- Core Rulebook -->
+				<li class="has-subnav">
+					<a href="#">Core Rulebook</a>
+					<ul class="level-2">
+						<li><a href="http://paizo.com/pathfinderRPG/prd/coreRulebook/gettingStarted.html">Getting Started</a></li>
+						<li><a href="http://paizo.com/pathfinderRPG/prd/coreRulebook/races.html">Races</a></li>
+						<li><a href="http://paizo.com/pathfinderRPG/prd/coreRulebook/classes.html">Classes</a></li>
+						<li><a href="http://paizo.com/pathfinderRPG/prd/coreRulebook/usingSkills.html">Using Skills</a></li>
+						<li><a href="http://paizo.com/pathfinderRPG/prd/coreRulebook/skillDescriptions.html">Skill Descriptions</a></li>
+						<li><a href="http://paizo.com/pathfinderRPG/prd/coreRulebook/feats.html">Feats</a></li>
+						<li><a href="http://paizo.com/pathfinderRPG/prd/coreRulebook/equipment.html">Equipment</a></li>
+						<li><a href="http://paizo.com/pathfinderRPG/prd/coreRulebook/additionalRules.html">Additional Rules</a></li>
+						<li><a href="http://paizo.com/pathfinderRPG/prd/coreRulebook/combat.html">Combat</a></li>
+						<li><a href="http://paizo.com/pathfinderRPG/prd/coreRulebook/magic.html">Magic</a></li>
+						<li><a href="http://paizo.com/pathfinderRPG/prd/coreRulebook/spellLists.html">Spell Lists</a></li>
+						<li><a href="http://paizo.com/pathfinderRPG/prd/coreRulebook/spellIndex.html">Spell Index</a></li>
+						<li><a href="http://paizo.com/pathfinderRPG/prd/coreRulebook/prestigeClasses.html">Prestige Classes</a></li>
+						<li><a href="http://paizo.com/pathfinderRPG/prd/coreRulebook/gamemastering.html">Gamemastering</a></li>
+						<li><a href="http://paizo.com/pathfinderRPG/prd/coreRulebook/environment.html">Environment</a></li>
+						<li><a href="http://paizo.com/pathfinderRPG/prd/coreRulebook/nPCClasses.html">NPC Classes</a></li>
+						<li><a href="http://paizo.com/pathfinderRPG/prd/coreRulebook/creatingNPCs.html">Creating NPCs</a></li>
+						<li><a href="http://paizo.com/pathfinderRPG/prd/coreRulebook/magicItems.html">Magic Items</a></li>
+						<li><a href="http://paizo.com/pathfinderRPG/prd/coreRulebook/glossary.html">Glossary</a></li>
+					</ul>
+				</li>
+				<!-- Advanced Class Guide -->
+				<li class="has-subnav">
+					<a href="#">Advanced Class Guide</a>
+					<ul class="level-2">
+						<li><a href="http://paizo.com/pathfinderRPG/prd/advancedClassGuide/classes/index.html">Classes</a></li>
+						<li><a href="http://paizo.com/pathfinderRPG/prd/advancedClassGuide/classOptions/index.html">Archetypes and Class Options</a></li>
+						<li><a href="http://paizo.com/pathfinderRPG/prd/advancedClassGuide/feats.html">Feats</a></li>
+						<li><a href="http://paizo.com/pathfinderRPG/prd/advancedClassGuide/spells/index.html">Spells</a></li>
+						<li><a href="http://paizo.com/pathfinderRPG/prd/advancedClassGuide/spells/spellLists.html">Spell Lists</a></li>
+						<li><a href="http://paizo.com/pathfinderRPG/prd/advancedClassGuide/gear/index.html">Gear and Magic Items</a></li>
+						<li><a href="http://paizo.com/pathfinderRPG/prd/advancedClassGuide/designingClasses.html">Designing Classes</a></li>
+					</ul>
+				</li>
+				<!-- Advanced Player's Guide -->
+				<li class="has-subnav">
+					<a href="#">Advanced Player's Guide</a>
+					<ul class="level-2">
+						<li><a href="http://paizo.com/pathfinderRPG/prd/advancedPlayersGuide/advancedRaces.html">Races</a></li>
+						<li><a href="http://paizo.com/pathfinderRPG/prd/advancedPlayersGuide/advancedBaseClasses.html">Base Classes</a></li>
+						<li><a href="http://paizo.com/pathfinderRPG/prd/advancedPlayersGuide/advancedCoreClasses.html">Core Classes</a></li>
+						<li><a href="http://paizo.com/pathfinderRPG/prd/advancedPlayersGuide/advancedPrestigeClasses.html">Prestige Classes</a></li>
+						<li><a href="http://paizo.com/pathfinderRPG/prd/advancedPlayersGuide/advancedFeats.html">Feats</a></li>
+						<li><a href="http://paizo.com/pathfinderRPG/prd/advancedPlayersGuide/advancedGear.html">Gear</a></li>
+						<li><a href="http://paizo.com/pathfinderRPG/prd/advancedPlayersGuide/advancedSpellLists.html">Spell Lists</a></li>
+						<li><a href="http://paizo.com/pathfinderRPG/prd/advancedPlayersGuide/advancedSpellIndex.html">Spell Index</a></li>
+						<li><a href="http://paizo.com/pathfinderRPG/prd/advancedPlayersGuide/advancedMagicItems.html">Magic Items</a></li>
+						<li><a href="http://paizo.com/pathfinderRPG/prd/advancedPlayersGuide/advancedNewRules.html">New Rules</a></li>
+					</ul>
+				</li>
+				<!-- Advanced Race Guide -->
+				<li class="has-subnav">
+					<a href="#">Advanced Race Guide</a>
+					<ul class="level-2">
+						<li><a href="http://paizo.com/pathfinderRPG/prd/advancedRaceGuide/coreRaces.html">Core Races</a></li>
+						<li><a href="http://paizo.com/pathfinderRPG/prd/advancedRaceGuide/featuredRaces.html">Featured Races</a></li>
+						<li><a href="http://paizo.com/pathfinderRPG/prd/advancedRaceGuide/uncommonRaces.html">Uncommon Races</a></li>
+						<li><a href="http://paizo.com/pathfinderRPG/prd/advancedRaceGuide/raceBuilder.html">Race Builder</a></li>
+						<li><a href="http://paizo.com/pathfinderRPG/prd/advancedRaceGuide/ageHeightWeight.html">Age, Height &amp; Weight</a></li>
+						<li><a href="http://paizo.com/pathfinderRPG/prd/advancedRaceGuide/spellLists.html">Spell Lists</a></li>
+					</ul>
+				</li>
+				<!-- Bestiaries -->
+				<li class="has-subnav">
+					<a href="#">Bestiaries</a>
+					<ul class="level-2">
+						<li><a href="http://paizo.com/pathfinderRPG/prd/bestiary/introduction.html">Monster Introduction</a></li>
+						<li><a href="http://paizo.com/pathfinderRPG/prd/indices/bestiary.html">Global Bestiary Indices</a></li>
+						<li><a href="http://paizo.com/pathfinderRPG/prd/bestiary/monsterIndex.html"><i>Bestiary</i> Monster Index</a></li>
+						<li><a href="http://paizo.com/pathfinderRPG/prd/bestiary2/additionalMonsterIndex.html"><i>Bestiary 2</i> Monster Index</a></li>
+						<li><a href="http://paizo.com/pathfinderRPG/prd/bestiary3/monsterIndex.html"><i>Bestiary 3</i> Monster Index</a></li>
+						<li><a href="http://paizo.com/pathfinderRPG/prd/bestiary4/monsterIndex.html"><i>Bestiary 4</i> Monster Index</a></li>
+						<li><a href="http://paizo.com/pathfinderRPG/prd/bestiary5/index.html"><em>Bestiary 5</em> Monster Index</a></li>
+						<li><a href="http://paizo.com/pathfinderRPG/prd/bestiary/variantMonsterIndex.html">Variant Monster Index</a></li>
+						<li><a href="http://paizo.com/pathfinderRPG/prd/bestiary/monsterCohorts.html">Monster Cohorts</a></li>
+						<li><a href="http://paizo.com/pathfinderRPG/prd/bestiary/animalCompanions.html">Animal Companions</a></li>
+						<li><a href="http://paizo.com/pathfinderRPG/prd/bestiary/monstersAsPCs.html">Monsters as PCs</a></li>
+						<li><a href="http://paizo.com/pathfinderRPG/prd/bestiary/monsterRoles.html">Monster Roles</a></li>
+						<li><a href="http://paizo.com/pathfinderRPG/prd/bestiary/encounterTables.html"><i>Bestiary</i> Encounter Tables</a></li>
+						<li><a href="http://paizo.com/pathfinderRPG/prd/bestiary/monsterCreation.html">Monster Creation</a></li>
+						<li><a href="http://paizo.com/pathfinderRPG/prd/bestiary/monsterAdvancement.html">Monster Advancement</a></li>
+						<li><a href="http://paizo.com/pathfinderRPG/prd/bestiary/universalMonsterRules.html">Universal Monster Rules</a></li>
+						<li><a href="http://paizo.com/pathfinderRPG/prd/bestiary/creatureTypes.html">Creature Types</a></li>
+						<li><a href="http://paizo.com/pathfinderRPG/prd/bestiary/monsterFeats.html">Monster Feats</a></li>
+						<!--<li><a href = "/pathfinderRPG/prd/bestiary/monstersByType.html"><i>Bestiary</i> Monsters by Type</a></li>
+						<li><a href = "/pathfinderRPG/prd/bestiary/monstersByCR.html"><i>Bestiary</i> Monsters by CR</a></li>
+						<li><a href = "/pathfinderRPG/prd/bestiary/monstersByTerrain.html"><i>Bestiary</i> Monsters by Terrain</a></li>-->
+					</ul>
+				</li>
+				<!-- Game Mastery Guide -->
+				<li class="has-subnav">
+					<a href="#">Game Mastery Guide</a>
+					<ul class="level-2">
+						<li><a href="http://paizo.com/pathfinderRPG/prd/gameMasteryGuide/planarAdventures.html">Planar Adventures</a></li>
+						<li><a href="http://paizo.com/pathfinderRPG/prd/gameMasteryGuide/settlements.html">Settlements</a></li>
+						<li><a href="http://paizo.com/pathfinderRPG/prd/gameMasteryGuide/fastPlayShipCombat.html">Fast Play Ship Combat</a></li>
+						<li><a href="http://paizo.com/pathfinderRPG/prd/gameMasteryGuide/chases.html">Chases</a></li>
+						<li><a href="http://paizo.com/pathfinderRPG/prd/gameMasteryGuide/disasters.html">Disasters</a></li>
+						<li><a href="http://paizo.com/pathfinderRPG/prd/gameMasteryGuide/drugsAndAddiction.html">Drugs and Addiction</a></li>
+						<li><a href="http://paizo.com/pathfinderRPG/prd/gameMasteryGuide/haunts.html">Haunts</a></li>
+						<li><a href="http://paizo.com/pathfinderRPG/prd/gameMasteryGuide/hazards.html">Hazards</a></li>
+						<li><a href="http://paizo.com/pathfinderRPG/prd/gameMasteryGuide/sanityAndMadness.html">Sanity and Madness</a></li>
+						<li><a href="http://paizo.com/pathfinderRPG/prd/gameMasteryGuide/nPCBoons.html">NPC Boons</a></li>
+						<li><a href="http://paizo.com/pathfinderRPG/prd/gameMasteryGuide/nPCGallery.html">NPC Gallery</a></li>
+					</ul>
+				</li>
+				<!-- Monster Codex -->
+				<li class="has-subnav">
+					<a href="#">Monster Codex</a>
+					<ul class="level-2">
+						<li><a href="http://paizo.com/pathfinderRPG/prd/monsterCodex/boggards.html">Boggards</a></li>
+						<li><a href="http://paizo.com/pathfinderRPG/prd/monsterCodex/bugbears.html">Bugbears</a></li>
+						<li><a href="http://paizo.com/pathfinderRPG/prd/monsterCodex/drow.html">Drow</a></li>
+						<li><a href="http://paizo.com/pathfinderRPG/prd/monsterCodex/duergar.html">Duergar</a></li>
+						<li><a href="http://paizo.com/pathfinderRPG/prd/monsterCodex/fireGiants.html">Fire Giants</a></li>
+						<li><a href="http://paizo.com/pathfinderRPG/prd/monsterCodex/frostGiants.html">Frost Giants</a></li>
+						<li><a href="http://paizo.com/pathfinderRPG/prd/monsterCodex/ghouls.html">Ghouls</a></li>
+						<li><a href="http://paizo.com/pathfinderRPG/prd/monsterCodex/gnolls.html">Gnolls</a></li>
+						<li><a href="http://paizo.com/pathfinderRPG/prd/monsterCodex/goblins.html">Goblins</a></li>
+						<li><a href="http://paizo.com/pathfinderRPG/prd/monsterCodex/hobgoblins.html">Hobgoblins</a></li>
+						<li><a href="http://paizo.com/pathfinderRPG/prd/monsterCodex/kobolds.html">Kobolds</a></li>
+						<li><a href="http://paizo.com/pathfinderRPG/prd/monsterCodex/lizardfolk.html">Lizardfolk</a></li>
+						<li><a href="http://paizo.com/pathfinderRPG/prd/monsterCodex/ogres.html">Ogres</a></li>
+						<li><a href="http://paizo.com/pathfinderRPG/prd/monsterCodex/orcs.html">Orcs</a></li>
+						<li><a href="http://paizo.com/pathfinderRPG/prd/monsterCodex/ratfolk.html">Ratfolk</a></li>
+						<li><a href="http://paizo.com/pathfinderRPG/prd/monsterCodex/sahuagin.html">Sahuagin</a></li>
+						<li><a href="http://paizo.com/pathfinderRPG/prd/monsterCodex/serpentfolk.html">Serpentfolk</a></li>
+						<li><a href="http://paizo.com/pathfinderRPG/prd/monsterCodex/troglodytes.html">Troglodytes</a></li>
+						<li><a href="http://paizo.com/pathfinderRPG/prd/monsterCodex/trolls.html">Trolls</a></li>
+						<li><a href="http://paizo.com/pathfinderRPG/prd/monsterCodex/vampires.html">Vampires</a></li>
+						<li><a href="http://paizo.com/pathfinderRPG/prd/monsterCodex/appendix.html">Modifying Monsters</a></li>
+					</ul>
+				</li>
+				<!-- Mythic Adventures -->
+				<li class="has-subnav">
+					<a href="#" class="active active-level">Mythic Adventures</a>
+					<ul class="level-2 active">
+						<li><a href="http://paizo.com/pathfinderRPG/prd/mythicAdventures/Glossary.html">Glossary</a></li>
+						<li><a href="http://paizo.com/pathfinderRPG/prd/mythicAdventures/mythicHeroes.html">Mythic Heroes</a></li>
+						<li><a href="http://paizo.com/pathfinderRPG/prd/mythicAdventures/mythicFeats.html">Mythic Feats</a></li>
+						<li><a href="http://paizo.com/pathfinderRPG/prd/mythicAdventures/mythicSpells.html">Mythic Spells</a></li>
+						<li><a href="http://paizo.com/pathfinderRPG/prd/mythicAdventures/mythicSpells/spellIndex.html" class="active active-level">Mythic Spell Index</a></li>
+						<li><a href="http://paizo.com/pathfinderRPG/prd/mythicAdventures/mythicSpells/spellLists.html">Mythic Spell Lists</a></li>
+						<li><a href="http://paizo.com/pathfinderRPG/prd/mythicAdventures/mythicGame.html">Running a Mythic Game</a></li>
+						<li><a href="http://paizo.com/pathfinderRPG/prd/mythicAdventures/mythicItems.html">Mythic Magic Items</a></li>
+						<li><a href="http://paizo.com/pathfinderRPG/prd/mythicAdventures/mythicMonsters.html">Mythic Monsters</a></li>
+					</ul>
+				</li>
+				<!-- NPC Codex -->
+				<li class="has-subnav">
+					<a href="#">NPC Codex</a>
+					<ul class="level-2">
+						<li><a href="http://paizo.com/pathfinderRPG/prd/npcCodex/core/index.html">Core Classes</a></li>
+						<li><a href="http://paizo.com/pathfinderRPG/prd/npcCodex/prestige/index.html">Prestige Classes</a></li>
+						<li><a href="http://paizo.com/pathfinderRPG/prd/npcCodex/npc/index.html">NPC Classes</a></li>
+						<li><a href="http://paizo.com/pathfinderRPG/prd/npcCodex/appendix.html">Appendix</a></li>
+					</ul>
+				</li>
+				<!-- Pathfinder Unchained -->
+				<li class="has-subnav">
+					<a href="#">Pathfinder Unchained</a>
+					<ul class="level-2">
+						<li><a href="http://paizo.com/pathfinderRPG/prd/unchained/classes/index.html">Classes</a></li>
+						<li><a href="http://paizo.com/pathfinderRPG/prd/unchained/skillsAndOptions/index.html">Skills and Options</a></li>
+						<li><a href="http://paizo.com/pathfinderRPG/prd/unchained/gameplay/index.html">Gameplay</a></li>
+						<li><a href="http://paizo.com/pathfinderRPG/prd/unchained/magic/index.html">Magic</a></li>
+						<li><a href="http://paizo.com/pathfinderRPG/prd/unchained/monsters/index.html">Monsters</a></li>
+					</ul>
+				</li>
+				<!-- Occult Adventures -->
+				<li class="has-subnav">
+					<a href="#">Occult Adventures</a>
+					<ul class="level-2">
+						<li><a href="http://paizo.com/pathfinderRPG/prd/occultAdventures/classes/index.html">Occult Classes</a></li>
+						<li><a href="http://paizo.com/pathfinderRPG/prd/occultAdventures/archetypes/index.html">Archetypes</a></li>
+						<li><a href="http://paizo.com/pathfinderRPG/prd/occultAdventures/feats.html">Feats</a></li>
+						<li><a href="http://paizo.com/pathfinderRPG/prd/occultAdventures/psychicMagic.html">Psychic Magic</a></li>
+						<li><a href="http://paizo.com/pathfinderRPG/prd/occultAdventures/spellLists.html">Spell Lists</a></li>
+						<li><a href="http://paizo.com/pathfinderRPG/prd/occultAdventures/spells/index.html">Spells</a></li>
+						<li><a href="http://paizo.com/pathfinderRPG/prd/occultAdventures/occultRules.html">Occult Rules</a></li>
+						<li><a href="http://paizo.com/pathfinderRPG/prd/occultAdventures/occultGame.html">Running an Occult Game</a></li>
+						<li><a href="http://paizo.com/pathfinderRPG/prd/occultAdventures/occultRewards.html">Occult Rewards</a></li>
+					</ul>
+				</li>
+				<!-- Ultimate Campaign -->
+				<li class="has-subnav">
+					<a href="#">Ultimate Campaign</a>
+					<ul class="level-2">
+						<li><a href="http://paizo.com/pathfinderRPG/prd/ultimateCampaign/characterBackground.html">Character Background</a></li>
+						<li><a href="http://paizo.com/pathfinderRPG/prd/ultimateCampaign/downtime.html">Downtime</a></li>
+						<li><a href="http://paizo.com/pathfinderRPG/prd/ultimateCampaign/campaignSystems.html">Campaign Systems</a></li>
+						<li><a href="http://paizo.com/pathfinderRPG/prd/ultimateCampaign/kingdomsAndWar.html">Kingdoms and War</a></li>
+					</ul>
+				</li>
+				<!-- Ultimate Combat -->
+				<li class="has-subnav">
+					<a href="#">Ultimate Combat</a>
+					<ul class="level-2">
+						<li><a href="http://paizo.com/pathfinderRPG/prd/ultimateCombat/classes/gunslinger.html">Gunslinger</a></li>
+						<li><a href="http://paizo.com/pathfinderRPG/prd/ultimateCombat/classes/ninja.html">Ninja</a></li>
+						<li><a href="http://paizo.com/pathfinderRPG/prd/ultimateCombat/classes/samurai.html">Samurai</a></li>
+						<li><a href="http://paizo.com/pathfinderRPG/prd/ultimateCombat/classArchetypes.html">Class Archetypes</a></li>
+						<li><a href="http://paizo.com/pathfinderRPG/prd/ultimateCombat/ultimateCombatFeats.html">Feats</a></li>
+						<li><a href="http://paizo.com/pathfinderRPG/prd/ultimateCombat/combat/introduction.html">Mastering Combat</a></li>
+						<li><a href="http://paizo.com/pathfinderRPG/prd/ultimateCombat/ultimateCombatVehicles.html">Vehicles</a></li>
+						<li><a href="http://paizo.com/pathfinderRPG/prd/ultimateCombat/variants/introduction.html">Variant Rules</a></li>
+						<li><a href="http://paizo.com/pathfinderRPG/prd/ultimateCombat/ultimateCombatSpellIndex.html">Spell Index</a></li>
+						<li><a href="http://paizo.com/pathfinderRPG/prd/ultimateCombat/ultimateCombatSpellLists.html">Spell Lists</a></li>
+					</ul>
+				</li>
+				<!-- Ultimate Equipment -->
+				<li class="has-subnav">
+					<a href="#">Ultimate Equipment</a>
+					<ul class="level-2">
+						<li><a href="http://paizo.com/pathfinderRPG/prd/ultimateEquipment/armsAndArmor/index.html">Arms and Armor</a></li>
+						<li><a href="http://paizo.com/pathfinderRPG/prd/ultimateEquipment/gear/index.html">Gear</a></li>
+						<li><a href="http://paizo.com/pathfinderRPG/prd/ultimateEquipment/magicArmsAndArmor/index.html">Magic Arms and Armor</a></li>
+						<li><a href="http://paizo.com/pathfinderRPG/prd/ultimateEquipment/ringsRodsStaves/index.html">Rings, Rods, and Staves</a></li>
+						<li><a href="http://paizo.com/pathfinderRPG/prd/ultimateEquipment/wondrousItems/index.html">Wondrous Items</a></li>
+						<li><a href="http://paizo.com/pathfinderRPG/prd/ultimateEquipment/artifactsAndOthers/index.html">Artifacts and Other Items</a></li>
+						<li><a href="http://paizo.com/pathfinderRPG/prd/ultimateEquipment/appendix.html">Appendix</a></li>
+					</ul>
+				</li>
+				<!-- Ultimate Magic -->
+				<li class="has-subnav">
+					<a href="#">Ultimate Magic</a>
+					<ul class="level-2">
+						<li><a href="http://paizo.com/pathfinderRPG/prd/ultimateMagic/spellcasters/magus.html">Magus</a></li>
+						<li><a href="http://paizo.com/pathfinderRPG/prd/ultimateMagic/spellcastingClassOptions.html">Spellcasting Class Options</a></li>
+						<li><a href="http://paizo.com/pathfinderRPG/prd/ultimateMagic/magic/introduction.html">Mastering Magic</a></li>
+						<li><a href="http://paizo.com/pathfinderRPG/prd/ultimateMagic/ultimateMagicFeats.html">Feats</a></li>
+						<li><a href="http://paizo.com/pathfinderRPG/prd/ultimateMagic/ultimateMagicWordsOfPower.html">Words of Power</a></li>
+						<li><a href="http://paizo.com/pathfinderRPG/prd/ultimateMagic/ultimateMagicSpellIndex.html">Spells</a></li>
+						<li><a href="http://paizo.com/pathfinderRPG/prd/ultimateMagic/ultimateMagicSpellLists.html">Spell Lists</a></li>
+						<li><a href="http://paizo.com/pathfinderRPG/prd/ultimateMagic/ultimateMagicAppendices.html">Updates</a></li>
+					</ul>
+				</li>
+				<!-- Technology Guide -->
+				<li class="has-subnav">
+					<a href="#">Technology Guide</a>
+					<ul class="level-2">
+						<li class="has-subnav">
+							<a href="#" style="padding-left: 20px;">Technology in the World</a>
+							<ul class="level-3">
+								<li><a href="http://paizo.com/pathfinderRPG/prd/technologyGuide/skills.html">Skills</a></li>
+								<li><a href="http://paizo.com/pathfinderRPG/prd/technologyGuide/feats.html">Feats</a></li>
+								<li><a href="http://paizo.com/pathfinderRPG/prd/technologyGuide/spells.html">Spells</a></li>
+								<li><a href="http://paizo.com/pathfinderRPG/prd/technologyGuide/archetypes.html">Archetypes</a></li>
+								<li><a href="http://paizo.com/pathfinderRPG/prd/technologyGuide/technomancer.html">Technomancer</a></li>
+								<li><a href="http://paizo.com/pathfinderRPG/prd/technologyGuide/crafting.html">Crafting</a></li>
+							</ul>
+						</li>
+						<li class="has-subnav">
+							<a href="#" style="padding-left: 20px;">Equipment</a>
+							<ul class="level-3">
+								<li><a href="http://paizo.com/pathfinderRPG/prd/technologyGuide/equipmentIntroduction.html">Introduction</a></li>
+								<li><a href="http://paizo.com/pathfinderRPG/prd/technologyGuide/weapons.html">Weapons</a></li>
+								<li><a href="http://paizo.com/pathfinderRPG/prd/technologyGuide/armor.html">Armor</a></li>
+								<li><a href="http://paizo.com/pathfinderRPG/prd/technologyGuide/pharmaceuticals.html">Pharmaceuticals</a></li>
+								<li><a href="http://paizo.com/pathfinderRPG/prd/technologyGuide/cybertech.html">Cybertech</a></li>
+								<li><a href="http://paizo.com/pathfinderRPG/prd/technologyGuide/gear.html">Gear</a></li>
+							</ul>
+						</li>
+						<li class="has-subnav">
+							<a href="#" style="padding-left: 20px;">Hazards and Artifacts</a>
+							<ul class="level-3">
+								<li><a href="http://paizo.com/pathfinderRPG/prd/technologyGuide/hazards.html">Hazards</a></li>
+								<li><a href="http://paizo.com/pathfinderRPG/prd/technologyGuide/ai.html">Artificial Intelligences</a></li>
+								<li><a href="http://paizo.com/pathfinderRPG/prd/technologyGuide/artifacts.html">Artifacts</a></li>
+							</ul>
+						</li>
+					</ul>
+				</li>
+				<!-- Index -->
+				<li class="has-subnav">
+					<a href="#">Index</a>
+					<ul class="level-2">
+						<li><a href="http://paizo.com/pathfinderRPG/prd/indices/bestiary.html">Bestiary Index</a></li>
+						<li><a href="http://paizo.com/pathfinderRPG/prd/indices/feats.html">Feats Index</a></li>
+						<!--<li><a href = "/pathfinderRPG/prd/indices/spells.html">Spell Index</a></li>-->
+						<li><a href="http://paizo.com/pathfinderRPG/prd/indices/spelllists.html">Spell List Index</a></li>
+						<li><a href="http://paizo.com/pathfinderRPG/prd/indices/templates.html">Template Index</a></li>
+					</ul>
+				</li>
+				<!-- OGL -->
+				<li>
+					<a href="http://paizo.com/pathfinderRPG/prd/openGameLicense.html">Open Game License</a>
+				</li>
+				<!-- Report a Problem -->
+				<li>
+					<a href="http://paizo.com/threads/rzs2soys">Report a Problem</a>
+				</li>
+			</ul>
+		</div>
+	</div>
+</div>
+
+<div class="body-content">
+
+	<div id="nav-path"><a href="http://paizo.com/pathfinderRPG/prd">PRD Home</a> / <a href="http://paizo.com/pathfinderRPG/prd/mythicAdventures/mythicSpells/spellIndex.html">Mythic Spell Index</a> / <a href="#">Ablative Barrier</a></div>
+
+	<div class="body">
+
+<p id="ablative-barrier-mythic" class="stat-block-title">Ablative Barrier</p>
+<p class="stat-block-1"><b>Source</b> <a href="http://paizo.com/pathfinderRPG/prd/ultimateCombat/spells/ablativeBarrier.html#ablative-barrier"><i>ablative barrier</i></a></p>
+<p>Add half your tier to the spell's armor bonus. Add half your tier to 
+the amount of lethal damage from each attack that is converted to 
+nonlethal damage and to the DR against nonlethal damage. Add half your 
+tier to your caster level when determining how much damage the spell 
+converts before it's discharged.</p>
+
+</div>	<div class="footer">
+		<p>
+			<a href="http://paizo.com/threads/rzs2soys">Report a Problem</a><br><br>
+			©2002-2016 Paizo, Inc.®<br>
+			Paizo Inc., Paizo, Pathfinder, and the Pathfinder logo are registered trademarks of Paizo Inc., and<br>
+			Pathfinder Roleplaying Game and Pathfinder Campaign Setting are trademarks of Paizo Inc.<br>
+			<a href="http://paizo.com/pathfinderRPG/prd/openGameLicense.html">Open Game License</a>.
+		</p>
+	</div>
+
+	</div>
+
+
+<script type="text/javascript" src="Ablative%20Barrier_fichiers/jquery-1.js"></script>
+<script type="text/javascript" src="Ablative%20Barrier_fichiers/jquery.js"></script>
+<script type="text/javascript" src="Ablative%20Barrier_fichiers/jquery_002.htm"></script>
+<script type="text/javascript" src="Ablative%20Barrier_fichiers/prd-jquery.js"></script>
+<script type="text/javascript" src="Ablative%20Barrier_fichiers/prd-scripts.js"></script>
+<script type="text/javascript">var globalTitle="Ablative Barrier",globalNavPath=[{ href: '/pathfinderRPG/prd/mythicAdventures/mythicSpells/spellIndex.html', name: 'Mythic Spell Index' }];</script>
+<script type="text/javascript">
+$(function () {
+	if(!/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent) ) {
+			highlightNavLocation(globalNavPath);
+		}
+	});
+</script>
+
+</body></html>
