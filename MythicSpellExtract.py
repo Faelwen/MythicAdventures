@@ -1,9 +1,11 @@
 from bs4 import BeautifulSoup
 import re
 import csv
+import urllib.request
 
-html_file = 'test/Protection from Chaos_Evil_Good_Law.htm'
-csv_file = 'data/mythic_feats.csv'
+html_file = 'test/Animate Dead.htm'
+csv_file = 'data/mythic_spells.csv'
+url_test = 'http://paizo.com/pathfinderRPG/prd/coreRulebook/spells/animateDead.html#animate-dead'
 
 
 def get_content(tag):
@@ -50,16 +52,43 @@ def clean(soup):
     return soup
 
 
-with open(html_file, 'r') as input_file:
-    raw_html = input_file.read().replace('&minus;', '-').replace('&mdash', '--').replace('&ndash;','-').replace('&times;', 'x').replace('—', '-')
+def get_link(tag):
+    return tag.a["href"]
+
+
+def get_content(tag):
+    result = ""
+    for element in tag.contents:
+        result += str(element)
+    return result
+
+
+def extract_mythic_spells(soup):
+    for p in soup.find_all('p', "stat-block-title"):
+        tag = p
+        name = tag.string
+        description = ""
+        while (True):
+            tag = tag.next_sibling
+            if tag == None:
+                break
+            if tag.name == 'p':
+                if tag.has_attr("class"):
+                    if tag["class"][0] == "stat-block-title":
+                        break
+                    elif tag["class"][0] == "stat-block-1":
+                        link = get_link(tag)
+                else:
+                    if tag.b != None:
+                        tag.b.name = 'h'
+                    description += '<p>' + get_content(clean(tag)) + '</p>'
+        print("{0} - {1} - {2}".format(name, link, description))
+
+
+##with open(html_file, 'r') as input_file:
+##    raw_html = input_file.read().replace('&minus;', '-').replace('&mdash', '--').replace('&ndash;','-').replace('&times;', 'x').replace('—', '-')
+##soup = BeautifulSoup(raw_html, 'html.parser')
+
+raw_html = urllib.request.urlopen(url_test).read().decode('utf-8').replace('&minus;', '-').replace('&mdash', '--').replace('&ndash;','-').replace('&times;', 'x').replace('—', '-')
 soup = BeautifulSoup(raw_html, 'html.parser')
 
-for p in soup.find_all('p', "stat-block-title"):
-    print(p)
-    tag = p
-    while (True):
-        tag = tag.next_sibling
-        if tag == None:
-            break
-        if tag.name == 'p':
-            #print(tag)
