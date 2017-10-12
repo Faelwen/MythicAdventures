@@ -2,10 +2,11 @@ from bs4 import BeautifulSoup
 import re
 import csv
 import urllib.request
+import re
 
 html_file = 'test/Animate Dead.htm'
 csv_file = 'data/mythic_spells.csv'
-url_test = 'http://paizo.com/pathfinderRPG/prd/coreRulebook/spells/animateDead.html#animate-dead'
+url_test = 'http://paizo.com/pathfinderRPG/prd/mythicAdventures/mythicSpells/animateDead.html'
 
 
 def get_content(tag):
@@ -63,11 +64,11 @@ def get_content(tag):
     return result
 
 
-def extract_mythic_spells(soup):
+def extract_mythic_spells(soup, writer):
     for p in soup.find_all('p', "stat-block-title"):
         tag = p
         name = tag.string
-        description = ""
+        description = "<h>Mythic Enhanced</h>"
         while (True):
             tag = tag.next_sibling
             if tag == None:
@@ -80,15 +81,51 @@ def extract_mythic_spells(soup):
                         link = get_link(tag)
                 else:
                     if tag.b != None:
+                        tag.b.string = "Mythic " + tag.b.string
                         tag.b.name = 'h'
                     description += '<p>' + get_content(clean(tag)) + '</p>'
-        print("{0} - {1} - {2}".format(name, link, description))
+        raw_html = urllib.request.urlopen('http://paizo.com' + link).read().decode('utf-8').replace('&minus;', '-').replace('&mdash', '--').replace('&ndash;','-').replace('&times;', 'x').replace('—', '-')
+        soup_normal_spell = BeautifulSoup(raw_html, 'html.parser')
+        row = [name, link] +extract_normal_spell(soup_normal_spell)
+        writer.writerow(row)
 
 
-##with open(html_file, 'r') as input_file:
-##    raw_html = input_file.read().replace('&minus;', '-').replace('&mdash', '--').replace('&ndash;','-').replace('&times;', 'x').replace('—', '-')
-##soup = BeautifulSoup(raw_html, 'html.parser')
+def extract_normal_spell(soup):
+    p = soup.find('p', 'stat-block-title')
+    statblock = []
+    description = "<h>Normal Use</h>"
+    tag = p
+    while True:
+        tag = tag.next_sibling
+        if tag == None:
+            break
+        if tag.name == 'p':
+             if tag.has_attr("class"):
+                if tag["class"][0] == "stat-block-1":
+                    statblock.append(tag.text)
+             else:
+                description += '<p>' + get_content(clean(tag)) + '</p>'
+    return parse_spell(statblock)
 
-raw_html = urllib.request.urlopen(url_test).read().decode('utf-8').replace('&minus;', '-').replace('&mdash', '--').replace('&ndash;','-').replace('&times;', 'x').replace('—', '-')
-soup = BeautifulSoup(raw_html, 'html.parser')
 
+def parse_spell(statblock):
+    [school, level] = re.search('School (.*); Level (.*)', statblock[0]).groups()
+    cast_time = statblock[1].split('Casting Time ')[1]
+    components = statblock[2].split('Components ')[1]
+    range = statblock[3].split('Range ')[1]
+    target = statblock[4].split(' ', 1)[1]
+    duration = statblock[5].split(' ', 1)[1]
+    [save, sr] =  re.search('Saving Throw (.*); Spell Resistance (.*)', statblock[6]).groups()
+    return [school, level, cast_time, components, range, target, duration, save, sr]
+
+
+def main():
+    raw_html = urllib.request.urlopen(url_test).read().decode('utf-8').replace('&minus;', '-').replace('&mdash', '--').replace('&ndash;','-').replace('&times;', 'x').replace('—', '-')
+    soup = BeautifulSoup(raw_html, 'html.parser')
+    with open(csv_file, 'w', newline='') as output_file:
+        writer = csv.writer(output_file, delimiter ='\t', quotechar='"')
+        extract_mythic_spells(soup, writer)
+
+
+if __name__ == '__main__':
+    main()
