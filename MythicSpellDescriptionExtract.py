@@ -1,4 +1,4 @@
-from bs4 import BeautifulSoup
+﻿from bs4 import BeautifulSoup
 import re
 import csv
 import urllib.request
@@ -92,7 +92,7 @@ def main():
     with open(spell_list, 'r') as spell_file, open(csv_file, 'w', newline='') as output_file:
         writer = csv.writer(output_file, delimiter ='\t', quotechar='"')
         for link in spell_file:
-            raw_html = urllib.request.urlopen(link.strip()).read().decode('utf-8').replace('&minus;', '-').replace('&mdash', '--').replace('&ndash;','-').replace('&times;', 'x').replace('â€”', '-')
+            raw_html = urllib.request.urlopen(link.strip()).read().decode('utf-8').replace('&minus;', '-').replace('&mdash', '--').replace('&ndash;','-').replace('&times;', 'x').replace('—', '-')
             soup = BeautifulSoup(raw_html, 'html.parser')
             extract_mythic_spells(soup, writer)
 

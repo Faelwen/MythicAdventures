@@ -1,4 +1,4 @@
-from bs4 import BeautifulSoup
+﻿from bs4 import BeautifulSoup
 import os
 
 input_dir = "html"
@@ -32,7 +32,9 @@ def clean(soup):
 
     # put content of <th> in bold, replace <th> by <td>
     for th in soup.find_all("th"):
-        th.string.wrap(soup.new_tag("b"))
+        print(th)
+        if th.string != None:
+            th.string.wrap(soup.new_tag("b"))
         th.name = "td"
 
     #replace <em> with <i>
