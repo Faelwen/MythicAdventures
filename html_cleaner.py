@@ -4,6 +4,15 @@ import os
 input_dir = "html"
 output_dir = "cleanhtml"
 
+
+
+def get_content(tag):
+    result = ""
+    for element in tag.contents:
+        result += str(element)
+    return result
+
+
 def clean(soup):
     # strip all attributes
     for tag in soup.find_all(True):
