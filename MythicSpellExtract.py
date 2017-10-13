@@ -88,10 +88,11 @@ def extract_mythic_spells(soup, writer):
         try:
             raw_html = urllib.request.urlopen('http://paizo.com' + link).read().decode('utf-8').replace('&minus;', '-').replace('&mdash', '--').replace('&ndash;','-').replace('&times;', 'x').replace('—', '-')
             soup_normal_spell = BeautifulSoup(raw_html, 'html.parser')
-            row = [name] + extract_normal_spell(soup_normal_spell) + [link]
+            row = [name] + extract_normal_spell(soup_normal_spell) + [description]
         except:
             row = [name, sys.exc_info()]
         writer.writerow(row)
+        print(row)
 
 
 def extract_normal_spell(soup):
@@ -110,9 +111,11 @@ def extract_normal_spell(soup):
                     break
                 elif tag["class"][0] == "stat-block-1":
                    statblock.append(tag.text)
+                else:
+                    description += '<p>' + get_content(clean(tag)) + '</p>'
             else:
-               description += '<p>' + get_content(clean(tag)) + '</p>'
-    return parse_spell(statblock)
+                description += '<p>' + get_content(clean(tag)) + '</p>'
+    return (parse_spell(statblock) + [description])
 
 
 def parse_spell(statblock):
