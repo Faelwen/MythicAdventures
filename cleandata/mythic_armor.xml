@@ -1,0 +1,71 @@
+<armor>
+			<bastion-of-the-inheritor>
+				<ac type="number">2</ac>
+				<aura type="string">faint abjuration</aura>
+				<bonus type="number">1</bonus>
+				<checkpenalty type="number">-1</checkpenalty>
+				<cl type="number">5</cl>
+				<cost type="string">22170 gp</cost>
+				<description type="formattedtext">
+					<p><b>Price</b> 22,170 gp; <b>Slot</b> shield; <b>CL</b> 5th; <b>Weight</b> 15 lbs.; <b>Aura</b> faint abjuration</p><p>This <i>+1 rallying</i> <i>heavy steel shield</i> When using this shield, the wearer reduces the extra damage she takes from <i>anarchic</i> weapons, smite good, smite law, and <i>unholy </i>weapons by her tier, to a minimum of 0. When its wearer uses the smite evil class feature, she can expend one use of mythic power to extend the deflection bonus to AC she gains against her target to all allies in a 10-foot-radius burst centered on her. This bonus lasts for 1 minute or until the smite evil ends, whichever comes first.</p><h>Construction Requirements</h><p>Cost 11,170 gp</p><p>Craft Magic Arms and Armor, Mythic Crafter, <i>magic circle against evil</i>, <i>remove fear</i>, <i>sanctify armor</i></p>
+				</description>
+				<maxstatbonus type="number">0</maxstatbonus>
+				<name type="string">Bastion of the Inheritor</name>
+				<nonid_name type="string">Unidentified heavy steel shield</nonid_name>
+				<prerequisites type="string">Cost 11,170 gp, Craft Magic Arms and Armor, Mythic Crafter, magic circle against evil, remove fear, sanctify armor</prerequisites>
+				<properties type="string">masterwork</properties>
+				<range type="number">0</range>
+				<speed20 type="number">0</speed20>
+				<speed30 type="number">0</speed30>
+				<spellfailure type="number">15</spellfailure>
+				<subtype type="string">Shield</subtype>
+				<type type="string">Armor</type>
+				<weight type="number">15</weight>
+			</bastion-of-the-inheritor>
+			<spiritwalk-armor>
+				<ac type="number">2</ac>
+				<aura type="string">strong illusion and transmutation</aura>
+				<bonus type="number">2</bonus>
+				<checkpenalty type="number">0</checkpenalty>
+				<cl type="number">11</cl>
+				<cost type="string">25160 gp</cost>
+				<description type="formattedtext">
+					<p><b>Price</b> 25,160 gp; <b>Slot</b> armor; <b>CL</b> 11th; <b>Weight</b> 15 lbs.; <b>Aura</b> strong illusion and transmutation</p><p>This <i>+2 improved shadow leather armor</i> is attractive, yet eerie. It grants its wearer the ability to use <i>vanish</i> as a quickened spell-like ability five times per day. If a mythic wearer uses the <i>vanish</i> ability, he can expend one use of mythic power to also make himself incorporeal for 1 round.</p><h>Construction Requirements</h><p>Cost 12,660 gp</p><p>Craft Magic Arms and Armor, Mythic Crafter, <i>vanish</i>, <i>ethereal jaunt</i></p>
+				</description>
+				<maxstatbonus type="number">6</maxstatbonus>
+				<name type="string">Spiritwalk Armor</name>
+				<nonid_name type="string">Unidentified leather</nonid_name>
+				<prerequisites type="string">Cost 12,660 gp, Craft Magic Arms and Armor, Mythic Crafter, vanish, ethereal jaunt</prerequisites>
+				<properties type="string">masterwork</properties>
+				<range type="number">0</range>
+				<speed20 type="number">20</speed20>
+				<speed30 type="number">30</speed30>
+				<spellfailure type="number">10</spellfailure>
+				<subtype type="string">Light</subtype>
+				<type type="string">Armor</type>
+				<weight type="number">15</weight>
+			</spiritwalk-armor>
+			<stalwart-breastplate>
+				<ac type="number">6</ac>
+				<aura type="string">strong abjuration</aura>
+				<bonus type="number">1</bonus>
+				<checkpenalty type="number">-5</checkpenalty>
+				<cl type="number">13</cl>
+				<cost type="string">22350 gp</cost>
+				<description type="formattedtext">
+					<p><b>Price</b> 22,350 gp; <b>Slot</b> armor; <b>CL</b> 13th; <b>Weight</b> 40 lbs.; <b>Aura</b> strong abjuration</p><p>The burden of this weighty <i>+1 light fortification breastplate</i> gives it an armor check penalty of ?5. As an immediate action, the wearer can negate the effects of a successful combat maneuver made to bull rush, overrun, or trip her. As a swift action, the wearer can expend one use of mythic power to gain immunity to ability damage, ability drain, critical hits, and sneak attacks. This effect lasts for 1 round per mythic tier the wearer possesses.</p><h>Construction Requirements</h><p>Cost 11,350 gp</p><p>Craft Magic Arms and Armor, Mythic Crafter, <i>iron body</i>, either <i>limited wish</i> or <i>miracle</i></p>
+				</description>
+				<maxstatbonus type="number">3</maxstatbonus>
+				<name type="string">Stalwart Breastplate</name>
+				<nonid_name type="string">Unidentified breastplate</nonid_name>
+				<prerequisites type="string">Cost 11,350 gp, Craft Magic Arms and Armor, Mythic Crafter, iron body, either limited wish or miracle</prerequisites>
+				<properties type="string">masterwork</properties>
+				<range type="number">0</range>
+				<speed20 type="number">15</speed20>
+				<speed30 type="number">20</speed30>
+				<spellfailure type="number">25</spellfailure>
+				<subtype type="string">Medium</subtype>
+				<type type="string">Armor</type>
+				<weight type="number">40</weight>
+			</stalwart-breastplate>
+</armor>
