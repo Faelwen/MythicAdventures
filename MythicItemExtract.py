@@ -11,6 +11,26 @@ item_list = 'html/Magic Items.html'
 csv_file = 'data/Magic Items.csv'
 
 
+def extract_statblock(statblock):
+    [price, slot, cl, weight, aura] = ["", "", "", "", ""]
+    p =  re.search('.*?Price (.*?);', statblock)
+    s = re.search('.*?Slot (.*?);', statblock)
+    c = re.search('.*?CL (.*?);', statblock)
+    w = re.search('.*?Weight (.*?);', statblock)
+    a = re.search('.*?Aura (.*?)$', statblock)
+    if p != None:
+        price = p.groups()[0]
+    if s != None:
+        slot = s.groups()[0]
+    if c != None:
+        cl = c.groups()[0].replace('th', '').replace('rd', '')
+    if w != None:
+        weight = w.groups()[0].replace('lbs.','').replace('lb.','').replace('--','').strip()
+    if a != None:
+        aura = a.groups()[0]
+    return [price, slot, cl, weight, aura]
+
+
 def extract_items(soup, writer):
     for p in soup.find_all('p', "stat-block-title"):
         name = p.string
@@ -38,7 +58,7 @@ def extract_items(soup, writer):
                         else:
                             construction += tag.text + ', '
                         description += '<p>' + html_cleaner.get_content(html_cleaner.clean(tag)) + '</p>'
-        writer.writerow([name, description, construction.replace('\n', '')[:-2]])
+        writer.writerow([name] + extract_statblock(statblock) + [description, construction.replace('\n', '')[:-2]])
 
 
 def main():
