@@ -1,78 +1,48 @@
 <weapon>
-    <id-00004>
-        <ac type="number">0</ac>
+    <bow-of-erastil>
         <aura type="string">strong transmutation</aura>
         <bonus type="number">1</bonus>
-        <checkpenalty type="number">0</checkpenalty>
         <cl type="number">15</cl>
-        <combobox_ability_1 type="string">Distance</combobox_ability_1>
-        <combobox_ability_2 type="string">None</combobox_ability_2>
-        <combobox_bonus type="string">Enhancement +1</combobox_bonus>
-        <combobox_material type="string">None</combobox_material>
         <cost type="string">38000 gp</cost>
-        <critical type="string">&#215;3</critical>
+        <critical type="string">x3</critical>
         <damage type="string">1d8</damage>
         <damagetype type="string">piercing</damagetype>
         <description type="formattedtext">
             <p><b>Price</b> 38,000 gp; <b>Slot</b> none; <b>CL</b> 15th; <b>Weight</b> 5 lbs.; <b>Aura</b> strong transmutation</p><p>This golden <i>+1 endless ammunition distance composite longbow</i> (+6 Str) produces a golden arrow whenever it's drawn. By expending one use of mythic power, the bow's wielder can make a single attack and compare the result against every enemy within 60 feet of her. The wielder rolls damage only once, and applies it to all foes hit by the attack. If the attack is a critical threat, the wielder chooses only one enemy hit and attempts to confirm the critical against that enemy.</p><h>Construction Requirements</h><p>Cost 19,500 gp</p><p>Craft Magic Arms and Armor, Mythic Crafter, <i>clairaudience/clairvoyance</i>, <i>haste</i></p>
         </description>
-        <isidentified type="number">0</isidentified>
-        <locked type="number">1</locked>
-        <maxstatbonus type="number">0</maxstatbonus>
         <name type="string">Bow of Erastil</name>
         <nonid_name type="string">Unidentified composite longbow</nonid_name>
         <prerequisites type="string">Cost 19,500 gp, Craft Magic Arms and Armor, Mythic Crafter, clairaudience/clairvoyance, haste</prerequisites>
         <properties type="string">masterwork</properties>
         <range type="number">220</range>
-        <speed20 type="number">0</speed20>
-        <speed30 type="number">0</speed30>
-        <spellfailure type="number">0</spellfailure>
         <subtype type="string">Martial;Ranged</subtype>
         <type type="string">Weapon</type>
         <weight type="number">5</weight>
-    </id-00004>
-    <id-00005>
-        <ac type="number">0</ac>
+    </bow-of-erastil>
+    <brutal-axe>
         <aura type="string">moderate transmutation</aura>
         <bonus type="number">1</bonus>
-        <checkpenalty type="number">0</checkpenalty>
         <cl type="number">11</cl>
-        <combobox_ability_1 type="string">None</combobox_ability_1>
-        <combobox_ability_2 type="string">None</combobox_ability_2>
-        <combobox_bonus type="string">Enhancement +1</combobox_bonus>
-        <combobox_material type="string">Adamantine</combobox_material>
         <cost type="string">21320 gp</cost>
-        <critical type="string">&#215;3</critical>
+        <critical type="string">x3</critical>
         <damage type="string">1d12</damage>
         <damagetype type="string">Slashing, adamantine</damagetype>
         <description type="formattedtext">
             <p><b>Price</b> 21,320 gp; <b>Slot</b> none; <b>CL</b> 11th; <b>Weight</b> 12 lbs.; <b>Aura</b> moderate transmutation</p><p>The haft of this <i>+1 adamantine greataxe</i> is carved from the limb of a treant slain by fire. While wielding this axe, a creature is considered to have the Improved Sunder feat. It also deals an additional 1d12 points of damage when used to sunder. If the wielder already has Improved Sunder, the axe grants Greater Sunder; and if the wielder already has Greater Sunder, it instead provides a further +2 bonus on sunder combat maneuver checks.</p><p>As an immediate action after making a successful attack with the axe, the wielder can expend one use of mythic power to make a combat maneuver check to sunder a single item being used by the creature he just successfully attacked. This sunder attempt deals double damage and uses the wielder's full base attack bonus. If the item is destroyed by this sunder attempt, no excess damage is applied to the item's wielder or other items.</p><h>Construction Requirements</h><p>Cost 12,320 gp</p><p>Craft Magic Arms and Armor, Mythic Crafter, <i>bull's strength</i>, <i>ironwood</i></p>
         </description>
-        <isidentified type="number">0</isidentified>
-        <locked type="number">1</locked>
-        <maxstatbonus type="number">0</maxstatbonus>
         <name type="string">Brutal Axe</name>
         <nonid_name type="string">Unidentified greataxe</nonid_name>
         <prerequisites type="string">Cost 12,320 gp, Craft Magic Arms and Armor, Mythic Crafter, bull's strength, ironwood</prerequisites>
         <properties type="string">adamantine, masterwork</properties>
         <range type="number">0</range>
-        <speed20 type="number">0</speed20>
-        <speed30 type="number">0</speed30>
-        <spellfailure type="number">0</spellfailure>
         <subtype type="string">Martial;Two-Handed Melee</subtype>
         <type type="string">Weapon</type>
         <weight type="number">12</weight>
-    </id-00005>
-    <id-00019>
-        <ac type="number">0</ac>
+    </brutal-axe>
+    <chaos-hammer>
         <aura type="string">moderate evocation [chaotic]</aura>
         <bonus type="number">1</bonus>
-        <checkpenalty type="number">0</checkpenalty>
         <cl type="number">9</cl>
-        <combobox_ability_1 type="string">Anarchic</combobox_ability_1>
-        <combobox_ability_2 type="string">None</combobox_ability_2>
-        <combobox_bonus type="string">Enhancement +1</combobox_bonus>
-        <combobox_material type="string">None</combobox_material>
         <cost type="string">38312 gp</cost>
         <critical type="string">x3</critical>
         <damage type="string">1d8</damage>
@@ -80,31 +50,19 @@
         <description type="formattedtext">
             <p><b>Price</b> 38,312 gp; <b>Slot</b> none; <b>CL</b> 9th; <b>Weight</b> 10 lbs.; <b>Aura</b> moderate evocation [chaotic]</p><p>This oversized hammer crackles with chaotic energy. Once per day as a standard action, the wielder of this <i>+1 anarchic warhammer</i> can strike the ground to create the effects of the <i>chaos hammer</i> spell (Will DC 16, CL 9th) that bursts out from the warhammer's wielder. A mythic creature wielding this weapon can expend one use of mythic power to activate this ability without using up its daily use.</p><h>Construction Requirements</h><p>Cost 19,312 gp</p><p>Craft Wondrous Item, Mythic Crafter, <i>align weapon</i>, <i>chaos hammer</i>, creator must be chaotic</p>
         </description>
-        <isidentified type="number">0</isidentified>
-        <locked type="number">1</locked>
-        <maxstatbonus type="number">0</maxstatbonus>
         <name type="string">Chaos Hammer</name>
         <nonid_name type="string">Unidentified warhammer</nonid_name>
         <prerequisites type="string">Cost 19,312 gp, Craft Wondrous Item, Mythic Crafter, align weapon, chaos hammer, creator must be chaotic</prerequisites>
         <properties type="string">masterwork</properties>
         <range type="number">0</range>
-        <speed20 type="number">0</speed20>
-        <speed30 type="number">0</speed30>
-        <spellfailure type="number">0</spellfailure>
         <subtype type="string">Martial One-Handed Melee</subtype>
         <type type="string">Weapon</type>
         <weight type="number">10</weight>
-    </id-00019>
-    <id-00021>
-        <ac type="number">0</ac>
+    </chaos-hammer>
+    <dagger-of-a-thousand-bites>
         <aura type="string">strong conjuration</aura>
         <bonus type="number">1</bonus>
-        <checkpenalty type="number">0</checkpenalty>
         <cl type="number">18</cl>
-        <combobox_ability_1 type="string">Keen</combobox_ability_1>
-        <combobox_ability_2 type="string">None</combobox_ability_2>
-        <combobox_bonus type="string">Enhancement +1</combobox_bonus>
-        <combobox_material type="string">Mithral</combobox_material>
         <cost type="string">8502 gp</cost>
         <critical type="string">17-20/x2</critical>
         <damage type="string">1d4</damage>
@@ -112,31 +70,19 @@
         <description type="formattedtext">
             <p><b>Price</b> 24,502 gp; <b>Slot</b> none; <b>CL</b> 18th; <b>Weight</b> 1/2 lb.; <b>Aura</b> strong conjuration</p><p>This <i>+1 keen returning mithral dagger</i> is bleached pale white like some sort of giant tooth. The wielder can expend one use of mythic power when throwing the dagger. When the dagger is thrown in this fashion and hits its target, it can be directed to strike a different target within 30 feet of the first. The new target must still be within the attacker's line of sight. This additional attack is made using the same attack bonus as the first, though range penalties apply based on the total distance the dagger flies.</p><p>The dagger's wielder can continue selecting additional targets within his line of sight until the dagger misses, though no creature can be targeted by the dagger more than once in the same round.</p><h>Construction Requirements</h><p>Cost 12,502 gp</p><p>Craft Magic Arms and Armor, Mythic Crafter, <i>greater magic weapon</i>, <i>keen edge</i>, <i>telekinesis</i></p>
         </description>
-        <isidentified type="number">0</isidentified>
-        <locked type="number">1</locked>
-        <maxstatbonus type="number">0</maxstatbonus>
         <name type="string">Dagger of a Thousand Bites</name>
         <nonid_name type="string">Unidentified dagger</nonid_name>
         <prerequisites type="string">Cost 12,502 gp, Craft Magic Arms and Armor, Mythic Crafter, greater magic weapon, keen edge, telekinesis</prerequisites>
         <properties type="string">masterwork</properties>
         <range type="number">10</range>
-        <speed20 type="number">0</speed20>
-        <speed30 type="number">0</speed30>
-        <spellfailure type="number">0</spellfailure>
         <subtype type="string">Simple Light Melee</subtype>
         <type type="string">Weapon</type>
         <weight type="number">0.5</weight>
-    </id-00021>
-    <id-00022>
-        <ac type="number">0</ac>
+    </dagger-of-a-thousand-bites>
+    <dragonbreath-bow>
         <aura type="string">strong evocation</aura>
         <bonus type="number">2</bonus>
-        <checkpenalty type="number">0</checkpenalty>
         <cl type="number">14</cl>
-        <combobox_ability_1 type="string">Flaming burst</combobox_ability_1>
-        <combobox_ability_2 type="string">None</combobox_ability_2>
-        <combobox_bonus type="string">Enhancement +2</combobox_bonus>
-        <combobox_material type="string">None</combobox_material>
         <cost type="string">50375 gp</cost>
         <critical type="string">x3</critical>
         <damage type="string">1d8</damage>
@@ -144,31 +90,19 @@
         <description type="formattedtext">
             <p><b>Price</b> 50,375 gp; <b>Slot</b> none; <b>CL</b> 14th; <b>Weight</b> 3 lbs.; <b>Aura</b> strong evocation</p><p>This <i>+2 flaming burst longbow</i>'s arrow rest is shaped like a dragon's head with its mouth agape--as if about to unleash its breath weapon. A mythic wielder can expend one use of mythic power when drawing back the bow to create an arrow of pure flame. This flame arrow acts as a ranged touch attack that can target only creatures within the first range increment of the bow. When it hits its target, this flame arrow deals 3d10+2 points of fire damage. This damage stacks with the bow's <i>flaming burst</i> special ability.</p><h>Construction Requirements</h><p>Cost 25,375 gp</p><p>Craft Magic Arms and Armor, Mythic Crafter, <i>flame strike</i>, <i>scorching ray</i></p>
         </description>
-        <isidentified type="number">0</isidentified>
-        <locked type="number">1</locked>
-        <maxstatbonus type="number">0</maxstatbonus>
         <name type="string">Dragonbreath Bow</name>
         <nonid_name type="string">Unidentified longbow</nonid_name>
         <prerequisites type="string">Cost 16,815 gp, Craft Magic Arms and Armor, Mythic Crafter, flame strike, scorching ray</prerequisites>
         <properties type="string">masterwork</properties>
         <range type="number">100</range>
-        <speed20 type="number">0</speed20>
-        <speed30 type="number">0</speed30>
-        <spellfailure type="number">0</spellfailure>
         <subtype type="string">Martial Ranged</subtype>
         <type type="string">Weapon</type>
         <weight type="number">3</weight>
-    </id-00022>
-    <id-00024>
-        <ac type="number">0</ac>
+    </dragonbreath-bow>
+    <fire-goddess-s-blade>
         <aura type="string">strong conjuration and transmutation</aura>
         <bonus type="number">1</bonus>
-        <checkpenalty type="number">0</checkpenalty>
         <cl type="number">18</cl>
-        <combobox_ability_1 type="string">Flaming</combobox_ability_1>
-        <combobox_ability_2 type="string">None</combobox_ability_2>
-        <combobox_bonus type="string">Enhancement +1</combobox_bonus>
-        <combobox_material type="string">None</combobox_material>
         <cost type="string">8315 gp</cost>
         <critical type="string">18-20/x2</critical>
         <damage type="string">1d6</damage>
@@ -176,63 +110,39 @@
         <description type="formattedtext">
             <p><b>Price</b> 33,315 gp; <b>Slot</b> none; <b>CL</b> 18th; <b>Weight</b> 4 lbs.; <b>Aura</b> strong conjuration and transmutation</p><p>This <i>+1 flaming scimitar</i> has golden flames embossed along the blade, which flicker and glow even when the sword's flames are extinguished. Three times per day as a swift action, its wielder can transform the sword into a blade of pure flame. In this form, the blade deals 1d8+9 points of fire damage (as the <i>flame blade</i> spell).</p><p>Once per day, the sword's wielder can expend one use of mythic power to transform the blade into a Large fire elemental for 10 minutes. When the duration ends or the fire elemental is defeated, the blade reappears in its owner's hands.</p><h>Construction Requirements</h><p>Cost 16,815 gp</p><p>Craft Wondrous Item, Mythic Crafter, <i>flame blade</i>, <i>greater magic weapon</i></p>
         </description>
-        <isidentified type="number">0</isidentified>
-        <locked type="number">1</locked>
-        <maxstatbonus type="number">0</maxstatbonus>
         <name type="string">Fire Goddess's Blade</name>
         <nonid_name type="string">Unidentified scimitar</nonid_name>
         <prerequisites type="string">Cost 16,815 gp, Craft Wondrous Item, Mythic Crafter, flame blade, greater magic weapon</prerequisites>
         <properties type="string">masterwork</properties>
         <range type="number">0</range>
-        <speed20 type="number">0</speed20>
-        <speed30 type="number">0</speed30>
-        <spellfailure type="number">0</spellfailure>
         <subtype type="string">Martial One-Handed Melee</subtype>
         <type type="string">Weapon</type>
         <weight type="number">4</weight>
-    </id-00024>
-    <id-00028>
-        <ac type="number">0</ac>
+    </fire-goddess-s-blade>
+    <gun-with-no-name>
         <aura type="string">moderate abjuration and conjuration</aura>
         <bonus type="number">2</bonus>
-        <checkpenalty type="number">0</checkpenalty>
         <cl type="number">9</cl>
-        <combobox_ability_1 type="string">Mythic bane</combobox_ability_1>
-        <combobox_ability_2 type="string">None</combobox_ability_2>
-        <combobox_bonus type="string">Enhancement +2</combobox_bonus>
-        <combobox_material type="string">None</combobox_material>
         <cost type="string">98300 gp</cost>
-        <critical type="string">&#215;4</critical>
+        <critical type="string">x4</critical>
         <damage type="string">1d8</damage>
         <damagetype type="string">bludgeoning and piercing</damagetype>
         <description type="formattedtext">
             <p><b>Price</b> 98,300 gp; <b>Slot</b> none; <b>CL</b> 9th; <b>Weight</b> 5 lbs.; <b>Aura</b> moderate abjuration and conjuration</p><p>Though the green, glowing runes on this firearm denote it as magical, otherwise this <i>+2 mythic bane greater lucky</i> <i>pepperbox</i> appears beat up and nearly useless. This weapon can be reloaded normally, but if its wielder expends either one use of mythic power or 1 grit point as a swift action, each of the firearm's empty barrels magically reloads with either black powder and a bullet or with a flare alchemical cartridge (the wielder chooses, and she can mix and match the ammunition type with each barrel). While carrying this firearm, the wielder is immune to scrying and any form of divination that attempts to ascertain her location, thoughts, or alignment. The firearm itself is immune to <i>locate object</i> and similar effects.</p><h>Construction Requirements</h><p>Cost 50,800 gp</p><p>Craft Magic Arms and Armor, Mythic Crafter, <i>divine favor</i>, <i>nondetection</i></p>
         </description>
-        <isidentified type="number">0</isidentified>
-        <locked type="number">1</locked>
-        <maxstatbonus type="number">0</maxstatbonus>
         <name type="string">Gun With no Name</name>
         <nonid_name type="string">Unidentified pepperbox</nonid_name>
         <prerequisites type="string">Cost 50,800 gp, Craft Magic Arms and Armor, Mythic Crafter, divine favor, nondetection</prerequisites>
         <properties type="string">masterwork</properties>
         <range type="number">20</range>
-        <speed20 type="number">0</speed20>
-        <speed30 type="number">0</speed30>
-        <spellfailure type="number">0</spellfailure>
         <subtype type="string">Firearm;One-Handed Melee; Early</subtype>
         <type type="string">Weapon</type>
         <weight type="number">5</weight>
-    </id-00028>
-    <id-00029>
-        <ac type="number">0</ac>
+    </gun-with-no-name>
+    <pick-of-stonecleaving>
         <aura type="string">faint evocation</aura>
         <bonus type="number">1</bonus>
-        <checkpenalty type="number">0</checkpenalty>
         <cl type="number">5</cl>
-        <combobox_ability_1 type="string">None</combobox_ability_1>
-        <combobox_ability_2 type="string">None</combobox_ability_2>
-        <combobox_bonus type="string">Enhancement +1</combobox_bonus>
-        <combobox_material type="string">Adamantine</combobox_material>
         <cost type="string">11308 gp</cost>
         <critical type="string">x4</critical>
         <damage type="string">1d6</damage>
@@ -240,31 +150,19 @@
         <description type="formattedtext">
             <p><b>Price</b> 11,308 gp; <b>Slot</b> none; <b>CL</b> 5th; <b>Weight</b> 6 lbs.; <b>Aura</b> faint evocation</p><p>When this <i>+1 adamantine heavy pick</i> is used to damage unattended objects, it deals an additional 2d6 points of damage. If the wielder expends one use of mythic power when making such an attack, the pick bypasses the object's hardness and deals 4d6 additional damage instead of 2d6.</p><h>Construction Requirements</h><p>Cost 7,308 gp</p><p>Craft Wondrous Item, Mythic Crafter, <i>shatter</i></p>
         </description>
-        <isidentified type="number">0</isidentified>
-        <locked type="number">1</locked>
-        <maxstatbonus type="number">0</maxstatbonus>
         <name type="string">Pick of Stonecleaving</name>
         <nonid_name type="string">Unidentified pick, heavy</nonid_name>
         <prerequisites type="string">Cost 7,308 gp, Craft Wondrous Item, Mythic Crafter, shatter</prerequisites>
         <properties type="string">adamantine, masterwork</properties>
         <range type="number">0</range>
-        <speed20 type="number">0</speed20>
-        <speed30 type="number">0</speed30>
-        <spellfailure type="number">0</spellfailure>
         <subtype type="string">Martial One-Handed Melee</subtype>
         <type type="string">Weapon</type>
         <weight type="number">6</weight>
-    </id-00029>
-    <id-00030>
-        <ac type="number">0</ac>
+    </pick-of-stonecleaving>
+    <sacred-avenger>
         <aura type="string">strong abjuration</aura>
         <bonus type="number">3</bonus>
-        <checkpenalty type="number">0</checkpenalty>
         <cl type="number">20</cl>
-        <combobox_ability_1 type="string">None</combobox_ability_1>
-        <combobox_ability_2 type="string">None</combobox_ability_2>
-        <combobox_bonus type="string">Enhancement +3</combobox_bonus>
-        <combobox_material type="string">Cold iron</combobox_material>
         <cost type="string">202630 gp</cost>
         <critical type="string">19-20/x2</critical>
         <damage type="string">1d8</damage>
@@ -272,63 +170,39 @@
         <description type="formattedtext">
             <p><b>Price</b> 202,630 gp; <b>Slot</b> none; <b>CL</b> 20th; <b>Weight</b> 4 lbs.; <b>Aura</b> strong abjuration</p><p>This <i>+3 cold iron longsword</i> becomes a <i>+5 holy defiant</i> <i>cold iron longsword</i> in the hands of a paladin or a lawful good mythic creature. If the creature wielding this weapon is a paladin with mythic tiers, she can also grant the weapon the <i>brilliant energy</i> special ability on command. Dismissing the <i>brilliant energy</i> ability is a free action.</p><p>When wielded by a paladin or a lawful good mythic creature, this weapon provides spell resistance equal to 5 + the character's paladin class level (if any) + the character's mythic tier (if any) to the wielder and anyone within 10 feet of her. It also enables the wielder to use <i>mythic greater dispel magic</i> once per round as a standard action, with a caster level equal to either the wielder's paladin class level or double her mythic tier, whichever is higher. <i>Mythic greater dispel magic</i> functions as <i>greater dispel magic</i> including the benefits of the <i>mythic dispel magic</i> spell, but when the wielder dispels a spell, she heals 1d6 points of damage for every spell level of the dispelled spell instead of healing 1d4 points of damage.</p><h>Construction Requirements</h><p>Cost 102,630 gp</p><p>Craft Magic Arms and Armor, Mythic Crafter, <i>gaseous form</i>, <i>greater dispel magic</i>, <i>holy aura</i>, creator must be good</p>
         </description>
-        <isidentified type="number">0</isidentified>
-        <locked type="number">1</locked>
-        <maxstatbonus type="number">0</maxstatbonus>
         <name type="string">Sacred Avenger</name>
         <nonid_name type="string">Unidentified longsword</nonid_name>
         <prerequisites type="string">Cost 102,630 gp, Craft Magic Arms and Armor, Mythic Crafter, gaseous form, greater dispel magic, holy aura, creator must be good</prerequisites>
         <properties type="string">masterwork</properties>
         <range type="number">0</range>
-        <speed20 type="number">0</speed20>
-        <speed30 type="number">0</speed30>
-        <spellfailure type="number">0</spellfailure>
         <subtype type="string">Martial One-Handed Melee</subtype>
         <type type="string">Weapon</type>
         <weight type="number">4</weight>
-    </id-00030>
-    <id-00031>
-        <ac type="number">0</ac>
+    </sacred-avenger>
+    <shadow-spike>
         <aura type="string">strong conjuration</aura>
         <bonus type="number">2</bonus>
-        <checkpenalty type="number">0</checkpenalty>
         <cl type="number">12</cl>
-        <combobox_ability_1 type="string">Cruel</combobox_ability_1>
-        <combobox_ability_2 type="string">None</combobox_ability_2>
-        <combobox_bonus type="string">Enhancement +2</combobox_bonus>
-        <combobox_material type="string">None</combobox_material>
         <cost type="string">96600 gp</cost>
-        <critical type="string">&#215;2</critical>
+        <critical type="string">x2</critical>
         <damage type="string">1d6/1d6</damage>
         <damagetype type="string">bludgeoning</damagetype>
         <description type="formattedtext">
             <p><b>Price</b> 96,600 gp; <b>Slot</b> none; <b>CL</b> 12th; <b>Weight</b> 4 lbs.; <b>Aura</b> strong conjuration</p><p>This <i>+2/+2 cruel quarterstaff</i> is made of polished ebony, and features a blackened metal spike on its bottom end. As a standard action, the wielder can drive the spike into the ground on either the Material Plane or the Shadow Plane, creating a rift merging those two planes. This rift is 30 feet in diameter, lasts for 1 minute, and can be created once per day. If the creature that drives the <i>shadow spike</i> into the ground expends one use of mythic power when doing so, the effect lasts until the <i>shadow spike</i> is pulled out of the ground (which takes a standard action).</p><p>The rift's area acts as the <i>deeper darkness</i> spell. Spells with the darkness or shadow descriptors cast within the rift have +1 caster level, and are affected as if cast with the Extend Spell feat. As a standard action, any mythic creature within the area can expend three uses of mythic power to <i>plane shift</i> to the Shadow Plane (if on the Material Plane) or to the Material Plane (if on the Shadow Plane). If a mythic creature <i>plane shifts</i> while holding the <i>shadow spike</i>, the weapon teleports with that creature, ending the effect.</p><h>Construction Requirements</h><p>Cost 48,600 gp</p><p>Craft Wondrous Item, Mythic Crafter, <i>cause fear, death knell</i>, <i>deeper darkness</i>, <i>plane shift</i></p>
         </description>
-        <isidentified type="number">0</isidentified>
-        <locked type="number">1</locked>
-        <maxstatbonus type="number">0</maxstatbonus>
         <name type="string">Shadow Spike</name>
         <nonid_name type="string">Unidentified quarterstaff</nonid_name>
         <prerequisites type="string">Cost 48,600 gp, Craft Wondrous Item, Mythic Crafter, cause fear, death knell, deeper darkness, plane shift\n</prerequisites>
         <properties type="string">double, monk, masterwork</properties>
         <range type="number">0</range>
-        <speed20 type="number">0</speed20>
-        <speed30 type="number">0</speed30>
-        <spellfailure type="number">0</spellfailure>
         <subtype type="string">Simple Weapons - Two-Handed Melee Weapons</subtype>
         <type type="string">Weapon</type>
         <weight type="number">4</weight>
-    </id-00031>
-    <id-00033>
-        <ac type="number">0</ac>
+    </shadow-spike>
+    <shadow-s-touch>
         <aura type="string">strong illusion</aura>
         <bonus type="number">2</bonus>
-        <checkpenalty type="number">0</checkpenalty>
         <cl type="number">13</cl>
-        <combobox_ability_1 type="string">Keen</combobox_ability_1>
-        <combobox_ability_2 type="string">None</combobox_ability_2>
-        <combobox_bonus type="string">Enhancement +2</combobox_bonus>
-        <combobox_material type="string">None</combobox_material>
         <cost type="string">102962 gp</cost>
         <critical type="string">17-20/x2</critical>
         <damage type="string">1d4</damage>
@@ -336,31 +210,19 @@
         <description type="formattedtext">
             <p><b>Price</b> 102,962 gp; <b>Slot</b> none; <b>CL</b> 13th; <b>Weight</b> 1/2 lb.; <b>Aura</b> strong illusion</p><p>Amazingly light, this ebon <i>+2 keen dagger</i> fades into near intangibility at its tip. It ignores bonuses to AC provided by deflection and force effects, and deals 2 points of Strength damage on a confirmed critical hit. By expending one use of mythic power while attacking, the wielder can strike a force effect and <i>disintegrate</i> it as a touch attack. This effect also automatically dispels force effects that can be dispelled whether or not they're subject to <i>disintegrate</i>.</p><p>As a standard action, the wielder can expend a use of mythic power while slashing at the air to open up a rift to the Shadow Plane. This functions as <i>shadow walk</i>, except that a maximum number of creatures equal to double the wielder's tier can pass through before the rift closes.</p><h>Construction Requirements</h><p>Cost 51,632 gp</p>
         </description>
-        <isidentified type="number">0</isidentified>
-        <locked type="number">1</locked>
-        <maxstatbonus type="number">0</maxstatbonus>
         <name type="string">Shadow's Touch</name>
         <nonid_name type="string">Unidentified dagger</nonid_name>
         <prerequisites type="string">Cost 51,632 gp, Craft Magic Arms and Armor, Mythic Creator, shadow walk, shadow weapon</prerequisites>
         <properties type="string">masterwork</properties>
         <range type="number">10</range>
-        <speed20 type="number">0</speed20>
-        <speed30 type="number">0</speed30>
-        <spellfailure type="number">0</spellfailure>
         <subtype type="string">Simple Light Melee</subtype>
         <type type="string">Weapon</type>
         <weight type="number">0.5</weight>
-    </id-00033>
-    <id-00034>
-        <ac type="number">0</ac>
+    </shadow-s-touch>
+    <skirmishing-spear>
         <aura type="string">moderate conjuration</aura>
         <bonus type="number">1</bonus>
-        <checkpenalty type="number">0</checkpenalty>
         <cl type="number">7</cl>
-        <combobox_ability_1 type="string">None</combobox_ability_1>
-        <combobox_ability_2 type="string">None</combobox_ability_2>
-        <combobox_bonus type="string">Enhancement +1</combobox_bonus>
-        <combobox_material type="string">None</combobox_material>
         <cost type="string">19502 gp</cost>
         <critical type="string">x3</critical>
         <damage type="string">1d8</damage>
@@ -368,31 +230,19 @@
         <description type="formattedtext">
             <p><b>Price</b> 19,502 gp; <b>Slot</b> none; <b>CL</b> 7th; <b>Weight</b> 6 lbs.; <b>Aura</b> moderate conjuration</p><p>When thrown, this <i>+1 returning spear</i> is considered a one-handed weapon and gains a +2 bonus on the attack roll. If the spear hits when thrown, the wielder can, as an immediate action, expend one use of mythic power to teleport to an unoccupied space adjacent to the creature struck. This effect is treated as <i>dimension door</i>, except the wielder can act after teleporting. The spear comes back to its wielder's hand when he appears. If he hadn't taken a move action prior to throwing the spear, he can continue a full attack with the spear.</p><h>Construction Requirements</h><p>Cost 9,902 gp</p><p>Craft Magic Arms and Armor, Mythic Crafter, <i>dimension door</i>, <i>telekinesis</i></p>
         </description>
-        <isidentified type="number">0</isidentified>
-        <locked type="number">1</locked>
-        <maxstatbonus type="number">0</maxstatbonus>
         <name type="string">Skirmishing Spear</name>
         <nonid_name type="string">Unidentified spear</nonid_name>
         <prerequisites type="string">Cost 9,902 gp, Craft Magic Arms and Armor, Mythic Crafter, dimension door, telekinesis</prerequisites>
         <properties type="string">masterwork</properties>
         <range type="number">20</range>
-        <speed20 type="number">0</speed20>
-        <speed30 type="number">0</speed30>
-        <spellfailure type="number">0</spellfailure>
         <subtype type="string">Simple Two-Handed Melee</subtype>
         <type type="string">Weapon</type>
         <weight type="number">6</weight>
-    </id-00034>
-    <id-00035>
-        <ac type="number">0</ac>
+    </skirmishing-spear>
+    <spellbreaker>
         <aura type="string">strong abjuration</aura>
         <bonus type="number">3</bonus>
-        <checkpenalty type="number">0</checkpenalty>
         <cl type="number">9</cl>
-        <combobox_ability_1 type="string">None</combobox_ability_1>
-        <combobox_ability_2 type="string">None</combobox_ability_2>
-        <combobox_bonus type="string">Enhancement +3</combobox_bonus>
-        <combobox_material type="string">None</combobox_material>
         <cost type="string">71600 gp</cost>
         <critical type="string">x2</critical>
         <damage type="string">1d6/1d6</damage>
@@ -400,31 +250,19 @@
         <description type="formattedtext">
             <p><b>Price</b> 71,600 gp; <b>Slot</b> none; <b>CL</b> 12th; <b>Weight</b> 4 lbs.; <b>Aura</b> strong abjuration</p><p>Only one end of this iron-shod <i>+3 quarterstaff</i> has an enhancement bonus. The enhanced end acts as a <i>bane</i> weapon against any creature with the ability to cast spells or use spell-like abilities. As a standard action, the wielder can strike the unenhanced end against the ground while expending one use of mythic power to produce an <i>antimagic field</i> centered on the staff. This effect has a duration of 2 hours. Anyone striking the staff against the ground a second time dismisses the effect. The <i>antimagic field</i> remains in effect if the staff is dropped or disarmed. The staff retains its enhancement bonus and extra damage against spellcasters inside any <i>antimagic field</i>.</p><h>Construction Requirements</h><p>Cost 36,100 gp</p><p>Craft Magic Arms and Armor, Mythic Crafter, <i>antimagic field</i></p>
         </description>
-        <isidentified type="number">0</isidentified>
-        <locked type="number">1</locked>
-        <maxstatbonus type="number">0</maxstatbonus>
         <name type="string">Spellbreaker</name>
         <nonid_name type="string">Unidentified quarterstaff</nonid_name>
         <prerequisites type="string">Cost 36,100 gp, Craft Magic Arms and Armor, Mythic Crafter, antimagic field</prerequisites>
         <properties type="string">Double, masterwork</properties>
         <range type="number">0</range>
-        <speed20 type="number">0</speed20>
-        <speed30 type="number">0</speed30>
-        <spellfailure type="number">0</spellfailure>
         <subtype type="string">Simple Two-Handed Melee</subtype>
         <type type="string">Weapon</type>
         <weight type="number">4</weight>
-    </id-00035>
-    <id-00036>
-        <ac type="number">0</ac>
+    </spellbreaker>
+    <stormcaller>
         <aura type="string">strong evocation [electricity]</aura>
         <bonus type="number">1</bonus>
-        <checkpenalty type="number">0</checkpenalty>
         <cl type="number">13</cl>
-        <combobox_ability_1 type="string">Keen</combobox_ability_1>
-        <combobox_ability_2 type="string">Shock</combobox_ability_2>
-        <combobox_bonus type="string">Enhancement +1</combobox_bonus>
-        <combobox_material type="string">None</combobox_material>
         <cost type="string">98302 gp</cost>
         <critical type="string">19-20/x3</critical>
         <damage type="string">1d8</damage>
@@ -432,31 +270,19 @@
         <description type="formattedtext">
             <p><b>Price</b> 98,302 gp; <b>Slot</b> none; <b>CL</b> 13th; <b>Weight</b> 6 lbs.; <b>Aura</b> strong evocation [electricity]</p><p>This <i>+1 keen shock spear</i> constantly flickers and sparks with power. When casting spells with the electricity descriptor, the spear's wielder adds 1 to her effective caster level. (This doesn't stack with other effects or feats that increase caster level.) Once per week, the wielder can cast <i>control weather</i> for the purposes of summoning a storm or increasing the severity of an existing storm.</p><p>As a full-round action, the wielder can expend one use of mythic power to call lightning down on foes he hits. This works like the <i>call lightning</i> spell (CL 13th), with the following differences. Rather than being directed as a move action, for 13 rounds the lightning is called down on the first opponent hit by the spear each round. This effect bypasses lightning resistance and treats lightning immunity as lightning resistance 10. If the wielder confirms a critical hit on an attack that calls down a lightning bolt, the lightning also deals double damage.</p><h>Construction Requirements</h><p>Cost 49,302 gp</p><p>Craft Wondrous Item, Mythic Crafter, <i>call lightning</i>, <i>control weather</i></p>
         </description>
-        <isidentified type="number">0</isidentified>
-        <locked type="number">1</locked>
-        <maxstatbonus type="number">0</maxstatbonus>
         <name type="string">Stormcaller</name>
         <nonid_name type="string">Unidentified spear</nonid_name>
         <prerequisites type="string">Cost 49,302 gp, Craft Wondrous Item, Mythic Crafter, call lightning, control weather</prerequisites>
         <properties type="string">masterwork</properties>
         <range type="number">20</range>
-        <speed20 type="number">0</speed20>
-        <speed30 type="number">0</speed30>
-        <spellfailure type="number">0</spellfailure>
         <subtype type="string">Simple Two-Handed Melee</subtype>
         <type type="string">Weapon</type>
         <weight type="number">6</weight>
-    </id-00036>
-    <id-00037>
-        <ac type="number">0</ac>
+    </stormcaller>
+    <sword-of-inner-fire>
         <aura type="string">strong transmutation [fire]</aura>
         <bonus type="number">1</bonus>
-        <checkpenalty type="number">0</checkpenalty>
         <cl type="number">16</cl>
-        <combobox_ability_1 type="string">Flaming burst</combobox_ability_1>
-        <combobox_ability_2 type="string">Brilliant energy</combobox_ability_2>
-        <combobox_bonus type="string">Enhancement +1</combobox_bonus>
-        <combobox_material type="string">None</combobox_material>
         <cost type="string">151315 gp</cost>
         <critical type="string">19-20/x2</critical>
         <damage type="string">1d8</damage>
@@ -464,19 +290,13 @@
         <description type="formattedtext">
             <p><b>Price</b> 151,315 gp; <b>Slot</b> none; <b>CL</b> 16th; <b>Weight</b> 4 lbs.; <b>Aura</b> strong transmutation [fire]</p><p>This <i>+1 flaming burst brilliant energy longsword</i> has a burnished copper hilt and burns with blue and white flame. In the hands of a mythic wielder, the sword's fire damage bypasses fire resistance and fire immunity. As a swift action, the wielder can expend one use of mythic power to enable the <i>sword of inner fire</i> to damage nonliving creatures (such as constructs and undead) for 1 round, though the sword still can't damage inanimate objects.</p><p>A wielder of at least 3rd tier can absorb the <i>sword of inner fire</i> into her body as a swift action, and call it back to hand with another swift action. While the sword is stored in this way, her eyes burn with orange flame and she gains a +5 deflection bonus to AC and a +2 luck bonus on all saving throws.</p><h>Construction Requirements</h><p>Cost 75,815 gp</p><p>Craft Magic Arms and Armor, Mythic Crafter, <i>flame strike</i>, <i>gaseous form</i>, <i>instant summons</i>, <i>shield of faith</i></p>
         </description>
-        <isidentified type="number">0</isidentified>
-        <locked type="number">1</locked>
-        <maxstatbonus type="number">0</maxstatbonus>
         <name type="string">Sword of Inner Fire</name>
         <nonid_name type="string">Unidentified longsword</nonid_name>
         <prerequisites type="string">Cost 75,815 gp, Craft Magic Arms and Armor, Mythic Crafter, flame strike, gaseous form, instant summons, shield of faith</prerequisites>
         <properties type="string">masterwork</properties>
         <range type="number">0</range>
-        <speed20 type="number">0</speed20>
-        <speed30 type="number">0</speed30>
-        <spellfailure type="number">0</spellfailure>
         <subtype type="string">Martial One-Handed Melee</subtype>
         <type type="string">Weapon</type>
         <weight type="number">4</weight>
-    </id-00037>
+    </sword-of-inner-fire>
 </weapon>
