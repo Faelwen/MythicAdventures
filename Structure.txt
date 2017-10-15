@@ -1,0 +1,60 @@
+Mythic Heroes
+	Creating a Mythic Character
+	Mythic Paths
+	Base Mythic Abilities
+	Gaining Tiers
+	Archmage
+	Champion
+	Guardian
+	Hierophant
+	Marshal
+	Trickster
+	Universal Path Abilities
+	
+Mythic Feats
+	Types of Feats
+	Feat Descriptions
+	
+Mythic Spells
+	Spell Lists
+	Mythic Spell Descriptions
+	New Spells
+	
+Running a Mythic Game
+	Mythic Story Structure
+	Mythic Themes
+	Designing Encounters
+	Rewarding Mythic Characters
+	Mythic Trials
+	Sample Trials
+	Mythic Boons
+	Recurring Mythic Villains
+	Mythic Flaws
+	Ideas for Mythic Adventures
+
+Mythic Magic Items
+	Magic Items
+		Armor and Shield Special Abilities
+		Specific Armor and Shields
+		Weapon Special Abilities
+		Specific Weapons
+		Other Magic Items
+	Artifacts
+		Minor Artifacts
+		Major Artifacts
+	Legendary Items
+		Legendary Artifacts
+		Base Legendary Abilities
+		Legendary Item Abilities
+		
+Mythic Monsters
+	Mythic Monster Origins
+	Mythic Rank
+	Reading a Mythic Monster Stat Block
+	Mythic Monster Entries
+	Mythic Monster Advancement
+		Mythic Simple Templates
+		Building a Mythic Creature
+		Mythic Subtype
+		New Universal Monster Rules
+		Evaluating Monster Statistics
