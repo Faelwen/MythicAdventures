@@ -1,0 +1,28 @@
+<id-00038>
+    <ac type="number">2</ac>
+    <aura type="string">strong transmutation</aura>
+    <bonus type="number">4</bonus>
+    <checkpenalty type="number">-1</checkpenalty>
+    <cl type="number">15</cl>
+    <combobox_ability_1 type="string">Determination</combobox_ability_1>
+    <combobox_ability_2 type="string">None</combobox_ability_2>
+    <combobox_bonus type="string">Enhancement +4</combobox_bonus>
+    <combobox_material type="string">None</combobox_material>
+    <description type="formattedtext">
+        <p></p>
+    </description>
+    <isidentified type="number">0</isidentified>
+    <locked type="number">1</locked>
+    <maxstatbonus type="number">0</maxstatbonus>
+    <name type="string">Aegis</name>
+    <nonid_name type="string">Unidentified heavy steel shield</nonid_name>
+    <prerequisites type="string">The aegis is destroyed if the medusa whose head adorns it is brought back to life, and the awakened shield meets the gaze of this medusa.</prerequisites>
+    <properties type="string">masterwork</properties>
+    <range type="number">0</range>
+    <speed20 type="number">0</speed20>
+    <speed30 type="number">0</speed30>
+    <spellfailure type="number">15</spellfailure>
+    <subtype type="string">Shield</subtype>
+    <type type="string">Armor</type>
+    <weight type="number">15</weight>
+</id-00038>

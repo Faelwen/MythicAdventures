@@ -1,0 +1,185 @@
+<id-00039>
+    <ac type="number">0</ac>
+    <aura type="string">strong transmutation</aura>
+    <bonus type="number">6</bonus>
+    <checkpenalty type="number">0</checkpenalty>
+    <cl type="number">20</cl>
+    <combobox_ability_1 type="string">Keen</combobox_ability_1>
+    <combobox_ability_2 type="string">Vorpal</combobox_ability_2>
+    <combobox_bonus type="string">Enhancement +1</combobox_bonus>
+    <combobox_material type="string">None</combobox_material>
+    <critical type="string">17-20/x2</critical>
+    <damage type="string">2d6</damage>
+    <damagetype type="string">slashing</damagetype>
+    <description type="formattedtext">
+        <p></p>
+    </description>
+    <isidentified type="number">0</isidentified>
+    <locked type="number">1</locked>
+    <maxstatbonus type="number">0</maxstatbonus>
+    <name type="string">Black Iron Axe</name>
+    <nonid_name type="string">Unidentified greatsword</nonid_name>
+    <prerequisites type="string">If a mythic hero uses a black iron axe to decapitate herself, the artifact loses all of its magical properties and becomes a plain iron axe. The uses of mythic power remain in the affected heads after the black iron axe is destroyed.</prerequisites>
+    <properties type="string">masterwork</properties>
+    <range type="number">0</range>
+    <speed20 type="number">0</speed20>
+    <speed30 type="number">0</speed30>
+    <spellfailure type="number">0</spellfailure>
+    <subtype type="string">Martial Two-Handed Melee</subtype>
+    <type type="string">Weapon</type>
+    <weight type="number">12</weight>
+</id-00039>
+<id-00043>
+    <ac type="number">0</ac>
+    <aura type="string">strong evocation</aura>
+    <bonus type="number">3</bonus>
+    <checkpenalty type="number">0</checkpenalty>
+    <cl type="number">12</cl>
+    <combobox_ability_1 type="string">Seeking</combobox_ability_1>
+    <combobox_ability_2 type="string">None</combobox_ability_2>
+    <combobox_bonus type="string">Enhancement +3</combobox_bonus>
+    <combobox_material type="string">None</combobox_material>
+    <damage type="string">piercing</damage>
+    <description type="formattedtext">
+        <p></p>
+    </description>
+    <isidentified type="number">0</isidentified>
+    <locked type="number">1</locked>
+    <maxstatbonus type="number">0</maxstatbonus>
+    <name type="string">Fortune's Arrow</name>
+    <nonid_name type="string">Unidentified arrows (20)</nonid_name>
+    <prerequisites type="string">Fortune's arrow can be destroyed by burying it within the heart of a being of pure chaos at the center of the realm of purest law.</prerequisites>
+    <properties type="string">masterwork</properties>
+    <range type="number">0</range>
+    <speed20 type="number">0</speed20>
+    <speed30 type="number">0</speed30>
+    <spellfailure type="number">0</spellfailure>
+    <subtype type="string">Ammunition</subtype>
+    <type type="string">Weapon</type>
+    <weight type="number">0.1</weight>
+</id-00043>
+<id-00049>
+    <ac type="number">0</ac>
+    <aura type="string">strong divination and enchantment</aura>
+    <bonus type="number">4</bonus>
+    <checkpenalty type="number">0</checkpenalty>
+    <cl type="number">20</cl>
+    <combobox_ability_1 type="string">Wounding</combobox_ability_1>
+    <combobox_ability_2 type="string">Throwing</combobox_ability_2>
+    <combobox_bonus type="string">Enhancement +4</combobox_bonus>
+    <combobox_material type="string">None</combobox_material>
+    <critical type="string">x3</critical>
+    <damage type="string">1d8</damage>
+    <damagetype type="string">piercing</damagetype>
+    <description type="formattedtext">
+        <p>A longspear is about 8 feet in length.</p>
+    </description>
+    <isidentified type="number">0</isidentified>
+    <locked type="number">1</locked>
+    <maxstatbonus type="number">0</maxstatbonus>
+    <name type="string">Screaming Spear of the Sun</name>
+    <nonid_name type="string">Unidentified longspear</nonid_name>
+    <prerequisites type="string">A screaming spear of the sun disintegrates if thrown into the flaming heart of a sun.</prerequisites>
+    <properties type="string">Brace, Reach, masterwork</properties>
+    <range type="number">10</range>
+    <speed20 type="number">0</speed20>
+    <speed30 type="number">0</speed30>
+    <spellfailure type="number">0</spellfailure>
+    <subtype type="string">Simple Two-Handed Melee</subtype>
+    <type type="string">Weapon</type>
+    <weight type="number">4</weight>
+</id-00049>
+<id-00051>
+    <ac type="number">0</ac>
+    <aura type="string">strong conjuration and transmutation</aura>
+    <bonus type="number">6</bonus>
+    <checkpenalty type="number">0</checkpenalty>
+    <cl type="number">20</cl>
+    <combobox_ability_1 type="string">Defending</combobox_ability_1>
+    <combobox_ability_2 type="string">None</combobox_ability_2>
+    <combobox_bonus type="string">Enhancement +4</combobox_bonus>
+    <combobox_material type="string">None</combobox_material>
+    <critical type="string">19-20/x2</critical>
+    <damage type="string">2d6</damage>
+    <damagetype type="string">slashing</damagetype>
+    <description type="formattedtext">
+        <p></p>
+    </description>
+    <isidentified type="number">0</isidentified>
+    <locked type="number">1</locked>
+    <maxstatbonus type="number">0</maxstatbonus>
+    <name type="string">Sword of the Mists</name>
+    <nonid_name type="string">Unidentified greatsword</nonid_name>
+    <prerequisites type="string">If bathed in the blood of its fey creators, a sword of mists mystically melts into a pool of useless lead.</prerequisites>
+    <properties type="string">masterwork</properties>
+    <range type="number">0</range>
+    <speed20 type="number">0</speed20>
+    <speed30 type="number">0</speed30>
+    <spellfailure type="number">0</spellfailure>
+    <subtype type="string">Martial Two-Handed Melee</subtype>
+    <type type="string">Weapon</type>
+    <weight type="number">12</weight>
+</id-00051>
+<id-00053>
+    <ac type="number">0</ac>
+    <aura type="string">strong necromancy and transmutation</aura>
+    <bonus type="number">3</bonus>
+    <checkpenalty type="number">0</checkpenalty>
+    <cl type="number">20</cl>
+    <combobox_ability_1 type="string">None</combobox_ability_1>
+    <combobox_ability_2 type="string">None</combobox_ability_2>
+    <combobox_bonus type="string">Enhancement +3</combobox_bonus>
+    <combobox_material type="string">None</combobox_material>
+    <cost type="string">18308 gp</cost>
+    <critical type="string">18-20/x2</critical>
+    <damage type="string">1d4</damage>
+    <damagetype type="string">Slashing</damagetype>
+    <description type="formattedtext">
+        <p></p>
+    </description>
+    <isidentified type="number">0</isidentified>
+    <locked type="number">1</locked>
+    <maxstatbonus type="number">0</maxstatbonus>
+    <name type="string">Witherfang</name>
+    <nonid_name type="string">Unidentified kukri</nonid_name>
+    <prerequisites type="string">A witherfang permanently loses its magical properties if plunged deep into the heart of a non-mythic humanoid that no longer possesses a soul.</prerequisites>
+    <properties type="string">masterwork</properties>
+    <range type="number">0</range>
+    <speed20 type="number">0</speed20>
+    <speed30 type="number">0</speed30>
+    <spellfailure type="number">0</spellfailure>
+    <subtype type="string">Martial Light Melee</subtype>
+    <type type="string">Weapon</type>
+    <weight type="number">2</weight>
+</id-00053>
+<id-00058>
+    <ac type="number">0</ac>
+    <aura type="string">strong necromancy</aura>
+    <bonus type="number">6</bonus>
+    <checkpenalty type="number">0</checkpenalty>
+    <cl type="number">12</cl>
+    <combobox_ability_1 type="string">Keen</combobox_ability_1>
+    <combobox_ability_2 type="string">Speed</combobox_ability_2>
+    <combobox_bonus type="string">Enhancement +4</combobox_bonus>
+    <combobox_material type="string">Adamantine</combobox_material>
+    <critical type="string">19-20/x2</critical>
+    <damage type="string">1d4</damage>
+    <damagetype type="string">piercing or slashing, adamantine</damagetype>
+    <description type="formattedtext">
+        <p></p>
+    </description>
+    <isidentified type="number">0</isidentified>
+    <locked type="number">1</locked>
+    <maxstatbonus type="number">0</maxstatbonus>
+    <name type="string">Legendsbane</name>
+    <nonid_name type="string">Unidentified dagger</nonid_name>
+    <prerequisites type="string">Legendsbane can be destroyed if it's anointed in the blood of a slain 10th-rank mythic creature and then struck three times by a vorpal weapon. This act also destroys the vorpal weapon.</prerequisites>
+    <properties type="string">adamantine, masterwork</properties>
+    <range type="number">10</range>
+    <speed20 type="number">0</speed20>
+    <speed30 type="number">0</speed30>
+    <spellfailure type="number">0</spellfailure>
+    <subtype type="string">Simple Light Melee</subtype>
+    <type type="string">Weapon</type>
+    <weight type="number">1</weight>
+</id-00058>
