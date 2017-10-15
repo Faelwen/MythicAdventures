@@ -1,28 +1,21 @@
-<id-00038>
+<aegis>
     <ac type="number">2</ac>
     <aura type="string">strong transmutation</aura>
     <bonus type="number">4</bonus>
     <checkpenalty type="number">-1</checkpenalty>
     <cl type="number">15</cl>
-    <combobox_ability_1 type="string">Determination</combobox_ability_1>
-    <combobox_ability_2 type="string">None</combobox_ability_2>
-    <combobox_bonus type="string">Enhancement +4</combobox_bonus>
-    <combobox_material type="string">None</combobox_material>
     <description type="formattedtext">
-        <p></p>
+        <p><b>Slot</b> shield; <b>CL</b> 15th; <b>Weight</b> 15 lbs.; <b>Aura</b> strong transmutation</p><p>This <i>+4 determination</i> <i>heavy steel shield </i>has the preserved head of a medusa mounted in its center, its eyes shut tight. It grants its wearer a +4 resistance bonus on saving throws and immunity to gaze attacks. When the wearer fights defensively or uses Combat Expertise, the shield's bonuses to AC and on saving throws increase to +6. When she's taking the total defense action, the bonuses increase to +10.</p><p>As a standard action, the wearer of the <i>aegis</i> can expend one use of mythic power to awaken the medusa's head, causing its serpentine hair to writhe and its glowing, red eyes to open. This unleashes a cone of widened <i>fear</i> in the direction of the wearer's choice. The head remains awakened for 1 round per tier the wearer possesses, during which the wearer gains a petrifying gaze like that of the medusa's (turn to stone permanently, 30 feet), except the effect is caused by meeting the gaze of the shield's mounted head rather than the bearer's gaze.</p><p>The save DC for both the fear and petrification effects is equal to 10 + the wearer's tier + the wearer's Charisma modifier. While the medusa's head is awakened, the wearer can attempt to make an enemy look into its eyes as a standard action, using the normal rules for gaze attacks (<i>Bestiary</i> 300).</p><h>Destruction</h><p>The <i>aegis</i> is destroyed if the medusa whose head adorns it is brought back to life, and the awakened shield meets the gaze of this medusa.</p>
     </description>
-    <isidentified type="number">0</isidentified>
-    <locked type="number">1</locked>
     <maxstatbonus type="number">0</maxstatbonus>
     <name type="string">Aegis</name>
     <nonid_name type="string">Unidentified heavy steel shield</nonid_name>
     <prerequisites type="string">The aegis is destroyed if the medusa whose head adorns it is brought back to life, and the awakened shield meets the gaze of this medusa.</prerequisites>
     <properties type="string">masterwork</properties>
-    <range type="number">0</range>
     <speed20 type="number">0</speed20>
     <speed30 type="number">0</speed30>
     <spellfailure type="number">15</spellfailure>
     <subtype type="string">Shield</subtype>
     <type type="string">Armor</type>
     <weight type="number">15</weight>
-</id-00038>
+</aegis>
