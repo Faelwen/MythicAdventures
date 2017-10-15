@@ -1,185 +1,113 @@
-<id-00039>
-    <ac type="number">0</ac>
+<black-iron-axe>
     <aura type="string">strong transmutation</aura>
     <bonus type="number">6</bonus>
-    <checkpenalty type="number">0</checkpenalty>
     <cl type="number">20</cl>
-    <combobox_ability_1 type="string">Keen</combobox_ability_1>
-    <combobox_ability_2 type="string">Vorpal</combobox_ability_2>
-    <combobox_bonus type="string">Enhancement +1</combobox_bonus>
-    <combobox_material type="string">None</combobox_material>
     <critical type="string">17-20/x2</critical>
     <damage type="string">2d6</damage>
     <damagetype type="string">slashing</damagetype>
     <description type="formattedtext">
-        <p></p>
+        <p><b>Slot</b> none; <b>CL</b> 20th; <b>Weight</b> 12 lbs.; <b>Aura</b> strong transmutation</p><p>When a mythic creature uses this +<i>6 keen vorpal greataxe</i> forged from a dull black alloy to decapitate his foes, the axe's head glows with dozens of mysterious runes<i>. </i>The wielder of a <i>black iron axe</i> can claim any heads he decapitates with the artifact, and use them as batteries for mythic power. The axe's wielder can place a single use of mythic power into the head as a full-round action for later use. A decapitated head rots and become useless in 1d6 days. Only the creature that placed the use of mythic power in a head can use the power stored within it, and she must be in physical contact with the head to do so. Each head weighs 10 pounds.</p><h>Destruction</h><p>If a mythic hero uses a <i>black iron axe</i> to decapitate herself, the artifact loses all of its magical properties and becomes a plain iron axe. The uses of mythic power remain in the affected heads after the <i>black iron axe</i> is destroyed.</p>
     </description>
-    <isidentified type="number">0</isidentified>
-    <locked type="number">1</locked>
-    <maxstatbonus type="number">0</maxstatbonus>
     <name type="string">Black Iron Axe</name>
     <nonid_name type="string">Unidentified greatsword</nonid_name>
     <prerequisites type="string">If a mythic hero uses a black iron axe to decapitate herself, the artifact loses all of its magical properties and becomes a plain iron axe. The uses of mythic power remain in the affected heads after the black iron axe is destroyed.</prerequisites>
     <properties type="string">masterwork</properties>
     <range type="number">0</range>
-    <speed20 type="number">0</speed20>
-    <speed30 type="number">0</speed30>
-    <spellfailure type="number">0</spellfailure>
     <subtype type="string">Martial Two-Handed Melee</subtype>
     <type type="string">Weapon</type>
     <weight type="number">12</weight>
-</id-00039>
-<id-00043>
-    <ac type="number">0</ac>
+</black-iron-axe>
+<Fortune-s-Arrow>
     <aura type="string">strong evocation</aura>
     <bonus type="number">3</bonus>
-    <checkpenalty type="number">0</checkpenalty>
     <cl type="number">12</cl>
-    <combobox_ability_1 type="string">Seeking</combobox_ability_1>
-    <combobox_ability_2 type="string">None</combobox_ability_2>
-    <combobox_bonus type="string">Enhancement +3</combobox_bonus>
-    <combobox_material type="string">None</combobox_material>
     <damage type="string">piercing</damage>
     <description type="formattedtext">
-        <p></p>
+        <p><b>Slot</b> none; <b>CL</b> 15th; <b>Weight</b> 1/10 lb.; <b>Aura</b> strong evocation</p><p>While this <i>+3 seeking arrow</i> is carried, it grants its bearer a +2 luck bonus on saving throws and skill checks. The wielder doubles her favored enemy bonus on attack and damage rolls against any creature of that type she attacks with the arrow.</p><p>When taking a full-round action to fire a single shot using the arrow, the wielder ignores all range penalties for that attack. By expending one use of mythic power while such an attack, the wielder scores an automatic critical hit if the attack hits, and the arrow bypasses any damage reduction the target possesses.</p><p><i>Fortune's arrow</i> can always be recovered if searched for. Even if lost, it finds its way back to its previous owner within 1d6 days as long as she still lives. <i>Fortune's arrow</i> fails to return to its owner only if she dies or freely gives it to another.</p><h>Destruction</h><p><i>Fortune's arrow</i> can be destroyed by burying it within the heart of a being of pure chaos at the center of the realm of purest law.</p>
     </description>
-    <isidentified type="number">0</isidentified>
-    <locked type="number">1</locked>
-    <maxstatbonus type="number">0</maxstatbonus>
     <name type="string">Fortune's Arrow</name>
     <nonid_name type="string">Unidentified arrows (20)</nonid_name>
     <prerequisites type="string">Fortune's arrow can be destroyed by burying it within the heart of a being of pure chaos at the center of the realm of purest law.</prerequisites>
     <properties type="string">masterwork</properties>
     <range type="number">0</range>
-    <speed20 type="number">0</speed20>
-    <speed30 type="number">0</speed30>
-    <spellfailure type="number">0</spellfailure>
     <subtype type="string">Ammunition</subtype>
     <type type="string">Weapon</type>
     <weight type="number">0.1</weight>
-</id-00043>
-<id-00049>
-    <ac type="number">0</ac>
+</Fortune-s-Arrow>
+<screaming-spear-of-the-sun>
     <aura type="string">strong divination and enchantment</aura>
     <bonus type="number">4</bonus>
-    <checkpenalty type="number">0</checkpenalty>
     <cl type="number">20</cl>
-    <combobox_ability_1 type="string">Wounding</combobox_ability_1>
-    <combobox_ability_2 type="string">Throwing</combobox_ability_2>
-    <combobox_bonus type="string">Enhancement +4</combobox_bonus>
-    <combobox_material type="string">None</combobox_material>
     <critical type="string">x3</critical>
     <damage type="string">1d8</damage>
     <damagetype type="string">piercing</damagetype>
     <description type="formattedtext">
-        <p>A longspear is about 8 feet in length.</p>
+        <p><b>Slot</b> none; <b>CL</b> 20th; <b>Weight</b> 4 lbs.; <b>Aura</b> strong divination and enchantment</p><p>This <i>+4 wounding throwing longspear</i> has a 2-foot-long iron spearhead covered with over 30 cruel flesh barbs. On a critical hit, the barbs lodge in the victim's flesh and can be removed only by tearing the blade free. Yanking the blade free is a full-round action that requires a successful Strength check with a DC equal to the attack roll that struck the critical hit, and deals 3d6 points of damage to the victim.</p><p>In the hands of a mythic creature, the spear gains the <i>returning</i> special ability, and when thrown seemingly comes alive, screaming wickedly as it flies. When it hits a creature, it radiates <i>fear</i> (as the spell) in a 60-foot-radius burst surrounding the creature struck.</p><p>Each use of mythic power the wielder expends when throwing the spear increases the spear's throwing range by 100 feet.</p><h>Destruction</h><p>A <i>screaming spear of the sun </i>disintegrates if thrown into the flaming heart of a sun.</p>
     </description>
-    <isidentified type="number">0</isidentified>
-    <locked type="number">1</locked>
-    <maxstatbonus type="number">0</maxstatbonus>
     <name type="string">Screaming Spear of the Sun</name>
     <nonid_name type="string">Unidentified longspear</nonid_name>
     <prerequisites type="string">A screaming spear of the sun disintegrates if thrown into the flaming heart of a sun.</prerequisites>
     <properties type="string">Brace, Reach, masterwork</properties>
     <range type="number">10</range>
-    <speed20 type="number">0</speed20>
-    <speed30 type="number">0</speed30>
-    <spellfailure type="number">0</spellfailure>
     <subtype type="string">Simple Two-Handed Melee</subtype>
     <type type="string">Weapon</type>
     <weight type="number">4</weight>
-</id-00049>
-<id-00051>
-    <ac type="number">0</ac>
+</screaming-spear-of-the-sun>
+<sword-of-the-mists>
     <aura type="string">strong conjuration and transmutation</aura>
     <bonus type="number">6</bonus>
-    <checkpenalty type="number">0</checkpenalty>
     <cl type="number">20</cl>
-    <combobox_ability_1 type="string">Defending</combobox_ability_1>
-    <combobox_ability_2 type="string">None</combobox_ability_2>
-    <combobox_bonus type="string">Enhancement +4</combobox_bonus>
-    <combobox_material type="string">None</combobox_material>
     <critical type="string">19-20/x2</critical>
     <damage type="string">2d6</damage>
     <damagetype type="string">slashing</damagetype>
     <description type="formattedtext">
-        <p></p>
+        <p><b>Slot</b> none; <b>CL</b> 20th; <b>Weight</b> 12 lbs.; <b>Aura</b> strong conjuration and transmutation</p><p>Forged by powerful fey from the primal word as a gift to mortal champions, a <i>sword of mists</i> is a <i>+6 defending greatsword </i>of gleaming blue steel with a stag's head pommel<i>.</i> Strange, ancient runic etchings encircle the rain guard, and the cross guard is fashioned in the shape of thorny vines. Anyone who wields the weapon gains low-light vision, resist nature's lure (as the druid class feature), and the ability to speak and understand Sylvan.</p><p>The wielder can expend one use of mythic power to imbue the blade for 1 minute with the ability to bypass the hardness of any solid object and cut through even the toughest material as if slicing through butter.</p><p>Once per week, the wielder can expend one use of mythic power to enter the primal world of fey from the Material Plane or vice versa.</p><h>Destruction</h><p>If bathed in the blood of its fey creators, a <i>sword of mists</i> mystically melts into a pool of useless lead.</p>
     </description>
-    <isidentified type="number">0</isidentified>
-    <locked type="number">1</locked>
-    <maxstatbonus type="number">0</maxstatbonus>
     <name type="string">Sword of the Mists</name>
     <nonid_name type="string">Unidentified greatsword</nonid_name>
     <prerequisites type="string">If bathed in the blood of its fey creators, a sword of mists mystically melts into a pool of useless lead.</prerequisites>
     <properties type="string">masterwork</properties>
     <range type="number">0</range>
-    <speed20 type="number">0</speed20>
-    <speed30 type="number">0</speed30>
-    <spellfailure type="number">0</spellfailure>
     <subtype type="string">Martial Two-Handed Melee</subtype>
     <type type="string">Weapon</type>
     <weight type="number">12</weight>
-</id-00051>
-<id-00053>
-    <ac type="number">0</ac>
+</sword-of-the-mists>
+<witherfang>
     <aura type="string">strong necromancy and transmutation</aura>
     <bonus type="number">3</bonus>
-    <checkpenalty type="number">0</checkpenalty>
     <cl type="number">20</cl>
-    <combobox_ability_1 type="string">None</combobox_ability_1>
-    <combobox_ability_2 type="string">None</combobox_ability_2>
-    <combobox_bonus type="string">Enhancement +3</combobox_bonus>
-    <combobox_material type="string">None</combobox_material>
     <cost type="string">18308 gp</cost>
     <critical type="string">18-20/x2</critical>
     <damage type="string">1d4</damage>
     <damagetype type="string">Slashing</damagetype>
     <description type="formattedtext">
-        <p></p>
+        <p><b>Slot</b> none; <b>CL</b> 20th; <b>Weight</b> 2 lbs.; <b>Aura</b> strong necromancy and transmutation</p><p>While in the hands of a non-mythic creature, a <i>witherfang</i> functions as a <i>+3 kukri</i>. However, over time it begins to consume the life essence of its wielder. If the wielder is non-mythic, each week he must succeed at a DC 20 Fortitude save or take 1d4 points of Constitution drain that can't be healed until 1 week after he stops wielding the weapon. The <i>witherfang</i> then converts the stolen life essence into mythic power. A <i>witherfang</i> can hold a maximum of 20 uses of mythic power.</p><p>A mythic character can use a <i>witherfang's </i>stolen mythic power to activate her own mythic abilities or to enhance the blade with the following abilities: <i>bane</i>, <i>dancing</i>, <i>speed</i>, and <i>wounding</i>. Each ability lasts for 24 hours, and only one can be applied to the blade within each 24-hour period. The wielder can increase <i>the witherfang's</i> enhancement bonus by 1 for each use of mythic power she expends. Alternately, the wielder can expend one use of mythic power to imbue the blade with the <i>bane</i> special ability, two uses to imbue it with the <i>wounding </i>special ability, three uses to imbue it with the <i>speed</i> special ability, or four uses to imbue it with the <i>dancing</i> special ability.</p><h>Destruction</h><p><i>A witherfang</i> permanently loses its magical properties if plunged deep into the heart of a non-mythic humanoid that no longer possesses a soul.</p>
     </description>
-    <isidentified type="number">0</isidentified>
-    <locked type="number">1</locked>
-    <maxstatbonus type="number">0</maxstatbonus>
     <name type="string">Witherfang</name>
     <nonid_name type="string">Unidentified kukri</nonid_name>
     <prerequisites type="string">A witherfang permanently loses its magical properties if plunged deep into the heart of a non-mythic humanoid that no longer possesses a soul.</prerequisites>
     <properties type="string">masterwork</properties>
     <range type="number">0</range>
-    <speed20 type="number">0</speed20>
-    <speed30 type="number">0</speed30>
-    <spellfailure type="number">0</spellfailure>
     <subtype type="string">Martial Light Melee</subtype>
     <type type="string">Weapon</type>
     <weight type="number">2</weight>
-</id-00053>
-<id-00058>
-    <ac type="number">0</ac>
+</witherfang>
+<legendsbane>
     <aura type="string">strong necromancy</aura>
     <bonus type="number">6</bonus>
-    <checkpenalty type="number">0</checkpenalty>
     <cl type="number">12</cl>
-    <combobox_ability_1 type="string">Keen</combobox_ability_1>
-    <combobox_ability_2 type="string">Speed</combobox_ability_2>
-    <combobox_bonus type="string">Enhancement +4</combobox_bonus>
-    <combobox_material type="string">Adamantine</combobox_material>
     <critical type="string">19-20/x2</critical>
     <damage type="string">1d4</damage>
     <damagetype type="string">piercing or slashing, adamantine</damagetype>
     <description type="formattedtext">
-        <p></p>
+        <p><b>Slot</b> none; <b>CL</b> 20th; <b>Weight</b> 1 lb.; <b>Aura</b> strong necromancy</p><p>This <i>+6 keen speed adamantine dagger</i> was constructed in defiance of the gods and their chosen mortal champions, for <i>Legendsbane</i> was created to slay mythic creatures. <i>Legendsbane</i> bypasses all types of damage reduction, and deals an additional 3d6 points of damage to mythic creatures and to non-mythic creatures that have epic DR. This additional damage is multiplied for critical hits.</p><p>Non-mythic characters can wield <i>Legendsbane</i> normally. However, when a mythic character first attempts to wield the dagger, she must succeed at a DC 25 Fortitude save or suffer the effects of a <i>destruction</i> spell. If the mythic character survives, she can wield the dagger normally.</p><p><i>Legendsbane</i> imparts upon its wielder the ability to track down mythic creatures she has hunted before. At will, the wielder can cast <i>locate creature</i> to find a specific mythic creature known to the wielder.</p><h>Destruction</h><p><i>Legendsbane</i> can be destroyed if it's anointed in the blood of a slain 10th-rank mythic creature and then struck three times by a <i>vorpal</i> weapon. This act also destroys the <i>vorpal</i> weapon.</p>
     </description>
-    <isidentified type="number">0</isidentified>
-    <locked type="number">1</locked>
-    <maxstatbonus type="number">0</maxstatbonus>
     <name type="string">Legendsbane</name>
     <nonid_name type="string">Unidentified dagger</nonid_name>
     <prerequisites type="string">Legendsbane can be destroyed if it's anointed in the blood of a slain 10th-rank mythic creature and then struck three times by a vorpal weapon. This act also destroys the vorpal weapon.</prerequisites>
     <properties type="string">adamantine, masterwork</properties>
     <range type="number">10</range>
-    <speed20 type="number">0</speed20>
-    <speed30 type="number">0</speed30>
-    <spellfailure type="number">0</spellfailure>
     <subtype type="string">Simple Light Melee</subtype>
     <type type="string">Weapon</type>
     <weight type="number">1</weight>
-</id-00058>
+</legendsbane>
