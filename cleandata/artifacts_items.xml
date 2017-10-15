@@ -1,484 +1,264 @@
-<id-00040>
-    <ac type="number">0</ac>
+<bullroarers-of-outburst>
     <aura type="string">strong enchantment</aura>
-    <bonus type="number">0</bonus>
-    <checkpenalty type="number">0</checkpenalty>
     <cl type="number">20</cl>
     <description type="formattedtext">
         <p></p>
     </description>
-    <isidentified type="number">0</isidentified>
-    <locked type="number">1</locked>
-    <maxstatbonus type="number">0</maxstatbonus>
     <name type="string">Bullroarers of Outburst</name>
     <prerequisites type="string">The bullroarers simultaneously shatter if all five are swung at the same time while their bearer stands within the eye of a massive hurricane.</prerequisites>
-    <range type="number">0</range>
-    <speed20 type="number">0</speed20>
-    <speed30 type="number">0</speed30>
-    <spellfailure type="number">0</spellfailure>
     <subtype type="string">Minor</subtype>
     <type type="string">Mythic Artifact</type>
     <weight type="number">5</weight>
-</id-00040>
-<id-00041>
-    <ac type="number">0</ac>
+</bullroarers-of-outburst>
+<elemental-chain>
     <aura type="string">strong evocation</aura>
-    <bonus type="number">0</bonus>
-    <checkpenalty type="number">0</checkpenalty>
     <cl type="number">0</cl>
     <description type="formattedtext">
         <p></p>
     </description>
-    <isidentified type="number">0</isidentified>
-    <locked type="number">1</locked>
-    <maxstatbonus type="number">0</maxstatbonus>
     <name type="string">Elemental Chain</name>
     <prerequisites type="string">Feeding its twin steel rings to an elemental lord destroys an elemental chain.</prerequisites>
-    <range type="number">0</range>
-    <speed20 type="number">0</speed20>
-    <speed30 type="number">0</speed30>
-    <spellfailure type="number">0</spellfailure>
     <subtype type="string">Minor</subtype>
     <type type="string">Mythic Artifact</type>
     <weight type="number">3</weight>
-</id-00041>
-<id-00042>
-    <ac type="number">0</ac>
+</elemental-chain>
+<fleshhook-of-mythic-sustenance>
     <aura type="string">strong transmutation</aura>
-    <bonus type="number">0</bonus>
-    <checkpenalty type="number">0</checkpenalty>
     <cl type="number">20</cl>
     <description type="formattedtext">
         <p></p>
     </description>
-    <isidentified type="number">0</isidentified>
-    <locked type="number">1</locked>
-    <maxstatbonus type="number">0</maxstatbonus>
     <name type="string">Fleshhook of Mythic Sustenance</name>
     <prerequisites type="string">A fleshhook of mythic sustenance snaps and become useless if used to serve the rotten flesh of a mythic creature to a powerful outsider.</prerequisites>
-    <range type="number">0</range>
-    <speed20 type="number">0</speed20>
-    <speed30 type="number">0</speed30>
-    <spellfailure type="number">0</spellfailure>
     <subtype type="string">Minor</subtype>
     <type type="string">Mythic Artifact</type>
     <weight type="number">12</weight>
-</id-00042>
-<id-00044>
-    <ac type="number">0</ac>
+</fleshhook-of-mythic-sustenance>
+<glabrezu-claw>
     <aura type="string">strong varied [evil]</aura>
-    <bonus type="number">0</bonus>
-    <checkpenalty type="number">0</checkpenalty>
     <cl type="number">20</cl>
     <description type="formattedtext">
         <p></p>
     </description>
-    <isidentified type="number">0</isidentified>
-    <locked type="number">1</locked>
-    <maxstatbonus type="number">0</maxstatbonus>
     <name type="string">Glabrezu Claw</name>
     <prerequisites type="string">A glabrezu claw crumbles to dust and the demon within is destroyed if placed upon arm of a formerly evil high priest who has atoned for his past and converted to worship a good deity.</prerequisites>
-    <range type="number">0</range>
-    <speed20 type="number">0</speed20>
-    <speed30 type="number">0</speed30>
-    <spellfailure type="number">0</spellfailure>
     <subtype type="string">Minor</subtype>
     <type type="string">Mythic Artifact</type>
     <weight type="number">5</weight>
-</id-00044>
-<id-00045>
-    <ac type="number">0</ac>
+</glabrezu-claw>
+<hermetic-flask>
     <aura type="string">strong transmutation</aura>
-    <bonus type="number">0</bonus>
-    <checkpenalty type="number">0</checkpenalty>
     <cl type="number">20</cl>
     <description type="formattedtext">
         <p></p>
     </description>
-    <isidentified type="number">0</isidentified>
-    <locked type="number">1</locked>
-    <maxstatbonus type="number">0</maxstatbonus>
     <name type="string">Hermetic Flask</name>
     <prerequisites type="string">A hermetic flask can be destroyed by using it to analyze any of the products of a philosopher's stone. Such an act of hubris shatters the flask in a powerful explosion, dealing 25d6 points of fire damage in a 30-foot-radius spread. The person performing the experiment receives no saving throw. Other victims can halve the damage with a successful DC 30 Reflex save.</prerequisites>
-    <range type="number">0</range>
-    <speed20 type="number">0</speed20>
-    <speed30 type="number">0</speed30>
-    <spellfailure type="number">0</spellfailure>
     <subtype type="string">Minor</subtype>
     <type type="string">Mythic Artifact</type>
     <weight type="number">1</weight>
-</id-00045>
-<id-00046>
-    <ac type="number">0</ac>
+</hermetic-flask>
+<nexus-crystal>
     <aura type="string">strong conjuration</aura>
-    <bonus type="number">0</bonus>
-    <checkpenalty type="number">0</checkpenalty>
     <cl type="number">0</cl>
     <description type="formattedtext">
         <p></p>
     </description>
-    <isidentified type="number">0</isidentified>
-    <locked type="number">1</locked>
-    <maxstatbonus type="number">0</maxstatbonus>
     <name type="string">Nexus Crystal</name>
     <prerequisites type="string">A nexus crystal can be destroyed by invoking its plane shift power as the bearer steps through a gate. Doing so destroys the crystal and the gate, and the resulting magical explosion causes 18d10 points of damage to creatures within a 2-mile-radius burst of either side of the gate (Reflex DC 27 for half damage). Permanent gates between planes could potentially be destroyed in this fashion, at the GM's discretion.</prerequisites>
-    <range type="number">0</range>
-    <speed20 type="number">0</speed20>
-    <speed30 type="number">0</speed30>
-    <spellfailure type="number">0</spellfailure>
     <subtype type="string">Minor</subtype>
     <type type="string">Mythic Artifact</type>
     <weight type="number">1</weight>
-</id-00046>
-<id-00047>
-    <ac type="number">0</ac>
+</nexus-crystal>
+<ring-of-equilibrium>
     <aura type="string">strong conjuration</aura>
-    <bonus type="number">0</bonus>
-    <checkpenalty type="number">0</checkpenalty>
     <cl type="number">20</cl>
     <description type="formattedtext">
         <p></p>
     </description>
-    <isidentified type="number">0</isidentified>
-    <locked type="number">1</locked>
-    <maxstatbonus type="number">0</maxstatbonus>
     <name type="string">Ring of Equilibrium</name>
     <prerequisites type="string">A ring of equilibrium is destroyed if the wearer commits suicide while wearing it and while her opposite is still alive and healthy.</prerequisites>
-    <range type="number">0</range>
-    <speed20 type="number">0</speed20>
-    <speed30 type="number">0</speed30>
-    <spellfailure type="number">0</spellfailure>
     <subtype type="string">Minor</subtype>
     <type type="string">Mythic Artifact</type>
     <weight type="number">0</weight>
-</id-00047>
-<id-00048>
-    <ac type="number">0</ac>
+</ring-of-equilibrium>
+<rod-of-spell-sundering>
     <aura type="string">strong abjuration</aura>
-    <bonus type="number">0</bonus>
-    <checkpenalty type="number">0</checkpenalty>
     <cl type="number">18</cl>
     <description type="formattedtext">
         <p></p>
     </description>
-    <isidentified type="number">0</isidentified>
-    <locked type="number">1</locked>
-    <maxstatbonus type="number">0</maxstatbonus>
     <name type="string">Rod of Spell Sundering</name>
     <prerequisites type="string">A rod of spell sundering can be destroyed by leaving it within an area devoid of all magic for a year and a day. After this, it must be broken across the knee of a spellcaster formerly capable of casting at least 5th-level spells who lost her powers by using mage's disjunction on an artifact.</prerequisites>
-    <range type="number">0</range>
-    <speed20 type="number">0</speed20>
-    <speed30 type="number">0</speed30>
-    <spellfailure type="number">0</spellfailure>
     <subtype type="string">Minor</subtype>
     <type type="string">Mythic Artifact</type>
     <weight type="number">4</weight>
-</id-00048>
-<id-00050>
-    <ac type="number">0</ac>
+</rod-of-spell-sundering>
+<staff-of-eldritch-sovereignty>
     <aura type="string">strong varied</aura>
-    <bonus type="number">0</bonus>
-    <checkpenalty type="number">0</checkpenalty>
     <cl type="number">210</cl>
     <description type="formattedtext">
         <p></p>
     </description>
-    <isidentified type="number">0</isidentified>
-    <locked type="number">1</locked>
-    <maxstatbonus type="number">0</maxstatbonus>
     <name type="string">Staff of Eldritch Sovereignty</name>
     <prerequisites type="string">A staff of eldritch sovereignty can be broken for a retributive strike. Such an act must be purposeful and declared by the wielder. All charges in the staff are released in a 30-foot-radius spread. Quadruple the wielder's tier and add this amount to the number of charges remaining in the staff. All creatures within 10 feet of the staff take an amount of damage equal to 10 times this number. A successful Reflex save with a DC equal to 23 plus the wielder's tier halves the damage.\nUnlike with the staff of the magi, breaking a staff of arcane sovereignty invariably destroys the wielder (no saving throw).</prerequisites>
-    <range type="number">0</range>
-    <speed20 type="number">0</speed20>
-    <speed30 type="number">0</speed30>
-    <spellfailure type="number">0</spellfailure>
     <subtype type="string">Minor</subtype>
     <type type="string">Mythic Artifact</type>
     <weight type="number">5</weight>
-</id-00050>
-<id-00052>
-    <ac type="number">0</ac>
+</staff-of-eldritch-sovereignty>
+<torc-of-the-heavens>
     <aura type="string">strong divination and transmutation</aura>
-    <bonus type="number">0</bonus>
-    <checkpenalty type="number">0</checkpenalty>
     <cl type="number">20</cl>
     <description type="formattedtext">
         <p></p>
     </description>
-    <isidentified type="number">0</isidentified>
-    <locked type="number">1</locked>
-    <maxstatbonus type="number">0</maxstatbonus>
     <name type="string">Torc of the Heavens</name>
     <prerequisites type="string">Melting a torc of the heavens in a cauldron filled with the boiling blood of an ancient red dragon destroys it.\n</prerequisites>
-    <range type="number">0</range>
-    <speed20 type="number">0</speed20>
-    <speed30 type="number">0</speed30>
-    <spellfailure type="number">0</spellfailure>
     <subtype type="string">Minor</subtype>
     <type type="string">Mythic Artifact</type>
     <weight type="number">1</weight>
-</id-00052>
-<id-00054>
-    <ac type="number">0</ac>
+</torc-of-the-heavens>
+<apocalypse-box>
     <aura type="string">overwhelming conjuration and necromancy</aura>
-    <bonus type="number">0</bonus>
-    <checkpenalty type="number">0</checkpenalty>
     <cl type="number">25</cl>
     <description type="formattedtext">
         <p></p>
     </description>
-    <isidentified type="number">0</isidentified>
-    <locked type="number">1</locked>
-    <maxstatbonus type="number">0</maxstatbonus>
     <name type="string">Apocalypse Box</name>
     <prerequisites type="string">The Apocalypse Box can be destroyed by being crushed under the claw of an ancient gold dragon after a creature cursed by the box defeats three groups of Apocalypse Box monsters in a single day. The act of crushing the box immediately slays the gold dragon, who can't be returned to life short of divine intervention.</prerequisites>
-    <range type="number">0</range>
-    <speed20 type="number">0</speed20>
-    <speed30 type="number">0</speed30>
-    <spellfailure type="number">0</spellfailure>
     <subtype type="string">Major</subtype>
     <type type="string">Mythic Artifact</type>
     <weight type="number">2</weight>
-</id-00054>
-<id-00055>
-    <ac type="number">0</ac>
+</apocalypse-box>
+<diadem-of-nod>
     <aura type="string">strong conjuration</aura>
-    <bonus type="number">0</bonus>
-    <checkpenalty type="number">0</checkpenalty>
     <cl type="number">20</cl>
     <description type="formattedtext">
         <p></p>
     </description>
-    <isidentified type="number">0</isidentified>
-    <locked type="number">1</locked>
-    <maxstatbonus type="number">0</maxstatbonus>
     <name type="string">Diadem of Nod</name>
     <prerequisites type="string">The Diadem of Nod can be destroyed if its wearer uses it to create a dream inside of another pocket dream dimension. It can't be destroyed from within a dream it created.</prerequisites>
-    <range type="number">0</range>
-    <speed20 type="number">0</speed20>
-    <speed30 type="number">0</speed30>
-    <spellfailure type="number">0</spellfailure>
     <subtype type="string">Major</subtype>
     <type type="string">Mythic Artifact</type>
     <weight type="number">0</weight>
-</id-00055>
-<id-00056>
-    <ac type="number">0</ac>
+</diadem-of-nod>
+<emperor-s-mammoth>
     <aura type="string">strong transmutation</aura>
-    <bonus type="number">0</bonus>
-    <checkpenalty type="number">0</checkpenalty>
     <cl type="number">20</cl>
     <description type="formattedtext">
         <p></p>
     </description>
-    <isidentified type="number">0</isidentified>
-    <locked type="number">1</locked>
-    <maxstatbonus type="number">0</maxstatbonus>
     <name type="string">Emperor's Mammoth</name>
     <prerequisites type="string">Placing the crown upon the head of an unworthy goblin dung-sweeper causes the Emperor's Mammoth to crumble into a thousand pieces.</prerequisites>
-    <range type="number">0</range>
-    <speed20 type="number">0</speed20>
-    <speed30 type="number">0</speed30>
-    <spellfailure type="number">0</spellfailure>
     <subtype type="string">Major</subtype>
     <type type="string">Mythic Artifact</type>
     <weight type="number">0</weight>
-</id-00056>
-<id-00057>
-    <ac type="number">0</ac>
+</emperor-s-mammoth>
+<frozen-heart-of-cocytus>
     <aura type="string">strong divination</aura>
-    <bonus type="number">0</bonus>
-    <checkpenalty type="number">0</checkpenalty>
     <cl type="number">15</cl>
     <description type="formattedtext">
         <p></p>
     </description>
-    <isidentified type="number">0</isidentified>
-    <locked type="number">1</locked>
-    <maxstatbonus type="number">0</maxstatbonus>
     <name type="string">Frozen Heart of Cocytus</name>
     <prerequisites type="string">The heart must be carried to the plane of Elysium and submerged for a day in the warm waters in the settlements of the azata. Once melted, a willing kiss from a brijidine upon the now beating heart causes it to burst and turn to dust.</prerequisites>
-    <range type="number">0</range>
-    <speed20 type="number">0</speed20>
-    <speed30 type="number">0</speed30>
-    <spellfailure type="number">0</spellfailure>
     <subtype type="string">Major</subtype>
     <type type="string">Mythic Artifact</type>
     <weight type="number">2</weight>
-</id-00057>
-<id-00059>
-    <ac type="number">0</ac>
+</frozen-heart-of-cocytus>
+<netherworld-chauldron>
     <aura type="string">strong conjuration</aura>
-    <bonus type="number">0</bonus>
-    <checkpenalty type="number">0</checkpenalty>
     <cl type="number">20</cl>
     <description type="formattedtext">
         <p></p>
     </description>
-    <isidentified type="number">0</isidentified>
-    <locked type="number">1</locked>
-    <maxstatbonus type="number">0</maxstatbonus>
     <name type="string">Netherworld Chauldron</name>
     <prerequisites type="string">Using the Netherworld Cauldron to boil a mythic hero to death destroys it.</prerequisites>
-    <range type="number">0</range>
-    <speed20 type="number">0</speed20>
-    <speed30 type="number">0</speed30>
-    <spellfailure type="number">0</spellfailure>
     <subtype type="string">Major</subtype>
     <type type="string">Mythic Artifact</type>
     <weight type="number">1000</weight>
-</id-00059>
-<id-00060>
-    <ac type="number">0</ac>
+</netherworld-chauldron>
+<nimbus-of-radiant-truth>
     <aura type="string">strong evocation</aura>
-    <bonus type="number">0</bonus>
-    <checkpenalty type="number">0</checkpenalty>
     <cl type="number">20</cl>
     <description type="formattedtext">
         <p></p>
     </description>
-    <isidentified type="number">0</isidentified>
-    <locked type="number">1</locked>
-    <maxstatbonus type="number">0</maxstatbonus>
     <name type="string">Nimbus of Radiant Truth</name>
     <prerequisites type="string">The Nimbus of Radiant Truth can be destroyed by placing it on the head of a person who was once completely good and innocent, but is now corrupted into the vilest depths of evil and depravity.</prerequisites>
-    <range type="number">0</range>
-    <speed20 type="number">0</speed20>
-    <speed30 type="number">0</speed30>
-    <spellfailure type="number">0</spellfailure>
     <subtype type="string">Major</subtype>
     <type type="string">Mythic Artifact</type>
     <weight type="number">0</weight>
-</id-00060>
-<id-00061>
-    <ac type="number">0</ac>
+</nimbus-of-radiant-truth>
+<plaguebringer>
     <aura type="string">strong necromancy</aura>
-    <bonus type="number">0</bonus>
-    <checkpenalty type="number">0</checkpenalty>
     <cl type="number">20</cl>
     <description type="formattedtext">
         <p></p>
     </description>
-    <isidentified type="number">0</isidentified>
-    <locked type="number">1</locked>
-    <maxstatbonus type="number">0</maxstatbonus>
     <name type="string">Plaguebringer</name>
     <prerequisites type="string">To be destroyed, Plaguebringer must first be forced or tricked into the body of an angel. The angel must then willingly sacrifice itself by dying at the heart of a star.</prerequisites>
-    <range type="number">0</range>
-    <speed20 type="number">0</speed20>
-    <speed30 type="number">0</speed30>
-    <spellfailure type="number">0</spellfailure>
     <subtype type="string">Major</subtype>
     <type type="string">Mythic Artifact</type>
     <weight type="number">0</weight>
-</id-00061>
-<id-00062>
-    <ac type="number">0</ac>
+</plaguebringer>
+<scepter-of-the-shinning-lord>
     <aura type="string">strong abjuration and enchantment</aura>
-    <bonus type="number">0</bonus>
-    <checkpenalty type="number">0</checkpenalty>
     <cl type="number">20</cl>
     <description type="formattedtext">
         <p></p>
     </description>
-    <isidentified type="number">0</isidentified>
-    <locked type="number">1</locked>
-    <maxstatbonus type="number">0</maxstatbonus>
     <name type="string">Scepter of the Shinning Lord</name>
     <prerequisites type="string">The Scepter of the Shining Lord explodes if its owner uses it to appoint a non-mythic queen, lord, or other ruler as an agent. This slays the scepter's owner and makes the ruler mythic.</prerequisites>
-    <range type="number">0</range>
-    <speed20 type="number">0</speed20>
-    <speed30 type="number">0</speed30>
-    <spellfailure type="number">0</spellfailure>
     <subtype type="string">Major</subtype>
     <type type="string">Mythic Artifact</type>
     <weight type="number">4</weight>
-</id-00062>
-<id-00063>
-    <ac type="number">0</ac>
+</scepter-of-the-shinning-lord>
+<shadowwrath-heart>
     <aura type="string">strong necromancy</aura>
-    <bonus type="number">0</bonus>
-    <checkpenalty type="number">0</checkpenalty>
     <cl type="number">20</cl>
     <description type="formattedtext">
         <p></p>
     </description>
-    <isidentified type="number">0</isidentified>
-    <locked type="number">1</locked>
-    <maxstatbonus type="number">0</maxstatbonus>
     <name type="string">Shadowwrath Heart</name>
     <prerequisites type="string">Implanting the Shadowwraith Heart into the chest of a dying mythic hero reanimates the heart, restoring the hero as the heal spell (CL 15th), though the hero loses all mythic tiers.</prerequisites>
-    <range type="number">0</range>
-    <speed20 type="number">0</speed20>
-    <speed30 type="number">0</speed30>
-    <spellfailure type="number">0</spellfailure>
     <subtype type="string">Major</subtype>
     <type type="string">Mythic Artifact</type>
     <weight type="number">3</weight>
-</id-00063>
-<id-00064>
-    <ac type="number">0</ac>
+</shadowwrath-heart>
+<silver-maiden>
     <aura type="string">overwhelming abjuration and transmutation</aura>
-    <bonus type="number">0</bonus>
-    <checkpenalty type="number">0</checkpenalty>
     <cl type="number">30</cl>
     <description type="formattedtext">
         <p></p>
     </description>
-    <isidentified type="number">0</isidentified>
-    <locked type="number">1</locked>
-    <maxstatbonus type="number">0</maxstatbonus>
     <name type="string">Silver Maiden</name>
     <prerequisites type="string">The Silver Maiden can be destroyed if its captain sails it into a black hole.</prerequisites>
-    <range type="number">0</range>
-    <speed20 type="number">0</speed20>
-    <speed30 type="number">0</speed30>
-    <spellfailure type="number">0</spellfailure>
     <subtype type="string">Major</subtype>
     <type type="string">Mythic Artifact</type>
     <weight type="number">1e+06</weight>
-</id-00064>
-<id-00065>
-    <ac type="number">0</ac>
+</silver-maiden>
+<tarnhelm>
     <aura type="string">strong conjuration, illusion, and transmutation</aura>
-    <bonus type="number">0</bonus>
-    <checkpenalty type="number">0</checkpenalty>
     <cl type="number">20</cl>
     <description type="formattedtext">
         <p></p>
     </description>
-    <isidentified type="number">0</isidentified>
-    <locked type="number">1</locked>
-    <maxstatbonus type="number">0</maxstatbonus>
     <name type="string">Tarnhelm</name>
     <prerequisites type="string">The Tarnhelm can be destroyed by being struck by a succession by hammer blows from a dwarven smith wielding an adamantine hammer, a human smith with a steel hammer, and an elven smith using a hammer of spun glass. Each must succeed at a DC 30 Craft (armor) check when landing the blow. Failure destroys the hammer, disrupts the attempt to destroy the Tarnhelm, and deals 12d6 points of damage to the smith.</prerequisites>
-    <range type="number">0</range>
-    <speed20 type="number">0</speed20>
-    <speed30 type="number">0</speed30>
-    <spellfailure type="number">0</spellfailure>
     <subtype type="string">Major</subtype>
     <type type="string">Mythic Artifact</type>
     <weight type="number">2</weight>
-</id-00065>
-<id-00066>
-    <ac type="number">0</ac>
+</tarnhelm>
+<trueforge>
     <aura type="string">overwhelming transmutation</aura>
-    <bonus type="number">0</bonus>
-    <checkpenalty type="number">0</checkpenalty>
     <cl type="number">25</cl>
     <description type="formattedtext">
         <p></p>
     </description>
-    <isidentified type="number">0</isidentified>
-    <locked type="number">1</locked>
-    <maxstatbonus type="number">0</maxstatbonus>
     <name type="string">Trueforge</name>
     <prerequisites type="string">The Trueforge can be destroyed by first destroying every object forged by it, then shattering the forge with a single blow from a hammer of thunderbolts.</prerequisites>
-    <range type="number">0</range>
-    <speed20 type="number">0</speed20>
-    <speed30 type="number">0</speed30>
-    <spellfailure type="number">0</spellfailure>
     <subtype type="string">Major</subtype>
     <type type="string">Mythic Artifact</type>
     <weight type="number">500</weight>
-</id-00066>
+</trueforge>
