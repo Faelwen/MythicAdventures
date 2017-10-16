@@ -61,7 +61,7 @@ def main():
         clean_soup = clean(soup)
 
         with open("{0}/{1}".format(output_dir, file), 'w') as clean_html_file:
-            clean_html_file.write(str(clean_soup.encode("latin-1")))
+            clean_html_file.write(str(clean_soup))
 
 
 if __name__ == '__main__':
