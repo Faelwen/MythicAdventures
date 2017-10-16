@@ -35,6 +35,7 @@ ability_mythic_marshal = "cleandata/marshal.csv"
 ability_mythic_trickster = "cleandata/trickster.csv"
 ability_mythic_universal = "cleandata/universal_abilities.csv"
 
+monster_data = "cleandata/mythic_monsters.xml"
 
 FG_module_directory = "E:\\Fantasy Grounds\\DataDir\\modules"
 
@@ -176,6 +177,28 @@ def populate_mythic_heroes(xml_lists):
     populate_mythic_abilities(ability_mythic_universal, xml_mythic_univ, "Mythic Universal Path Ability")
 
 
+def populate_feats():
+    pass
+
+
+def populate_spells():
+    pass
+
+
+def populate_running():
+    pass
+
+
+def populate_items():
+    pass
+
+
+def populate_monsters(xml_reference):
+    xml_npc = etree.SubElement(xml_reference, "npcdata", static="true")
+    with open(monster_data, 'r') as inputfile:
+        xml_npc.text = inputfile.read()
+
+
 def generate_xml_structure(xml_root):
     xml_libraries = etree.SubElement(xml_root, "library", static="true")
     xml_library = etree.SubElement(xml_libraries, library_tag_name)
@@ -198,6 +221,12 @@ def generate_xml_structure(xml_root):
     populate_license(xml_root) # Legal notice
     populate_library_page(file0_0, xml_lists, "Glossary", "Glossary") # Glossary
     populate_mythic_heroes(xml_lists) #Chapter 1
+    populate_feats() #Chapter 2
+    populate_spells() #Chapter 3
+    populate_running() #Chapter 4
+    populate_items() #Chapter 5
+    populate_monsters(xml_reference) #Chapter 6
+
 
 
 def main():
