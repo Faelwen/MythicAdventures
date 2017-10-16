@@ -100,11 +100,26 @@ def populate_license(xml_root):
 
 def populate_mythic_heroes(xml_lists):
     xml_heroes = etree.SubElement(xml_lists, "MythicHeroes")
+    xml_heroes_create = etree.SubElement(xml_heroes, "CreatingAMythicCharacter")
+    xml_heroes_paths = etree.SubElement(xml_heroes, "MythicPaths")
+    xml_heroes_base = etree.SubElement(xml_heroes, "BaseMythicAbilities")
+    xml_heroes_gain = etree.SubElement(xml_heroes, "GainingTiers")
+    xml_heroes_univ = etree.SubElement(xml_heroes, "UniversalPathAbilities")
+
     xml_heroes_name = etree.SubElement(xml_heroes, "name", type="string")
-    xml_heroes_name.text = "Mythic Heroes"
     xml_heroes_text = etree.SubElement(xml_heroes, "text", type="formattedtext")
+
+    xml_heroes_create_name = etree.SubElement(xml_heroes_create, "name", type="string")
+    xml_heroes_create_text = etree.SubElement(xml_heroes_create, "text", type="formattedtext")
+
+    xml_heroes_name.text = "Mythic Heroes"
+    xml_heroes_create_name.text = "Creating a Mythic Character"
+
     with open(file1_1, 'r') as inputfile:
         xml_heroes_text.text = inputfile.read()
+
+    with open(file1_2, 'r') as inputfile:
+        xml_heroes_create_text.text = inputfile.read()
 
 
 
