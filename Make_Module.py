@@ -1,4 +1,5 @@
 import html_cleaner
+from bs4 import BeautifulSoup
 
 import zipfile
 import shutil
@@ -24,13 +25,13 @@ file1_4 = "modulehtml/1-4 Base Mythic Abilities.html"
 file1_5 = "modulehtml/1-5 Gaining Tiers.html"
 file1_6 = "modulehtml/1-6 Universal Path Abilities.html"
 
-ability_files = ("cleandata/mythic_heroes.csv",
-                "cleandata/archmage.csv",
-                "cleandata/champion.csv",
-                "cleandata/guardian.csv",
-                "cleandata/hierophant.csv",
-                "cleandata/marshal.csv",
-                "cleandata/trickster.csv", )
+ability_mythic_heroes = "cleandata/mythic_heroes.csv"
+ability_mythic_archmage = "cleandata/archmage.csv"
+ability_mythic_champion = "cleandata/champion.csv"
+ability_mythic_guardian = "cleandata/guardian.csv"
+ability_mythic_hierophant = "cleandata/hierophant.csv"
+ability_mythic_marshal = "cleandata/marshal.csv"
+ability_mythic_trickster = "cleandata/trickster.csv"
 
 
 FG_module_directory = "E:\\Fantasy Grounds\\DataDir\\modules"
@@ -113,16 +114,25 @@ def populate_license(xml_root):
     xml_license_text.text = license_text
 
 
-def populate_mythic_abilities(file, node):
+def populate_mythic_abilities(file, node, ability_type):
     node_abilities = etree.SubElement(node, "Abilities")
     with open(file, 'r') as inputfile:
         csvreader = csv.reader(inputfile, delimiter='\t', quotechar="'")
-        [ref, name, description] = row
-        node_abilities_ref = etree.SubElement(node_abilities, ref)
-        node_abilities_ref_name = etree.SubElement(node_abilities_ref, "name", type="string")
-        node_abilities_ref_name.text = name
-        node_abilities_ref_text = etree.SubElement(node_abilities_ref, "text", type="formattedtext")
-        node_abilities_ref_text.text = description
+        for row in csvreader:
+            [ref, name, description] = row
+            soup = BeautifulSoup(description, 'html.parser')
+            clean_description = ""
+            for tag in soup:
+                clean_description += str(html_cleaner.clean(soup))
+            node_abilities_ref = etree.SubElement(node_abilities, ref)
+            node_abilities_ref_name = etree.SubElement(node_abilities_ref, "name", type="string")
+            node_abilities_ref_name.text = name
+            node_abilities_ref_type = etree.SubElement(node_abilities_ref, "type", type="string")
+            node_abilities_ref_type.text = ability_type
+            node_abilities_ref_text = etree.SubElement(node_abilities_ref, "text", type="formattedtext")
+            node_abilities_ref_text.text = clean_description
+            node_abilities_ref_benefit = etree.SubElement(node_abilities_ref, "benefit", type="formattedtext")
+            node_abilities_ref_benefit.text = clean_description
 
 
 def populate_library_page(htmlfile, node, tagname, name):
@@ -148,6 +158,14 @@ def populate_mythic_heroes(xml_lists):
     xml_mythic_abilities = populate_library_page(file1_4, xml_mythic_heroes, "BaseMythicAbilities", "Base Mythic Abilities")
     xml_mythic_tiers = populate_library_page(file1_5, xml_mythic_heroes, "GainingTiers", "Gaining Tiers")
     xml_mythic_univ = populate_library_page(file1_6, xml_mythic_heroes, "UniversalPathAbilities", "Universal Path Abilities")
+
+    populate_mythic_abilities(ability_mythic_heroes, xml_mythic_abilities, "Base Mythic Ability")
+    populate_mythic_abilities(ability_mythic_archmage, xml_mythic_paths_archmage, "Archmage Ability")
+    populate_mythic_abilities(ability_mythic_champion, xml_mythic_paths_champion, "Champion Ability")
+    populate_mythic_abilities(ability_mythic_guardian, xml_mythic_paths_guardian, "Guardian Ability")
+    populate_mythic_abilities(ability_mythic_hierophant, xml_mythic_paths_hierophant, "Hireophant Ability")
+    populate_mythic_abilities(ability_mythic_marshal, xml_mythic_paths_marshal, "Marshal Ability")
+    populate_mythic_abilities(ability_mythic_trickster, xml_mythic_paths_trickster, "Trikster Ability")
 
 
 def generate_xml_structure(xml_root):
