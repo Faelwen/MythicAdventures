@@ -4,8 +4,8 @@ import csv
 
 html_folder = 'html'
 csv_folder = 'data'
-html_files = ["mythic_heroes.html", "archmage.html", "champion.html", "guardian.html", "hierophant.html", "marshal.html", "trickster.html"]
-csv_files = ["mythic_heroes.csv", "archmage.csv", "champion.csv", "guardian.csv", "hierophant.csv", "marshal.csv", "trickster.csv"]
+html_files = ["marshal.html", "trickster.html"]
+csv_files = ["marshal.csv", "trickster.csv"]
 
 def clean(soup):
     # strip all attributes
@@ -57,7 +57,7 @@ def clean_p(soup):
 def extract_mythic_abilities(html_file, csv_file):
     print(html_file)
     with open(html_file, 'r') as input_file:
-        raw_html = input_file.read().replace('&minus;', '-').replace('&mdash', '--').replace('&ndash;','-').replace('&times;', 'x').replace('—', '-')
+        raw_html = input_file.read().replace('&minus;', '-').replace('&mdash', '--').replace('&ndash;','-').replace('&times;', 'x').replace('â€”', '-')
     soup = BeautifulSoup(raw_html, 'html.parser')
 
     with open(csv_file, 'w', newline='') as output_file:
