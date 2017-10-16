@@ -12,6 +12,7 @@ xml_definition_file = "definition.xml"
 xml_database_file = "db.xml"
 license_file = "cleanhtml/license.html"
 
+file0_0 = "modulehtml/0-0 glossary.html"
 file1_1 = "modulehtml/1-1 mythic_heroes.html"
 file1_2 = "modulehtml/1-2 Creating a Mythic Character.html"
 file1_3 = "modulehtml/1-3 Mythic Paths.html"
@@ -49,8 +50,13 @@ library_entries =   [{"Entry name":"---Legal Notice---",
                     "Link type":"librarylink",
                     "Window class":"referencetext",
                     "Record name": "License@" + module_name},
+                    {"Entry name":"Glossary",
+                    "Entry tag":"BA.Glossary",
+                    "Link type":"librarylink",
+                    "Window class":"referencetext",
+                    "Record name": "lists.Glossary@" + module_name},
                     {"Entry name":"Mythic Heroes",
-                    "Entry tag":"BA.MythicHeroes",
+                    "Entry tag":"CA.MythicHeroes",
                     "Link type":"librarylink",
                     "Window class":"referencetext",
                     "Record name": "lists.MythicHeroes@" + module_name},
@@ -189,8 +195,9 @@ def generate_xml_structure(xml_root):
     xml_lists = etree.SubElement(xml_root, "lists", static="true")
 
     populate_library_entries(xml_library_entries)
-    populate_license(xml_root)
-    populate_mythic_heroes(xml_lists)
+    populate_license(xml_root) # Legal notice
+    populate_library_page(file0_0, xml_lists, "Glossary", "Glossary") # Glossary
+    populate_mythic_heroes(xml_lists) #Chapter 1
 
 
 def main():
