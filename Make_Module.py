@@ -32,6 +32,7 @@ ability_mythic_guardian = "cleandata/guardian.csv"
 ability_mythic_hierophant = "cleandata/hierophant.csv"
 ability_mythic_marshal = "cleandata/marshal.csv"
 ability_mythic_trickster = "cleandata/trickster.csv"
+ability_mythic_universal = "cleandata/universal_abilities.csv"
 
 
 FG_module_directory = "E:\\Fantasy Grounds\\DataDir\\modules"
@@ -166,6 +167,7 @@ def populate_mythic_heroes(xml_lists):
     populate_mythic_abilities(ability_mythic_hierophant, xml_mythic_paths_hierophant, "Hireophant Ability")
     populate_mythic_abilities(ability_mythic_marshal, xml_mythic_paths_marshal, "Marshal Ability")
     populate_mythic_abilities(ability_mythic_trickster, xml_mythic_paths_trickster, "Trikster Ability")
+    populate_mythic_abilities(ability_mythic_universal, xml_mythic_univ, "Mythic Universal Path Ability")
 
 
 def generate_xml_structure(xml_root):
