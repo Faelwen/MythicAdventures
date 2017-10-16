@@ -1,0 +1,21 @@
+<?xml version='1.0' encoding='iso-8859-1'?>
+<root version="2.0">
+  <library static="true">
+    <MythicAdventures>
+      <name type="string">Mythic Adventures</name>
+      <categoryname type="string">PFRPG Extras</categoryname>
+      <entries/>
+    </MythicAdventures>
+  </library>
+  <reference static="true">
+    <armor/>
+    <equipment/>
+    <feats/>
+    <npcdata/>
+    <skills/>
+    <spells/>
+    <tables/>
+    <weapon/>
+  </reference>
+  <lists static="true"/>
+</root>
