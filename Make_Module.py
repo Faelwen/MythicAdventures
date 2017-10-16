@@ -9,7 +9,7 @@ import html
 module_file_name = "PFRPG-MythicAdventures.mod"
 xml_definition_file = "definition.xml"
 xml_database_file = "db.xml"
-license_file = "license.html"
+license_file = "cleanhtml/license.html"
 
 FG_module_directory = "E:\\Fantasy Grounds\\DataDir\\modules"
 
@@ -24,7 +24,12 @@ library_entries =   [{"Entry name":"---Legal Notice---",
                     "Entry tag":"AA.License",
                     "Link type":"librarylink",
                     "Window class":"referencetext",
-                    "Record name": "License"},
+                    "Record name": "License@" + module_name},
+                    {"Entry name":"Mythic Heroes",
+                    "Entry tag":"BA.MythicHeroes",
+                    "Link type":"librarylink",
+                    "Window class":"referencetext",
+                    "Record name": "lists.MythicHeroes@" + module_name},
                     ]
 
 
@@ -59,6 +64,37 @@ def copy_to_Fantasy_Grounds():
     print("Module copied to Fantasy Grounds")
 
 
+def populate_library_entries(xml_library_entries):
+    for entry in library_entries:
+        xml_library_entry =  etree.SubElement(xml_library_entries, entry["Entry tag"])
+        xml_library_entry_linktype = etree.SubElement(xml_library_entry, entry["Link type"], type="windowreference")
+        xml_library_entry_linktype_class = etree.SubElement(xml_library_entry_linktype, "class")
+        xml_library_entry_linktype_class.text = entry["Window class"]
+        xml_library_entry_linktype_recordname = etree.SubElement(xml_library_entry_linktype, "recordname")
+        xml_library_entry_linktype_recordname.text = entry["Record name"]
+        xml_library_entry_name = etree.SubElement(xml_library_entry, "name", type="string")
+        xml_library_entry_name.text = entry["Entry name"]
+
+
+def populate_license(xml_root):
+    xml_license = etree.SubElement(xml_root, "License", static="true")
+    xml_license_link = etree.SubElement(xml_license,"librarylink", type="windowreference")
+    xml_license_link_class = etree.SubElement(xml_license_link, "class")
+    xml_license_link_class.text = "referencetext"
+    xml_license_link_recordname = etree.SubElement(xml_license_link, "recordname")
+    xml_license_link_recordname.text = ".."
+    xml_license_name = etree.SubElement(xml_license,"name", type="string")
+    xml_license_name.text = "License"
+    xml_license_text = etree.SubElement(xml_license,"text", type="formattedtext")
+    with open(license_file, 'r') as file:
+        license_text = file.read()
+    xml_license_text.text = license_text
+
+
+def populate_mythic_heroes(xml_lists):
+    xml_heroes = etree.SubElement(xml_lists, "MythicHeroes")
+
+
 def generate_xml_structure(xml_root):
     xml_libraries = etree.SubElement(xml_root, "library", static="true")
     xml_library = etree.SubElement(xml_libraries, library_tag_name)
@@ -74,9 +110,12 @@ def generate_xml_structure(xml_root):
     xml_ref_npcdata = etree.SubElement(xml_reference,"npcdata")
     xml_ref_skills = etree.SubElement(xml_reference,"skills")
     xml_ref_spells = etree.SubElement(xml_reference,"spells")
-    xml_ref_tables = etree.SubElement(xml_reference,"tables")
     xml_ref_weapon = etree.SubElement(xml_reference,"weapon")
     xml_lists = etree.SubElement(xml_root, "lists", static="true")
+
+    populate_library_entries(xml_library_entries)
+    populate_license(xml_root)
+    populate_mythic_heroes(xml_lists)
 
 
 def main():
