@@ -14,9 +14,24 @@ license_file = "cleanhtml/license.html"
 file1_1 = "modulehtml/1-1 mythic_heroes.html"
 file1_2 = "modulehtml/1-2 Creating a Mythic Character.html"
 file1_3 = "modulehtml/1-3 Mythic Paths.html"
+file1_3_1 = "modulehtml/1-3-1 archmage.html"
+file1_3_2 = "modulehtml/1-3 Mythic Paths.html"
+file1_3_3 = "modulehtml/1-3 Mythic Paths.html"
+file1_3_4 = "modulehtml/1-3 Mythic Paths.html"
+file1_3_5 = "modulehtml/1-3 Mythic Paths.html"
+file1_3_6 = "modulehtml/1-3 Mythic Paths.html"
 file1_4 = "modulehtml/1-4 Base Mythic Abilities.html"
 file1_5 = "modulehtml/1-5 Gaining Tiers.html"
 file1_6 = "modulehtml/1-6 Universal Path Abilities.html"
+
+ability_files = ("cleandata/mythic_heroes.csv",
+                "cleandata/archmage.csv",
+                "cleandata/champion.csv",
+                "cleandata/guardian.csv",
+                "cleandata/hierophant.csv",
+                "cleandata/marshal.csv",
+                "cleandata/trickster.csv", )
+
 
 FG_module_directory = "E:\\Fantasy Grounds\\DataDir\\modules"
 
@@ -98,36 +113,35 @@ def populate_license(xml_root):
     xml_license_text.text = license_text
 
 
+def populate_mythic_abilities(file, node):
+    node_abilities = etree.SubElement(node, "Abilities")
+    with open(file, 'r') as inputfile:
+        csvreader = csv.reader(inputfile, delimiter='\t', quotechar="'")
+        [ref, name, description] = row
+        node_abilities_ref = etree.SubElement(node_abilities, ref)
+        node_abilities_ref_name = etree.SubElement(node_abilities_ref, "name", type="string")
+        node_abilities_ref_name.text = name
+        node_abilities_ref_text = etree.SubElement(node_abilities_ref, "text", type="formattedtext")
+        node_abilities_ref_text.text = description
+
+
+def populate_library_page(htmlfile, node, tagname, name):
+    node_ref =  etree.SubElement(node, tagname)
+    node_ref_name = etree.SubElement(node_ref, "name", type="string")
+    node_ref_text = etree.SubElement(node_ref, "text", type="formattedtext")
+    node_ref_name.text = name
+    with open(htmlfile, 'r') as inputfile:
+        node_ref_text.text = inputfile.read()
+    return node_ref
+
+
 def populate_mythic_heroes(xml_lists):
-    xml_heroes = etree.SubElement(xml_lists, "MythicHeroes")
-    xml_heroes_create = etree.SubElement(xml_heroes, "CreatingAMythicCharacter")
-    xml_heroes_paths = etree.SubElement(xml_heroes, "MythicPaths")
-    xml_heroes_base = etree.SubElement(xml_heroes, "BaseMythicAbilities")
-    xml_heroes_gain = etree.SubElement(xml_heroes, "GainingTiers")
-    xml_heroes_univ = etree.SubElement(xml_heroes, "UniversalPathAbilities")
-
-    xml_heroes_name = etree.SubElement(xml_heroes, "name", type="string")
-    xml_heroes_text = etree.SubElement(xml_heroes, "text", type="formattedtext")
-
-    xml_heroes_create_name = etree.SubElement(xml_heroes_create, "name", type="string")
-    xml_heroes_create_text = etree.SubElement(xml_heroes_create, "text", type="formattedtext")
-
-    xml_heroes_paths_name = etree.SubElement(xml_heroes_paths, "name", type="string")
-    xml_heroes_paths_text = etree.SubElement(xml_heroes_paths, "text", type="formattedtext")
-
-    xml_heroes_name.text = "Mythic Heroes"
-    xml_heroes_create_name.text = "Creating a Mythic Character"
-    xml_heroes_paths_name.text = "Mythic Paths"
-
-    with open(file1_1, 'r') as inputfile:
-        xml_heroes_text.text = inputfile.read()
-
-    with open(file1_2, 'r') as inputfile:
-        xml_heroes_create_text.text = inputfile.read()
-
-    with open(file1_3, 'r') as inputfile:
-        xml_heroes_paths_text.text = inputfile.read()
-
+    xml_mythic_heroes = populate_library_page(file1_1, xml_lists, "MythicHeroes", "Mythic Heroes")
+    xml_creating_character = populate_library_page(file1_2, xml_mythic_heroes, "CreatingAMythicCharacter", "Creating a Mythic Character")
+    xml_mythic_paths = populate_library_page(file1_3, xml_mythic_heroes, "MythicPaths", "Mythic Paths")
+    xml_mythic_paths = populate_library_page(file1_4, xml_mythic_heroes, "BaseMythicAbilities", "Base Mythic Abilities")
+    xml_mythic_paths = populate_library_page(file1_5, xml_mythic_heroes, "GainingTiers", "Gaining Tiers")
+    xml_mythic_paths = populate_library_page(file1_6, xml_mythic_heroes, "UniversalPathAbilities", "Universal Path Abilities")
 
 
 def generate_xml_structure(xml_root):
