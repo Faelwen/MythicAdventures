@@ -13,10 +13,10 @@ license_file = "cleanhtml/license.html"
 
 file1_1 = "modulehtml/1-1 mythic_heroes.html"
 file1_2 = "modulehtml/1-2 Creating a Mythic Character.html"
-file1_3 = "modulehtml/1-3 Mythic Paths"
-file1_4 = "modulehtml/1-4 Base Mythic Abilities"
-file1_5 = "modulehtml/1-5 Gaining Tiers"
-file1_6 = "modulehtml/1-6 Universal Path Abilities"
+file1_3 = "modulehtml/1-3 Mythic Paths.html"
+file1_4 = "modulehtml/1-4 Base Mythic Abilities.html"
+file1_5 = "modulehtml/1-5 Gaining Tiers.html"
+file1_6 = "modulehtml/1-6 Universal Path Abilities.html"
 
 FG_module_directory = "E:\\Fantasy Grounds\\DataDir\\modules"
 
@@ -112,14 +112,21 @@ def populate_mythic_heroes(xml_lists):
     xml_heroes_create_name = etree.SubElement(xml_heroes_create, "name", type="string")
     xml_heroes_create_text = etree.SubElement(xml_heroes_create, "text", type="formattedtext")
 
+    xml_heroes_paths_name = etree.SubElement(xml_heroes_paths, "name", type="string")
+    xml_heroes_paths_text = etree.SubElement(xml_heroes_paths, "text", type="formattedtext")
+
     xml_heroes_name.text = "Mythic Heroes"
     xml_heroes_create_name.text = "Creating a Mythic Character"
+    xml_heroes_paths_name.text = "Mythic Paths"
 
     with open(file1_1, 'r') as inputfile:
         xml_heroes_text.text = inputfile.read()
 
     with open(file1_2, 'r') as inputfile:
         xml_heroes_create_text.text = inputfile.read()
+
+    with open(file1_3, 'r') as inputfile:
+        xml_heroes_paths_text.text = inputfile.read()
 
 
 
