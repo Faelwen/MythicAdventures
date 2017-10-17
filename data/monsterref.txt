@@ -1,0 +1,47 @@
+Aboleth	Aboleth-Mythic
+Barghest, Greater	BarghestGreater-Mythic
+Cockatrice	Cockatrice-Mythic
+Cyclops, Great	CyclopsGreat-Mythic
+Demon, Marilith	DemonMarilith-Mythic
+Demon, Nalfeshnee	DemonNalfeshnee-Mythic
+Demon, Vrock	DemonVrock-Mythic
+Devil, Bone	DevilBone-Mythic
+Devil, Ice	DevilIce-Mythic
+Dragon, Black Mature Adult	DragonBlack-MythicMatureAdult
+Dragon, Blue Mature Adult	DragonBlue-MythicMatureAdult
+Dragon, Green Very Old	DragonGreen-MythicVeryOld
+Dragon, Red Wyrm	DragonRed-MythicWyrm
+Dragon, Red Young	DragonRed-MythicYoung
+Dragon, White	DragonWhite-MythicJuvenile
+Elemental, Air Elder	ElementalAir-MythicElder
+Elemental, Earth Elder	ElementalEarth-MythicElder
+Elemental, Fire Elder	ElementalFire-MythicElder
+Elemental, Water Elder	ElementalWater-MythicElder
+Ettin	Ettin-Mythic
+Gargoyle	Gargoyle-Mythic
+Giant	Giant-Mythic
+Giant, Fire	GiantFire-Mythic
+Giant, Hill	GiantHill-Mythic
+Golem, Flesh	GolemFlesh-Mythic
+Griffon	Griffon-Mythic
+Hell Hound	HellHound-Mythic
+Hydra	Hydra-Mythic
+Lamia	Lamia-Mythic
+Lich	Lich-Mythic
+Manticore	Manticore-Mythic
+Medusa	Medusa-Mythic
+Minotaur	Minotaur-Mythic
+Mummy	Mummy-Mythic
+Ogre	Ogre-Mythic
+Owlbear	Owlbear-Mythic
+Owlbear, The First	OwlbearTheFirst-Mythic
+Phoenix	Phoenix-Mythic
+Rakshasa	Rakshasa-Mythic
+Skeleton, Human	SkeletonHuman-Mythic
+Sphinx	Sphinx-Mythic
+Treant	Treant-Mythic
+Troll	Troll-Mythic
+Vampire	Vampire-Mythic
+Worg	Worg-Mythic
+Worg, Winterwolf	WorgWinterWolf-Mythic
+Wyvern	Wyvern-Mythic

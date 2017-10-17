@@ -11,7 +11,7 @@
 	<BA>
 		<name type="string">Mythic Monster Index</name>
 		<listlink type="windowreference">
-			<class>referenceindex</class>
+			<class>referencetextwide</class>
             <recordname>lists.MythicMonsters.MythicMonsterIndex</recordname>
 		</listlink>
 	</BA>

@@ -1,0 +1,334 @@
+<MythicMonsterIndex>
+  <name type="string">Mythic Monster Index</name>
+  <index>
+    <Aboleth-Mythic>
+      <name type="string">Aboleth</name>
+      <listlink type="windowreference">
+        <class>npc</class>
+        <recordname>reference.npcdata.Aboleth-Mythic</recordname>
+      </listlink>
+    </Aboleth-Mythic>
+    <BarghestGreater-Mythic>
+      <name type="string">Barghest, Greater</name>
+      <listlink type="windowreference">
+        <class>npc</class>
+        <recordname>reference.npcdata.BarghestGreater-Mythic</recordname>
+      </listlink>
+    </BarghestGreater-Mythic>
+    <Cockatrice-Mythic>
+      <name type="string">Cockatrice</name>
+      <listlink type="windowreference">
+        <class>npc</class>
+        <recordname>reference.npcdata.Cockatrice-Mythic</recordname>
+      </listlink>
+    </Cockatrice-Mythic>
+    <CyclopsGreat-Mythic>
+      <name type="string">Cyclops, Great</name>
+      <listlink type="windowreference">
+        <class>npc</class>
+        <recordname>reference.npcdata.CyclopsGreat-Mythic</recordname>
+      </listlink>
+    </CyclopsGreat-Mythic>
+    <DemonMarilith-Mythic>
+      <name type="string">Demon, Marilith</name>
+      <listlink type="windowreference">
+        <class>npc</class>
+        <recordname>reference.npcdata.DemonMarilith-Mythic</recordname>
+      </listlink>
+    </DemonMarilith-Mythic>
+    <DemonNalfeshnee-Mythic>
+      <name type="string">Demon, Nalfeshnee</name>
+      <listlink type="windowreference">
+        <class>npc</class>
+        <recordname>reference.npcdata.DemonNalfeshnee-Mythic</recordname>
+      </listlink>
+    </DemonNalfeshnee-Mythic>
+    <DemonVrock-Mythic>
+      <name type="string">Demon, Vrock</name>
+      <listlink type="windowreference">
+        <class>npc</class>
+        <recordname>reference.npcdata.DemonVrock-Mythic</recordname>
+      </listlink>
+    </DemonVrock-Mythic>
+    <DevilBone-Mythic>
+      <name type="string">Devil, Bone</name>
+      <listlink type="windowreference">
+        <class>npc</class>
+        <recordname>reference.npcdata.DevilBone-Mythic</recordname>
+      </listlink>
+    </DevilBone-Mythic>
+    <DevilIce-Mythic>
+      <name type="string">Devil, Ice</name>
+      <listlink type="windowreference">
+        <class>npc</class>
+        <recordname>reference.npcdata.DevilIce-Mythic</recordname>
+      </listlink>
+    </DevilIce-Mythic>
+    <DragonBlack-MythicMatureAdult>
+      <name type="string">Dragon, Black Mature Adult</name>
+      <listlink type="windowreference">
+        <class>npc</class>
+        <recordname>reference.npcdata.DragonBlack-MythicMatureAdult</recordname>
+      </listlink>
+    </DragonBlack-MythicMatureAdult>
+    <DragonBlue-MythicMatureAdult>
+      <name type="string">Dragon, Blue Mature Adult</name>
+      <listlink type="windowreference">
+        <class>npc</class>
+        <recordname>reference.npcdata.DragonBlue-MythicMatureAdult</recordname>
+      </listlink>
+    </DragonBlue-MythicMatureAdult>
+    <DragonGreen-MythicVeryOld>
+      <name type="string">Dragon, Green Very Old</name>
+      <listlink type="windowreference">
+        <class>npc</class>
+        <recordname>reference.npcdata.DragonGreen-MythicVeryOld</recordname>
+      </listlink>
+    </DragonGreen-MythicVeryOld>
+    <DragonRed-MythicWyrm>
+      <name type="string">Dragon, Red Wyrm</name>
+      <listlink type="windowreference">
+        <class>npc</class>
+        <recordname>reference.npcdata.DragonRed-MythicWyrm</recordname>
+      </listlink>
+    </DragonRed-MythicWyrm>
+    <DragonRed-MythicYoung>
+      <name type="string">Dragon, Red Young</name>
+      <listlink type="windowreference">
+        <class>npc</class>
+        <recordname>reference.npcdata.DragonRed-MythicYoung</recordname>
+      </listlink>
+    </DragonRed-MythicYoung>
+    <DragonWhite-MythicJuvenile>
+      <name type="string">Dragon, White</name>
+      <listlink type="windowreference">
+        <class>npc</class>
+        <recordname>reference.npcdata.DragonWhite-MythicJuvenile</recordname>
+      </listlink>
+    </DragonWhite-MythicJuvenile>
+    <ElementalAir-MythicElder>
+      <name type="string">Elemental, Air Elder</name>
+      <listlink type="windowreference">
+        <class>npc</class>
+        <recordname>reference.npcdata.ElementalAir-MythicElder</recordname>
+      </listlink>
+    </ElementalAir-MythicElder>
+    <ElementalEarth-MythicElder>
+      <name type="string">Elemental, Earth Elder</name>
+      <listlink type="windowreference">
+        <class>npc</class>
+        <recordname>reference.npcdata.ElementalEarth-MythicElder</recordname>
+      </listlink>
+    </ElementalEarth-MythicElder>
+    <ElementalFire-MythicElder>
+      <name type="string">Elemental, Fire Elder</name>
+      <listlink type="windowreference">
+        <class>npc</class>
+        <recordname>reference.npcdata.ElementalFire-MythicElder</recordname>
+      </listlink>
+    </ElementalFire-MythicElder>
+    <ElementalWater-MythicElder>
+      <name type="string">Elemental, Water Elder</name>
+      <listlink type="windowreference">
+        <class>npc</class>
+        <recordname>reference.npcdata.ElementalWater-MythicElder</recordname>
+      </listlink>
+    </ElementalWater-MythicElder>
+    <Ettin-Mythic>
+      <name type="string">Ettin</name>
+      <listlink type="windowreference">
+        <class>npc</class>
+        <recordname>reference.npcdata.Ettin-Mythic</recordname>
+      </listlink>
+    </Ettin-Mythic>
+    <Gargoyle-Mythic>
+      <name type="string">Gargoyle</name>
+      <listlink type="windowreference">
+        <class>npc</class>
+        <recordname>reference.npcdata.Gargoyle-Mythic</recordname>
+      </listlink>
+    </Gargoyle-Mythic>
+    <Giant-Mythic>
+      <name type="string">Giant</name>
+      <listlink type="windowreference">
+        <class>npc</class>
+        <recordname>reference.npcdata.Giant-Mythic</recordname>
+      </listlink>
+    </Giant-Mythic>
+    <GiantFire-Mythic>
+      <name type="string">Giant, Fire</name>
+      <listlink type="windowreference">
+        <class>npc</class>
+        <recordname>reference.npcdata.GiantFire-Mythic</recordname>
+      </listlink>
+    </GiantFire-Mythic>
+    <GiantHill-Mythic>
+      <name type="string">Giant, Hill</name>
+      <listlink type="windowreference">
+        <class>npc</class>
+        <recordname>reference.npcdata.GiantHill-Mythic</recordname>
+      </listlink>
+    </GiantHill-Mythic>
+    <GolemFlesh-Mythic>
+      <name type="string">Golem, Flesh</name>
+      <listlink type="windowreference">
+        <class>npc</class>
+        <recordname>reference.npcdata.GolemFlesh-Mythic</recordname>
+      </listlink>
+    </GolemFlesh-Mythic>
+    <Griffon-Mythic>
+      <name type="string">Griffon</name>
+      <listlink type="windowreference">
+        <class>npc</class>
+        <recordname>reference.npcdata.Griffon-Mythic</recordname>
+      </listlink>
+    </Griffon-Mythic>
+    <HellHound-Mythic>
+      <name type="string">Hell Hound</name>
+      <listlink type="windowreference">
+        <class>npc</class>
+        <recordname>reference.npcdata.HellHound-Mythic</recordname>
+      </listlink>
+    </HellHound-Mythic>
+    <Hydra-Mythic>
+      <name type="string">Hydra</name>
+      <listlink type="windowreference">
+        <class>npc</class>
+        <recordname>reference.npcdata.Hydra-Mythic</recordname>
+      </listlink>
+    </Hydra-Mythic>
+    <Lamia-Mythic>
+      <name type="string">Lamia</name>
+      <listlink type="windowreference">
+        <class>npc</class>
+        <recordname>reference.npcdata.Lamia-Mythic</recordname>
+      </listlink>
+    </Lamia-Mythic>
+    <Lich-Mythic>
+      <name type="string">Lich</name>
+      <listlink type="windowreference">
+        <class>npc</class>
+        <recordname>reference.npcdata.Lich-Mythic</recordname>
+      </listlink>
+    </Lich-Mythic>
+    <Manticore-Mythic>
+      <name type="string">Manticore</name>
+      <listlink type="windowreference">
+        <class>npc</class>
+        <recordname>reference.npcdata.Manticore-Mythic</recordname>
+      </listlink>
+    </Manticore-Mythic>
+    <Medusa-Mythic>
+      <name type="string">Medusa</name>
+      <listlink type="windowreference">
+        <class>npc</class>
+        <recordname>reference.npcdata.Medusa-Mythic</recordname>
+      </listlink>
+    </Medusa-Mythic>
+    <Minotaur-Mythic>
+      <name type="string">Minotaur</name>
+      <listlink type="windowreference">
+        <class>npc</class>
+        <recordname>reference.npcdata.Minotaur-Mythic</recordname>
+      </listlink>
+    </Minotaur-Mythic>
+    <Mummy-Mythic>
+      <name type="string">Mummy</name>
+      <listlink type="windowreference">
+        <class>npc</class>
+        <recordname>reference.npcdata.Mummy-Mythic</recordname>
+      </listlink>
+    </Mummy-Mythic>
+    <Ogre-Mythic>
+      <name type="string">Ogre</name>
+      <listlink type="windowreference">
+        <class>npc</class>
+        <recordname>reference.npcdata.Ogre-Mythic</recordname>
+      </listlink>
+    </Ogre-Mythic>
+    <Owlbear-Mythic>
+      <name type="string">Owlbear</name>
+      <listlink type="windowreference">
+        <class>npc</class>
+        <recordname>reference.npcdata.Owlbear-Mythic</recordname>
+      </listlink>
+    </Owlbear-Mythic>
+    <OwlbearTheFirst-Mythic>
+      <name type="string">Owlbear, The First</name>
+      <listlink type="windowreference">
+        <class>npc</class>
+        <recordname>reference.npcdata.OwlbearTheFirst-Mythic</recordname>
+      </listlink>
+    </OwlbearTheFirst-Mythic>
+    <Phoenix-Mythic>
+      <name type="string">Phoenix</name>
+      <listlink type="windowreference">
+        <class>npc</class>
+        <recordname>reference.npcdata.Phoenix-Mythic</recordname>
+      </listlink>
+    </Phoenix-Mythic>
+    <Rakshasa-Mythic>
+      <name type="string">Rakshasa</name>
+      <listlink type="windowreference">
+        <class>npc</class>
+        <recordname>reference.npcdata.Rakshasa-Mythic</recordname>
+      </listlink>
+    </Rakshasa-Mythic>
+    <SkeletonHuman-Mythic>
+      <name type="string">Skeleton, Human</name>
+      <listlink type="windowreference">
+        <class>npc</class>
+        <recordname>reference.npcdata.SkeletonHuman-Mythic</recordname>
+      </listlink>
+    </SkeletonHuman-Mythic>
+    <Sphinx-Mythic>
+      <name type="string">Sphinx</name>
+      <listlink type="windowreference">
+        <class>npc</class>
+        <recordname>reference.npcdata.Sphinx-Mythic</recordname>
+      </listlink>
+    </Sphinx-Mythic>
+    <Treant-Mythic>
+      <name type="string">Treant</name>
+      <listlink type="windowreference">
+        <class>npc</class>
+        <recordname>reference.npcdata.Treant-Mythic</recordname>
+      </listlink>
+    </Treant-Mythic>
+    <Troll-Mythic>
+      <name type="string">Troll</name>
+      <listlink type="windowreference">
+        <class>npc</class>
+        <recordname>reference.npcdata.Troll-Mythic</recordname>
+      </listlink>
+    </Troll-Mythic>
+    <Vampire-Mythic>
+      <name type="string">Vampire</name>
+      <listlink type="windowreference">
+        <class>npc</class>
+        <recordname>reference.npcdata.Vampire-Mythic</recordname>
+      </listlink>
+    </Vampire-Mythic>
+    <Worg-Mythic>
+      <name type="string">Worg</name>
+      <listlink type="windowreference">
+        <class>npc</class>
+        <recordname>reference.npcdata.Worg-Mythic</recordname>
+      </listlink>
+    </Worg-Mythic>
+    <WorgWinterWolf-Mythic>
+      <name type="string">Worg, Winterwolf</name>
+      <listlink type="windowreference">
+        <class>npc</class>
+        <recordname>reference.npcdata.WorgWinterWolf-Mythic</recordname>
+      </listlink>
+    </WorgWinterWolf-Mythic>
+    <Wyvern-Mythic>
+      <name type="string">Wyvern</name>
+      <listlink type="windowreference">
+        <class>npc</class>
+        <recordname>reference.npcdata.Wyvern-Mythic</recordname>
+      </listlink>
+    </Wyvern-Mythic>
+  </index>
+</MythicMonsterIndex>

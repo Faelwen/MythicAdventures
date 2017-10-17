@@ -45,7 +45,7 @@ file4_8 = "modulehtml/4-8 mythic flaws.html"
 file4_9 = "modulehtml/4-9 ideas.html"
 file6_0 = "modulehtml/6-0 index.xml"
 file6_1 = "modulehtml/6-1 mythic monsters.html"
-file6_2 = "modulehtml/6-2 monster index.html"
+file6_2 = "modulehtml/6-2 monster index.xml"
 file6_3 = "modulehtml/6-3 monster origins.html"
 file6_4 = "modulehtml/6-4 monster ranks.html"
 file6_5 = "modulehtml/6-5 reading.html"
@@ -332,6 +332,10 @@ def populate_monsters(monster_node, library_node):
     with open(file6_0, 'r') as inputfile:
         library_node_list.text = inputfile.read()
     populate_library_page(file6_1, library_node_list, "Introduction", "Introduction")
+
+    with open(file6_2, 'r') as inputfile:
+        library_node_list.text += inputfile.read()
+
     populate_library_page(file6_2, library_node_list, "MythicMonsterIndex", "Mythic Monster Index")
     populate_library_page(file6_3, library_node_list, "MythicMonsterOrigins", "Mythic Monster Origins")
     populate_library_page(file6_4, library_node_list, "MythicRank", "Mythic Rank")
@@ -351,7 +355,6 @@ def generate_xml_structure(xml_root):
     xml_ref_armor = etree.SubElement(xml_reference,"armor")
     xml_ref_equipment = etree.SubElement(xml_reference,"equipment")
     xml_ref_feats = etree.SubElement(xml_reference,"feats")
-    xml_ref_npcdata = etree.SubElement(xml_reference,"npcdata")
     xml_ref_skills = etree.SubElement(xml_reference,"skills")
     xml_ref_spells = etree.SubElement(xml_reference,"spells")
     xml_ref_weapon = etree.SubElement(xml_reference,"weapon")
