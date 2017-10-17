@@ -43,6 +43,13 @@ file4_6 = "modulehtml/4-6 mythic boons.html"
 file4_7 = "modulehtml/4-7 recurring mythic villains.html"
 file4_8 = "modulehtml/4-8 mythic flaws.html"
 file4_9 = "modulehtml/4-9 ideas.html"
+file6_0 = "modulehtml/6-0 index.xml"
+file6_1 = "modulehtml/6-1 mythic monsters.html"
+file6_2 = "modulehtml/6-2 monster index.html"
+file6_3 = "modulehtml/6-3 monster origins.html"
+file6_4 = "modulehtml/6-4 monster ranks.html"
+file6_5 = "modulehtml/6-5 reading.html"
+file6_6 = "modulehtml/6-6 monster advancement.html"
 
 ability_mythic_heroes = "cleandata/mythic_heroes.csv"
 ability_mythic_archmage = "cleandata/archmage.csv"
@@ -95,6 +102,11 @@ library_entries =   [{"Entry name":"---Legal Notice---",
                     "Link type":"librarylink",
                     "Window class":"referenceindex",
                     "Record name": "lists.RunningAMythicGame.intro@" + module_name},
+                    {"Entry name":"Mythic Monsters",
+                    "Entry tag":"GA.MythicMonsters",
+                    "Link type":"librarylink",
+                    "Window class":"referenceindex",
+                    "Record name": "lists.MythicMonsters.intro@" + module_name},
                     ]
 
 
@@ -311,10 +323,20 @@ def populate_items():
     pass
 
 
-def populate_monsters(xml_reference):
-    xml_npc = etree.SubElement(xml_reference, "npcdata", static="true")
+def populate_monsters(monster_node, library_node):
+    xml_npc = etree.SubElement(monster_node, "npcdata", static="true")
     with open(monster_data, 'r') as inputfile:
         xml_npc.text = inputfile.read()
+
+    library_node_list = etree.SubElement(library_node, "MythicMonsters")
+    with open(file6_0, 'r') as inputfile:
+        library_node_list.text = inputfile.read()
+    populate_library_page(file6_1, library_node_list, "Introduction", "Introduction")
+    populate_library_page(file6_2, library_node_list, "MythicMonsterIndex", "Mythic Monster Index")
+    populate_library_page(file6_3, library_node_list, "MythicMonsterOrigins", "Mythic Monster Origins")
+    populate_library_page(file6_4, library_node_list, "MythicRank", "Mythic Rank")
+    populate_library_page(file6_5, library_node_list, "ReadingaMythicMonsterStatBlock", "Reading a Mythic Monster Stat Block")
+    populate_library_page(file6_6, library_node_list, "MythicMonsterAdvancement", "Mythic Monster Advancement")
 
 
 def generate_xml_structure(xml_root):
@@ -343,7 +365,7 @@ def generate_xml_structure(xml_root):
     populate_spells(xml_ref_spells, xml_lists) #Chapter 3
     populate_running(xml_lists) #Chapter 4
     populate_items() #Chapter 5
-    populate_monsters(xml_reference) #Chapter 6
+    populate_monsters(xml_reference, xml_lists) #Chapter 6
 
 
 
