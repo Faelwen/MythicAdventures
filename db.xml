@@ -35,8 +35,8 @@
         </DA.MythicFeats>
         <EA.MythicSpells>
           <librarylink type="windowreference">
-            <class>referencetextwide</class>
-            <recordname>lists.MythicSpells@Mythic Adventures</recordname>
+            <class>referenceindex</class>
+            <recordname>lists.MythicSpells.intro@Mythic Adventures</recordname>
           </librarylink>
           <name type="string">Mythic Spells</name>
         </EA.MythicSpells>
@@ -8400,8 +8400,6 @@
             </listlink>
             <name type="string">Accursed Hex </name>
           </accursed-hex-mythic>
-        </index>
-        <index>
           <acrobatic-mythic>
             <listlink type="windowreference">
               <class>referencefeat</class>
@@ -8409,8 +8407,6 @@
             </listlink>
             <name type="string">Acrobatic </name>
           </acrobatic-mythic>
-        </index>
-        <index>
           <alertness-mythic>
             <listlink type="windowreference">
               <class>referencefeat</class>
@@ -8418,8 +8414,6 @@
             </listlink>
             <name type="string">Alertness </name>
           </alertness-mythic>
-        </index>
-        <index>
           <alignment-channel-mythic>
             <listlink type="windowreference">
               <class>referencefeat</class>
@@ -8427,8 +8421,6 @@
             </listlink>
             <name type="string">Alignment Channel </name>
           </alignment-channel-mythic>
-        </index>
-        <index>
           <animal-affinity-mythic>
             <listlink type="windowreference">
               <class>referencefeat</class>
@@ -8436,8 +8428,6 @@
             </listlink>
             <name type="string">Animal Affinity </name>
           </animal-affinity-mythic>
-        </index>
-        <index>
           <arcane-armor-training-mythic>
             <listlink type="windowreference">
               <class>referencefeat</class>
@@ -8445,8 +8435,6 @@
             </listlink>
             <name type="string">Arcane Armor Training </name>
           </arcane-armor-training-mythic>
-        </index>
-        <index>
           <arcane-blast-mythic>
             <listlink type="windowreference">
               <class>referencefeat</class>
@@ -8454,8 +8442,6 @@
             </listlink>
             <name type="string">Arcane Blast </name>
           </arcane-blast-mythic>
-        </index>
-        <index>
           <arcane-shield-mythic>
             <listlink type="windowreference">
               <class>referencefeat</class>
@@ -8463,8 +8449,6 @@
             </listlink>
             <name type="string">Arcane Shield </name>
           </arcane-shield-mythic>
-        </index>
-        <index>
           <arcane-strike-mythic>
             <listlink type="windowreference">
               <class>referencefeat</class>
@@ -8472,8 +8456,6 @@
             </listlink>
             <name type="string">Arcane Strike </name>
           </arcane-strike-mythic>
-        </index>
-        <index>
           <ascendant-spell-metamagic>
             <listlink type="windowreference">
               <class>referencefeat</class>
@@ -8481,8 +8463,6 @@
             </listlink>
             <name type="string">Ascendant Spell </name>
           </ascendant-spell-metamagic>
-        </index>
-        <index>
           <aspect-of-the-beast-mythic>
             <listlink type="windowreference">
               <class>referencefeat</class>
@@ -8490,8 +8470,6 @@
             </listlink>
             <name type="string">Aspect of the Beast </name>
           </aspect-of-the-beast-mythic>
-        </index>
-        <index>
           <athletic-mythic>
             <listlink type="windowreference">
               <class>referencefeat</class>
@@ -8499,8 +8477,6 @@
             </listlink>
             <name type="string">Athletic </name>
           </athletic-mythic>
-        </index>
-        <index>
           <augment-summoning-mythic>
             <listlink type="windowreference">
               <class>referencefeat</class>
@@ -8508,8 +8484,6 @@
             </listlink>
             <name type="string">Augment Summoning </name>
           </augment-summoning-mythic>
-        </index>
-        <index>
           <bleeding-critical-mythic>
             <listlink type="windowreference">
               <class>referencefeat</class>
@@ -8517,8 +8491,6 @@
             </listlink>
             <name type="string">Bleeding Critical </name>
           </bleeding-critical-mythic>
-        </index>
-        <index>
           <blind-fight-mythic>
             <listlink type="windowreference">
               <class>referencefeat</class>
@@ -8526,8 +8498,6 @@
             </listlink>
             <name type="string">Blind-Fight </name>
           </blind-fight-mythic>
-        </index>
-        <index>
           <catch-off-guard-mythic>
             <listlink type="windowreference">
               <class>referencefeat</class>
@@ -8535,8 +8505,6 @@
             </listlink>
             <name type="string">Catch Off-Guard </name>
           </catch-off-guard-mythic>
-        </index>
-        <index>
           <channel-smite-mythic>
             <listlink type="windowreference">
               <class>referencefeat</class>
@@ -8544,8 +8512,6 @@
             </listlink>
             <name type="string">Channel Smite </name>
           </channel-smite-mythic>
-        </index>
-        <index>
           <charge-through-mythic>
             <listlink type="windowreference">
               <class>referencefeat</class>
@@ -8553,8 +8519,6 @@
             </listlink>
             <name type="string">Charge Through </name>
           </charge-through-mythic>
-        </index>
-        <index>
           <cleave-mythic>
             <listlink type="windowreference">
               <class>referencefeat</class>
@@ -8562,8 +8526,6 @@
             </listlink>
             <name type="string">Cleave </name>
           </cleave-mythic>
-        </index>
-        <index>
           <combat-expertise-mythic>
             <listlink type="windowreference">
               <class>referencefeat</class>
@@ -8571,8 +8533,6 @@
             </listlink>
             <name type="string">Combat Expertise </name>
           </combat-expertise-mythic>
-        </index>
-        <index>
           <combat-reflexes-mythic>
             <listlink type="windowreference">
               <class>referencefeat</class>
@@ -8580,8 +8540,6 @@
             </listlink>
             <name type="string">Combat Reflexes </name>
           </combat-reflexes-mythic>
-        </index>
-        <index>
           <command-undead-mythic>
             <listlink type="windowreference">
               <class>referencefeat</class>
@@ -8589,8 +8547,6 @@
             </listlink>
             <name type="string">Command Undead </name>
           </command-undead-mythic>
-        </index>
-        <index>
           <critical-focus-mythic>
             <listlink type="windowreference">
               <class>referencefeat</class>
@@ -8598,8 +8554,6 @@
             </listlink>
             <name type="string">Critical Focus </name>
           </critical-focus-mythic>
-        </index>
-        <index>
           <critical-mastery-mythic>
             <listlink type="windowreference">
               <class>referencefeat</class>
@@ -8607,8 +8561,6 @@
             </listlink>
             <name type="string">Critical Mastery </name>
           </critical-mastery-mythic>
-        </index>
-        <index>
           <dastardly-finish-mythic>
             <listlink type="windowreference">
               <class>referencefeat</class>
@@ -8616,8 +8568,6 @@
             </listlink>
             <name type="string">Dastardly Finish </name>
           </dastardly-finish-mythic>
-        </index>
-        <index>
           <dazzling-display-mythic>
             <listlink type="windowreference">
               <class>referencefeat</class>
@@ -8625,8 +8575,6 @@
             </listlink>
             <name type="string">Dazzling Display </name>
           </dazzling-display-mythic>
-        </index>
-        <index>
           <deadly-aim-mythic>
             <listlink type="windowreference">
               <class>referencefeat</class>
@@ -8634,8 +8582,6 @@
             </listlink>
             <name type="string">Deadly Aim </name>
           </deadly-aim-mythic>
-        </index>
-        <index>
           <deadly-stroke-mythic>
             <listlink type="windowreference">
               <class>referencefeat</class>
@@ -8643,8 +8589,6 @@
             </listlink>
             <name type="string">Deadly Stroke </name>
           </deadly-stroke-mythic>
-        </index>
-        <index>
           <death-from-above-mythic>
             <listlink type="windowreference">
               <class>referencefeat</class>
@@ -8652,8 +8596,6 @@
             </listlink>
             <name type="string">Death from Above </name>
           </death-from-above-mythic>
-        </index>
-        <index>
           <deceitful-mythic>
             <listlink type="windowreference">
               <class>referencefeat</class>
@@ -8661,8 +8603,6 @@
             </listlink>
             <name type="string">Deceitful </name>
           </deceitful-mythic>
-        </index>
-        <index>
           <deepsight-mythic>
             <listlink type="windowreference">
               <class>referencefeat</class>
@@ -8670,8 +8610,6 @@
             </listlink>
             <name type="string">Deepsight </name>
           </deepsight-mythic>
-        </index>
-        <index>
           <defensive-combat-training-mythic>
             <listlink type="windowreference">
               <class>referencefeat</class>
@@ -8679,8 +8617,6 @@
             </listlink>
             <name type="string">Defensive Combat Training </name>
           </defensive-combat-training-mythic>
-        </index>
-        <index>
           <deflect-arrows-mythic>
             <listlink type="windowreference">
               <class>referencefeat</class>
@@ -8688,8 +8624,6 @@
             </listlink>
             <name type="string">Deflect Arrows </name>
           </deflect-arrows-mythic>
-        </index>
-        <index>
           <deft-hands-mythic>
             <listlink type="windowreference">
               <class>referencefeat</class>
@@ -8697,8 +8631,6 @@
             </listlink>
             <name type="string">Deft Hands </name>
           </deft-hands-mythic>
-        </index>
-        <index>
           <detect-expertise-mythic>
             <listlink type="windowreference">
               <class>referencefeat</class>
@@ -8706,8 +8638,6 @@
             </listlink>
             <name type="string">Detect Expertise </name>
           </detect-expertise-mythic>
-        </index>
-        <index>
           <disruptive-mythic>
             <listlink type="windowreference">
               <class>referencefeat</class>
@@ -8715,8 +8645,6 @@
             </listlink>
             <name type="string">Disruptive </name>
           </disruptive-mythic>
-        </index>
-        <index>
           <distance-thrower-mythic>
             <listlink type="windowreference">
               <class>referencefeat</class>
@@ -8724,8 +8652,6 @@
             </listlink>
             <name type="string">Distance Thrower </name>
           </distance-thrower-mythic>
-        </index>
-        <index>
           <divine-interference-mythic>
             <listlink type="windowreference">
               <class>referencefeat</class>
@@ -8733,8 +8659,6 @@
             </listlink>
             <name type="string">Divine Interference </name>
           </divine-interference-mythic>
-        </index>
-        <index>
           <dodge-mythic>
             <listlink type="windowreference">
               <class>referencefeat</class>
@@ -8742,8 +8666,6 @@
             </listlink>
             <name type="string">Dodge </name>
           </dodge-mythic>
-        </index>
-        <index>
           <dreadful-carnage-mythic>
             <listlink type="windowreference">
               <class>referencefeat</class>
@@ -8751,8 +8673,6 @@
             </listlink>
             <name type="string">Dreadful Carnage </name>
           </dreadful-carnage-mythic>
-        </index>
-        <index>
           <drink-is-life-mythic>
             <listlink type="windowreference">
               <class>referencefeat</class>
@@ -8760,8 +8680,6 @@
             </listlink>
             <name type="string">Drink Is Life </name>
           </drink-is-life-mythic>
-        </index>
-        <index>
           <dual-path-mythic>
             <listlink type="windowreference">
               <class>referencefeat</class>
@@ -8769,8 +8687,6 @@
             </listlink>
             <name type="string">Dual Path </name>
           </dual-path-mythic>
-        </index>
-        <index>
           <eagle-eyes-mythic>
             <listlink type="windowreference">
               <class>referencefeat</class>
@@ -8778,8 +8694,6 @@
             </listlink>
             <name type="string">Eagle Eyes </name>
           </eagle-eyes-mythic>
-        </index>
-        <index>
           <eldritch-heritage-mythic>
             <listlink type="windowreference">
               <class>referencefeat</class>
@@ -8787,8 +8701,6 @@
             </listlink>
             <name type="string">Eldritch Heritage </name>
           </eldritch-heritage-mythic>
-        </index>
-        <index>
           <elemental-channel-mythic>
             <listlink type="windowreference">
               <class>referencefeat</class>
@@ -8796,8 +8708,6 @@
             </listlink>
             <name type="string">Elemental Channel </name>
           </elemental-channel-mythic>
-        </index>
-        <index>
           <elemental-fist-mythic>
             <listlink type="windowreference">
               <class>referencefeat</class>
@@ -8805,8 +8715,6 @@
             </listlink>
             <name type="string">Elemental Fist </name>
           </elemental-fist-mythic>
-        </index>
-        <index>
           <elemental-focus-mythic>
             <listlink type="windowreference">
               <class>referencefeat</class>
@@ -8814,8 +8722,6 @@
             </listlink>
             <name type="string">Elemental Focus </name>
           </elemental-focus-mythic>
-        </index>
-        <index>
           <elven-accuracy-mythic>
             <listlink type="windowreference">
               <class>referencefeat</class>
@@ -8823,8 +8729,6 @@
             </listlink>
             <name type="string">Elven Accuracy </name>
           </elven-accuracy-mythic>
-        </index>
-        <index>
           <endurance-mythic>
             <listlink type="windowreference">
               <class>referencefeat</class>
@@ -8832,8 +8736,6 @@
             </listlink>
             <name type="string">Endurance </name>
           </endurance-mythic>
-        </index>
-        <index>
           <eschew-materials-mythic>
             <listlink type="windowreference">
               <class>referencefeat</class>
@@ -8841,8 +8743,6 @@
             </listlink>
             <name type="string">Eschew Materials </name>
           </eschew-materials-mythic>
-        </index>
-        <index>
           <extra-mythic-power-mythic>
             <listlink type="windowreference">
               <class>referencefeat</class>
@@ -8850,8 +8750,6 @@
             </listlink>
             <name type="string">Extra Mythic Power </name>
           </extra-mythic-power-mythic>
-        </index>
-        <index>
           <extra-path-ability-mythic>
             <listlink type="windowreference">
               <class>referencefeat</class>
@@ -8859,8 +8757,6 @@
             </listlink>
             <name type="string">Extra Path Ability </name>
           </extra-path-ability-mythic>
-        </index>
-        <index>
           <fabulous-figments-mythic>
             <listlink type="windowreference">
               <class>referencefeat</class>
@@ -8868,8 +8764,6 @@
             </listlink>
             <name type="string">Fabulous Figments </name>
           </fabulous-figments-mythic>
-        </index>
-        <index>
           <far-shot-mythic>
             <listlink type="windowreference">
               <class>referencefeat</class>
@@ -8877,8 +8771,6 @@
             </listlink>
             <name type="string">Far Shot </name>
           </far-shot-mythic>
-        </index>
-        <index>
           <fast-empathy-mythic>
             <listlink type="windowreference">
               <class>referencefeat</class>
@@ -8886,8 +8778,6 @@
             </listlink>
             <name type="string">Fast Empathy </name>
           </fast-empathy-mythic>
-        </index>
-        <index>
           <fire-music-mythic>
             <listlink type="windowreference">
               <class>referencefeat</class>
@@ -8895,8 +8785,6 @@
             </listlink>
             <name type="string">Fire Music </name>
           </fire-music-mythic>
-        </index>
-        <index>
           <fleet-mythic>
             <listlink type="windowreference">
               <class>referencefeat</class>
@@ -8904,8 +8792,6 @@
             </listlink>
             <name type="string">Fleet </name>
           </fleet-mythic>
-        </index>
-        <index>
           <furious-focus-mythic>
             <listlink type="windowreference">
               <class>referencefeat</class>
@@ -8913,8 +8799,6 @@
             </listlink>
             <name type="string">Furious Focus </name>
           </furious-focus-mythic>
-        </index>
-        <index>
           <gnome-trickster-mythic>
             <listlink type="windowreference">
               <class>referencefeat</class>
@@ -8922,8 +8806,6 @@
             </listlink>
             <name type="string">Gnome Trickster </name>
           </gnome-trickster-mythic>
-        </index>
-        <index>
           <gorgon-s-fist-mythic>
             <listlink type="windowreference">
               <class>referencefeat</class>
@@ -8931,8 +8813,6 @@
             </listlink>
             <name type="string">Gorgon's Fist </name>
           </gorgon-s-fist-mythic>
-        </index>
-        <index>
           <great-fortitude-mythic>
             <listlink type="windowreference">
               <class>referencefeat</class>
@@ -8940,8 +8820,6 @@
             </listlink>
             <name type="string">Great Fortitude </name>
           </great-fortitude-mythic>
-        </index>
-        <index>
           <guided-hand-mythic>
             <listlink type="windowreference">
               <class>referencefeat</class>
@@ -8949,8 +8827,6 @@
             </listlink>
             <name type="string">Guided Hand </name>
           </guided-hand-mythic>
-        </index>
-        <index>
           <heroic-defiance-mythic>
             <listlink type="windowreference">
               <class>referencefeat</class>
@@ -8958,8 +8834,6 @@
             </listlink>
             <name type="string">Heroic Defiance </name>
           </heroic-defiance-mythic>
-        </index>
-        <index>
           <heroic-recovery-mythic>
             <listlink type="windowreference">
               <class>referencefeat</class>
@@ -8967,8 +8841,6 @@
             </listlink>
             <name type="string">Heroic Recovery </name>
           </heroic-recovery-mythic>
-        </index>
-        <index>
           <improved-bull-rush-mythic>
             <listlink type="windowreference">
               <class>referencefeat</class>
@@ -8976,8 +8848,6 @@
             </listlink>
             <name type="string">Improved Bull Rush </name>
           </improved-bull-rush-mythic>
-        </index>
-        <index>
           <improved-channel-mythic>
             <listlink type="windowreference">
               <class>referencefeat</class>
@@ -8985,8 +8855,6 @@
             </listlink>
             <name type="string">Improved Channel </name>
           </improved-channel-mythic>
-        </index>
-        <index>
           <improved-counterspell-mythic>
             <listlink type="windowreference">
               <class>referencefeat</class>
@@ -8994,8 +8862,6 @@
             </listlink>
             <name type="string">Improved Counterspell </name>
           </improved-counterspell-mythic>
-        </index>
-        <index>
           <improved-critical-mythic>
             <listlink type="windowreference">
               <class>referencefeat</class>
@@ -9003,8 +8869,6 @@
             </listlink>
             <name type="string">Improved Critical </name>
           </improved-critical-mythic>
-        </index>
-        <index>
           <improved-dirty-trick-mythic>
             <listlink type="windowreference">
               <class>referencefeat</class>
@@ -9012,8 +8876,6 @@
             </listlink>
             <name type="string">Improved Dirty Trick </name>
           </improved-dirty-trick-mythic>
-        </index>
-        <index>
           <improved-disarm-mythic>
             <listlink type="windowreference">
               <class>referencefeat</class>
@@ -9021,8 +8883,6 @@
             </listlink>
             <name type="string">Improved Disarm </name>
           </improved-disarm-mythic>
-        </index>
-        <index>
           <improved-drag-mythic>
             <listlink type="windowreference">
               <class>referencefeat</class>
@@ -9030,8 +8890,6 @@
             </listlink>
             <name type="string">Improved Drag </name>
           </improved-drag-mythic>
-        </index>
-        <index>
           <improved-familiar-mythic>
             <listlink type="windowreference">
               <class>referencefeat</class>
@@ -9039,8 +8897,6 @@
             </listlink>
             <name type="string">Improved Familiar </name>
           </improved-familiar-mythic>
-        </index>
-        <index>
           <improved-grapple-mythic>
             <listlink type="windowreference">
               <class>referencefeat</class>
@@ -9048,8 +8904,6 @@
             </listlink>
             <name type="string">Improved Grapple </name>
           </improved-grapple-mythic>
-        </index>
-        <index>
           <improved-initiative-mythic>
             <listlink type="windowreference">
               <class>referencefeat</class>
@@ -9057,8 +8911,6 @@
             </listlink>
             <name type="string">Improved Initiative </name>
           </improved-initiative-mythic>
-        </index>
-        <index>
           <improved-overrun-mythic>
             <listlink type="windowreference">
               <class>referencefeat</class>
@@ -9066,8 +8918,6 @@
             </listlink>
             <name type="string">Improved Overrun </name>
           </improved-overrun-mythic>
-        </index>
-        <index>
           <improved-reposition-mythic>
             <listlink type="windowreference">
               <class>referencefeat</class>
@@ -9075,8 +8925,6 @@
             </listlink>
             <name type="string">Improved Reposition </name>
           </improved-reposition-mythic>
-        </index>
-        <index>
           <improved-steal-mythic>
             <listlink type="windowreference">
               <class>referencefeat</class>
@@ -9084,8 +8932,6 @@
             </listlink>
             <name type="string">Improved Steal </name>
           </improved-steal-mythic>
-        </index>
-        <index>
           <improved-stonecunning-mythic>
             <listlink type="windowreference">
               <class>referencefeat</class>
@@ -9093,8 +8939,6 @@
             </listlink>
             <name type="string">Improved Stonecunning </name>
           </improved-stonecunning-mythic>
-        </index>
-        <index>
           <improved-sunder-mythic>
             <listlink type="windowreference">
               <class>referencefeat</class>
@@ -9102,8 +8946,6 @@
             </listlink>
             <name type="string">Improved Sunder </name>
           </improved-sunder-mythic>
-        </index>
-        <index>
           <improved-trip-mythic>
             <listlink type="windowreference">
               <class>referencefeat</class>
@@ -9111,8 +8953,6 @@
             </listlink>
             <name type="string">Improved Trip </name>
           </improved-trip-mythic>
-        </index>
-        <index>
           <improved-unarmed-strike-mythic>
             <listlink type="windowreference">
               <class>referencefeat</class>
@@ -9120,8 +8960,6 @@
             </listlink>
             <name type="string">Improved Unarmed Strike </name>
           </improved-unarmed-strike-mythic>
-        </index>
-        <index>
           <intimidating-prowess-mythic>
             <listlink type="windowreference">
               <class>referencefeat</class>
@@ -9129,8 +8967,6 @@
             </listlink>
             <name type="string">Intimidating Prowess </name>
           </intimidating-prowess-mythic>
-        </index>
-        <index>
           <iron-will-mythic>
             <listlink type="windowreference">
               <class>referencefeat</class>
@@ -9138,8 +8974,6 @@
             </listlink>
             <name type="string">Iron Will </name>
           </iron-will-mythic>
-        </index>
-        <index>
           <knockout-artist-mythic>
             <listlink type="windowreference">
               <class>referencefeat</class>
@@ -9147,8 +8981,6 @@
             </listlink>
             <name type="string">Knockout Artist </name>
           </knockout-artist-mythic>
-        </index>
-        <index>
           <legendary-teamwork-mythic>
             <listlink type="windowreference">
               <class>referencefeat</class>
@@ -9156,8 +8988,6 @@
             </listlink>
             <name type="string">Legendary Teamwork </name>
           </legendary-teamwork-mythic>
-        </index>
-        <index>
           <lightning-reflexes-mythic>
             <listlink type="windowreference">
               <class>referencefeat</class>
@@ -9165,8 +8995,6 @@
             </listlink>
             <name type="string">Lightning Reflexes </name>
           </lightning-reflexes-mythic>
-        </index>
-        <index>
           <lucky-halfling-mythic>
             <listlink type="windowreference">
               <class>referencefeat</class>
@@ -9174,8 +9002,6 @@
             </listlink>
             <name type="string">Lucky Halfling </name>
           </lucky-halfling-mythic>
-        </index>
-        <index>
           <lucky-surge-mythic>
             <listlink type="windowreference">
               <class>referencefeat</class>
@@ -9183,8 +9009,6 @@
             </listlink>
             <name type="string">Lucky Surge </name>
           </lucky-surge-mythic>
-        </index>
-        <index>
           <lunge-mythic>
             <listlink type="windowreference">
               <class>referencefeat</class>
@@ -9192,8 +9016,6 @@
             </listlink>
             <name type="string">Lunge </name>
           </lunge-mythic>
-        </index>
-        <index>
           <magical-aptitude-mythic>
             <listlink type="windowreference">
               <class>referencefeat</class>
@@ -9201,8 +9023,6 @@
             </listlink>
             <name type="string">Magical Aptitude </name>
           </magical-aptitude-mythic>
-        </index>
-        <index>
           <manyshot-mythic>
             <listlink type="windowreference">
               <class>referencefeat</class>
@@ -9210,8 +9030,6 @@
             </listlink>
             <name type="string">Manyshot </name>
           </manyshot-mythic>
-        </index>
-        <index>
           <marked-for-glory>
             <listlink type="windowreference">
               <class>referencefeat</class>
@@ -9219,8 +9037,6 @@
             </listlink>
             <name type="string">Mythic</name>
           </marked-for-glory>
-        </index>
-        <index>
           <maximize-surge-mythic>
             <listlink type="windowreference">
               <class>referencefeat</class>
@@ -9228,8 +9044,6 @@
             </listlink>
             <name type="string">Maximize Surge </name>
           </maximize-surge-mythic>
-        </index>
-        <index>
           <medusa-s-wrath-mythic>
             <listlink type="windowreference">
               <class>referencefeat</class>
@@ -9237,8 +9051,6 @@
             </listlink>
             <name type="string">Medusa's Wrath </name>
           </medusa-s-wrath-mythic>
-        </index>
-        <index>
           <missile-shield-mythic>
             <listlink type="windowreference">
               <class>referencefeat</class>
@@ -9246,8 +9058,6 @@
             </listlink>
             <name type="string">Missile Shield </name>
           </missile-shield-mythic>
-        </index>
-        <index>
           <mobility-mythic>
             <listlink type="windowreference">
               <class>referencefeat</class>
@@ -9255,8 +9065,6 @@
             </listlink>
             <name type="string">Mobility </name>
           </mobility-mythic>
-        </index>
-        <index>
           <monastic-legacy-mythic>
             <listlink type="windowreference">
               <class>referencefeat</class>
@@ -9264,8 +9072,6 @@
             </listlink>
             <name type="string">Monastic Legacy </name>
           </monastic-legacy-mythic>
-        </index>
-        <index>
           <mounted-archery-mythic>
             <listlink type="windowreference">
               <class>referencefeat</class>
@@ -9273,8 +9079,6 @@
             </listlink>
             <name type="string">Mounted Archery </name>
           </mounted-archery-mythic>
-        </index>
-        <index>
           <mounted-combat-mythic>
             <listlink type="windowreference">
               <class>referencefeat</class>
@@ -9282,8 +9086,6 @@
             </listlink>
             <name type="string">Mounted Combat </name>
           </mounted-combat-mythic>
-        </index>
-        <index>
           <mythic-companion>
             <listlink type="windowreference">
               <class>referencefeat</class>
@@ -9291,8 +9093,6 @@
             </listlink>
             <name type="string">Mythic</name>
           </mythic-companion>
-        </index>
-        <index>
           <mythic-crafter-mythic>
             <listlink type="windowreference">
               <class>referencefeat</class>
@@ -9300,8 +9100,6 @@
             </listlink>
             <name type="string">Mythic Crafter </name>
           </mythic-crafter-mythic>
-        </index>
-        <index>
           <mythic-paragon-mythic>
             <listlink type="windowreference">
               <class>referencefeat</class>
@@ -9309,8 +9107,6 @@
             </listlink>
             <name type="string">Mythic Paragon </name>
           </mythic-paragon-mythic>
-        </index>
-        <index>
           <mythic-spell-lore-mythic>
             <listlink type="windowreference">
               <class>referencefeat</class>
@@ -9318,8 +9114,6 @@
             </listlink>
             <name type="string">Mythic Spell Lore </name>
           </mythic-spell-lore-mythic>
-        </index>
-        <index>
           <natural-spell-mythic>
             <listlink type="windowreference">
               <class>referencefeat</class>
@@ -9327,8 +9121,6 @@
             </listlink>
             <name type="string">Natural Spell </name>
           </natural-spell-mythic>
-        </index>
-        <index>
           <nimble-moves-mythic>
             <listlink type="windowreference">
               <class>referencefeat</class>
@@ -9336,8 +9128,6 @@
             </listlink>
             <name type="string">Nimble Moves </name>
           </nimble-moves-mythic>
-        </index>
-        <index>
           <penetrating-strike-mythic>
             <listlink type="windowreference">
               <class>referencefeat</class>
@@ -9345,8 +9135,6 @@
             </listlink>
             <name type="string">Penetrating Strike </name>
           </penetrating-strike-mythic>
-        </index>
-        <index>
           <persuasive-mythic>
             <listlink type="windowreference">
               <class>referencefeat</class>
@@ -9354,8 +9142,6 @@
             </listlink>
             <name type="string">Persuasive </name>
           </persuasive-mythic>
-        </index>
-        <index>
           <pinpoint-targeting-mythic>
             <listlink type="windowreference">
               <class>referencefeat</class>
@@ -9363,8 +9149,6 @@
             </listlink>
             <name type="string">Pinpoint Targeting </name>
           </pinpoint-targeting-mythic>
-        </index>
-        <index>
           <point-blank-shot-mythic>
             <listlink type="windowreference">
               <class>referencefeat</class>
@@ -9372,8 +9156,6 @@
             </listlink>
             <name type="string">Point-Blank Shot </name>
           </point-blank-shot-mythic>
-        </index>
-        <index>
           <potent-surge-mythic>
             <listlink type="windowreference">
               <class>referencefeat</class>
@@ -9381,8 +9163,6 @@
             </listlink>
             <name type="string">Potent Surge </name>
           </potent-surge-mythic>
-        </index>
-        <index>
           <power-attack-mythic>
             <listlink type="windowreference">
               <class>referencefeat</class>
@@ -9390,8 +9170,6 @@
             </listlink>
             <name type="string">Power Attack </name>
           </power-attack-mythic>
-        </index>
-        <index>
           <powerful-shape-mythic>
             <listlink type="windowreference">
               <class>referencefeat</class>
@@ -9399,8 +9177,6 @@
             </listlink>
             <name type="string">Powerful Shape </name>
           </powerful-shape-mythic>
-        </index>
-        <index>
           <prophetic-visionary-mythic>
             <listlink type="windowreference">
               <class>referencefeat</class>
@@ -9408,8 +9184,6 @@
             </listlink>
             <name type="string">Prophetic Visionary </name>
           </prophetic-visionary-mythic>
-        </index>
-        <index>
           <quick-draw-mythic>
             <listlink type="windowreference">
               <class>referencefeat</class>
@@ -9417,8 +9191,6 @@
             </listlink>
             <name type="string">Quick Draw </name>
           </quick-draw-mythic>
-        </index>
-        <index>
           <racial-heritage-mythic>
             <listlink type="windowreference">
               <class>referencefeat</class>
@@ -9426,8 +9198,6 @@
             </listlink>
             <name type="string">Racial Heritage </name>
           </racial-heritage-mythic>
-        </index>
-        <index>
           <rapid-reload-mythic>
             <listlink type="windowreference">
               <class>referencefeat</class>
@@ -9435,8 +9205,6 @@
             </listlink>
             <name type="string">Rapid Reload </name>
           </rapid-reload-mythic>
-        </index>
-        <index>
           <rapid-shot-mythic>
             <listlink type="windowreference">
               <class>referencefeat</class>
@@ -9444,8 +9212,6 @@
             </listlink>
             <name type="string">Rapid Shot </name>
           </rapid-shot-mythic>
-        </index>
-        <index>
           <rhetorical-flourish-mythic>
             <listlink type="windowreference">
               <class>referencefeat</class>
@@ -9453,8 +9219,6 @@
             </listlink>
             <name type="string">Rhetorical Flourish </name>
           </rhetorical-flourish-mythic>
-        </index>
-        <index>
           <ride-by-attack-mythic>
             <listlink type="windowreference">
               <class>referencefeat</class>
@@ -9462,8 +9226,6 @@
             </listlink>
             <name type="string">Ride-By Attack </name>
           </ride-by-attack-mythic>
-        </index>
-        <index>
           <run-mythic>
             <listlink type="windowreference">
               <class>referencefeat</class>
@@ -9471,8 +9233,6 @@
             </listlink>
             <name type="string">Run </name>
           </run-mythic>
-        </index>
-        <index>
           <saving-shield-mythic>
             <listlink type="windowreference">
               <class>referencefeat</class>
@@ -9480,8 +9240,6 @@
             </listlink>
             <name type="string">Saving Shield </name>
           </saving-shield-mythic>
-        </index>
-        <index>
           <scorpion-style-mythic>
             <listlink type="windowreference">
               <class>referencefeat</class>
@@ -9489,8 +9247,6 @@
             </listlink>
             <name type="string">Scorpion Style </name>
           </scorpion-style-mythic>
-        </index>
-        <index>
           <selective-channeling-mythic>
             <listlink type="windowreference">
               <class>referencefeat</class>
@@ -9498,8 +9254,6 @@
             </listlink>
             <name type="string">Selective Channeling </name>
           </selective-channeling-mythic>
-        </index>
-        <index>
           <self-sufficient-mythic>
             <listlink type="windowreference">
               <class>referencefeat</class>
@@ -9507,8 +9261,6 @@
             </listlink>
             <name type="string">Self-sufficient </name>
           </self-sufficient-mythic>
-        </index>
-        <index>
           <shatter-defenses-mythic>
             <listlink type="windowreference">
               <class>referencefeat</class>
@@ -9516,8 +9268,6 @@
             </listlink>
             <name type="string">Shatter Defenses </name>
           </shatter-defenses-mythic>
-        </index>
-        <index>
           <shield-focus-mythic>
             <listlink type="windowreference">
               <class>referencefeat</class>
@@ -9525,8 +9275,6 @@
             </listlink>
             <name type="string">Shield Focus </name>
           </shield-focus-mythic>
-        </index>
-        <index>
           <shield-slam-mythic>
             <listlink type="windowreference">
               <class>referencefeat</class>
@@ -9534,8 +9282,6 @@
             </listlink>
             <name type="string">Shield Slam </name>
           </shield-slam-mythic>
-        </index>
-        <index>
           <shot-on-the-run-mythic>
             <listlink type="windowreference">
               <class>referencefeat</class>
@@ -9543,8 +9289,6 @@
             </listlink>
             <name type="string">Shot on the Run </name>
           </shot-on-the-run-mythic>
-        </index>
-        <index>
           <skill-focus-mythic>
             <listlink type="windowreference">
               <class>referencefeat</class>
@@ -9552,8 +9296,6 @@
             </listlink>
             <name type="string">Skill Focus </name>
           </skill-focus-mythic>
-        </index>
-        <index>
           <snatch-arrows-mythic>
             <listlink type="windowreference">
               <class>referencefeat</class>
@@ -9561,8 +9303,6 @@
             </listlink>
             <name type="string">Snatch Arrows </name>
           </snatch-arrows-mythic>
-        </index>
-        <index>
           <sociable-mythic>
             <listlink type="windowreference">
               <class>referencefeat</class>
@@ -9570,8 +9310,6 @@
             </listlink>
             <name type="string">Sociable </name>
           </sociable-mythic>
-        </index>
-        <index>
           <spell-focus-mythic>
             <listlink type="windowreference">
               <class>referencefeat</class>
@@ -9579,8 +9317,6 @@
             </listlink>
             <name type="string">Spell Focus </name>
           </spell-focus-mythic>
-        </index>
-        <index>
           <spell-mastery-mythic>
             <listlink type="windowreference">
               <class>referencefeat</class>
@@ -9588,8 +9324,6 @@
             </listlink>
             <name type="string">Spell Mastery </name>
           </spell-mastery-mythic>
-        </index>
-        <index>
           <spell-penetration-mythic>
             <listlink type="windowreference">
               <class>referencefeat</class>
@@ -9597,8 +9331,6 @@
             </listlink>
             <name type="string">Spell Penetration </name>
           </spell-penetration-mythic>
-        </index>
-        <index>
           <spellbreaker-mythic>
             <listlink type="windowreference">
               <class>referencefeat</class>
@@ -9606,8 +9338,6 @@
             </listlink>
             <name type="string">Spellbreaker </name>
           </spellbreaker-mythic>
-        </index>
-        <index>
           <spirited-charge-mythic>
             <listlink type="windowreference">
               <class>referencefeat</class>
@@ -9615,8 +9345,6 @@
             </listlink>
             <name type="string">Spirited Charge </name>
           </spirited-charge-mythic>
-        </index>
-        <index>
           <spontaneous-metafocus-mythic>
             <listlink type="windowreference">
               <class>referencefeat</class>
@@ -9624,8 +9352,6 @@
             </listlink>
             <name type="string">Spontaneous Metafocus </name>
           </spontaneous-metafocus-mythic>
-        </index>
-        <index>
           <spring-attack-mythic>
             <listlink type="windowreference">
               <class>referencefeat</class>
@@ -9633,8 +9359,6 @@
             </listlink>
             <name type="string">Spring Attack </name>
           </spring-attack-mythic>
-        </index>
-        <index>
           <stealthy-mythic>
             <listlink type="windowreference">
               <class>referencefeat</class>
@@ -9642,8 +9366,6 @@
             </listlink>
             <name type="string">Stealthy </name>
           </stealthy-mythic>
-        </index>
-        <index>
           <strike-back-mythic>
             <listlink type="windowreference">
               <class>referencefeat</class>
@@ -9651,8 +9373,6 @@
             </listlink>
             <name type="string">Strike Back </name>
           </strike-back-mythic>
-        </index>
-        <index>
           <strong-comeback-mythic>
             <listlink type="windowreference">
               <class>referencefeat</class>
@@ -9660,8 +9380,6 @@
             </listlink>
             <name type="string">Strong Comeback </name>
           </strong-comeback-mythic>
-        </index>
-        <index>
           <stunning-fist-mythic>
             <listlink type="windowreference">
               <class>referencefeat</class>
@@ -9669,8 +9387,6 @@
             </listlink>
             <name type="string">Stunning Fist </name>
           </stunning-fist-mythic>
-        </index>
-        <index>
           <throw-anything-mythic>
             <listlink type="windowreference">
               <class>referencefeat</class>
@@ -9678,8 +9394,6 @@
             </listlink>
             <name type="string">Throw Anything </name>
           </throw-anything-mythic>
-        </index>
-        <index>
           <titan-strike-mythic>
             <listlink type="windowreference">
               <class>referencefeat</class>
@@ -9687,8 +9401,6 @@
             </listlink>
             <name type="string">Titan Strike </name>
           </titan-strike-mythic>
-        </index>
-        <index>
           <toughness-mythic>
             <listlink type="windowreference">
               <class>referencefeat</class>
@@ -9696,8 +9408,6 @@
             </listlink>
             <name type="string">Toughness </name>
           </toughness-mythic>
-        </index>
-        <index>
           <trample-mythic>
             <listlink type="windowreference">
               <class>referencefeat</class>
@@ -9705,8 +9415,6 @@
             </listlink>
             <name type="string">Trample </name>
           </trample-mythic>
-        </index>
-        <index>
           <tripping-staff-mythic>
             <listlink type="windowreference">
               <class>referencefeat</class>
@@ -9714,8 +9422,6 @@
             </listlink>
             <name type="string">Tripping Staff </name>
           </tripping-staff-mythic>
-        </index>
-        <index>
           <turn-undead-mythic>
             <listlink type="windowreference">
               <class>referencefeat</class>
@@ -9723,8 +9429,6 @@
             </listlink>
             <name type="string">Turn Undead </name>
           </turn-undead-mythic>
-        </index>
-        <index>
           <two-fisted-drinker-mythic>
             <listlink type="windowreference">
               <class>referencefeat</class>
@@ -9732,8 +9436,6 @@
             </listlink>
             <name type="string">Two-Fisted Drinker </name>
           </two-fisted-drinker-mythic>
-        </index>
-        <index>
           <two-weapon-defense-mythic>
             <listlink type="windowreference">
               <class>referencefeat</class>
@@ -9741,8 +9443,6 @@
             </listlink>
             <name type="string">Two-Weapon Defense </name>
           </two-weapon-defense-mythic>
-        </index>
-        <index>
           <two-weapon-fighting-mythic>
             <listlink type="windowreference">
               <class>referencefeat</class>
@@ -9750,8 +9450,6 @@
             </listlink>
             <name type="string">Two-Weapon Fighting </name>
           </two-weapon-fighting-mythic>
-        </index>
-        <index>
           <two-weapon-rend-mythic>
             <listlink type="windowreference">
               <class>referencefeat</class>
@@ -9759,8 +9457,6 @@
             </listlink>
             <name type="string">Two-Weapon Rend </name>
           </two-weapon-rend-mythic>
-        </index>
-        <index>
           <undead-master-mythic>
             <listlink type="windowreference">
               <class>referencefeat</class>
@@ -9768,8 +9464,6 @@
             </listlink>
             <name type="string">Undead Master </name>
           </undead-master-mythic>
-        </index>
-        <index>
           <unseat-mythic>
             <listlink type="windowreference">
               <class>referencefeat</class>
@@ -9777,8 +9471,6 @@
             </listlink>
             <name type="string">Unseat </name>
           </unseat-mythic>
-        </index>
-        <index>
           <valiant-vault-mythic>
             <listlink type="windowreference">
               <class>referencefeat</class>
@@ -9786,8 +9478,6 @@
             </listlink>
             <name type="string">Valiant Vault </name>
           </valiant-vault-mythic>
-        </index>
-        <index>
           <vital-strike-mythic>
             <listlink type="windowreference">
               <class>referencefeat</class>
@@ -9795,8 +9485,6 @@
             </listlink>
             <name type="string">Vital Strike </name>
           </vital-strike-mythic>
-        </index>
-        <index>
           <voice-of-the-sibyl-mythic>
             <listlink type="windowreference">
               <class>referencefeat</class>
@@ -9804,8 +9492,6 @@
             </listlink>
             <name type="string">Voice of the Sibyl </name>
           </voice-of-the-sibyl-mythic>
-        </index>
-        <index>
           <warrior-priest-mythic>
             <listlink type="windowreference">
               <class>referencefeat</class>
@@ -9813,8 +9499,6 @@
             </listlink>
             <name type="string">Warrior Priest </name>
           </warrior-priest-mythic>
-        </index>
-        <index>
           <weapon-finesse-mythic>
             <listlink type="windowreference">
               <class>referencefeat</class>
@@ -9822,8 +9506,6 @@
             </listlink>
             <name type="string">Weapon Finesse </name>
           </weapon-finesse-mythic>
-        </index>
-        <index>
           <weapon-focus-mythic>
             <listlink type="windowreference">
               <class>referencefeat</class>
@@ -9831,8 +9513,6 @@
             </listlink>
             <name type="string">Weapon Focus </name>
           </weapon-focus-mythic>
-        </index>
-        <index>
           <weapon-specialization-mythic>
             <listlink type="windowreference">
               <class>referencefeat</class>
@@ -9840,8 +9520,6 @@
             </listlink>
             <name type="string">Weapon Specialization </name>
           </weapon-specialization-mythic>
-        </index>
-        <index>
           <witch-knife-mythic>
             <listlink type="windowreference">
               <class>referencefeat</class>
@@ -9852,6 +9530,151 @@
         </index>
       </ListOfFeats>
     </MythicFeats>
+    <MythicSpells><intro>
+<name type="string">Mythic Spells</name>
+<index>
+	<AA>
+		<name type="string">Mythic Spells Introduction</name>
+		<listlink type="windowreference">
+			<class>referencetextwide</class>
+            <recordname>lists.MythicSpells.MythicSpellsIntroduction</recordname>
+		</listlink>
+	</AA>
+	<BA>
+		<name type="string">Mythic Spells Lists</name>
+		<listlink type="windowreference">
+			<class>referencetextwide</class>
+            <recordname>lists.MythicSpells.MythicSpellsLists</recordname>
+		</listlink>
+	</BA>
+	<CA>
+		<name type="string">Mythic Spells Index</name>
+		<listlink type="windowreference">
+			<class>referencetextwide</class>
+            <recordname>lists.MythicSpells.MythicSpellsIndex</recordname>
+		</listlink>
+	</CA>
+</index>
+</intro><MythicSpellsIntroduction><name type="string">Mythic Spells Introduction</name><text type="formattedtext"><h>Mythic Spells</h>
+<p>Mythic spells draw upon the caster's mythic power to create more powerful magical effects&#151;<i>mythic fireball</i> sets affected creatures on fire, <i>mythic mage armor</i> can negate critical hits, and so on. These spells aren't separate spells you gain as a spell known from your spellcasting class, but rather mythically charged versions of spells you already know.</p>
+<p><b>Learning Mythic Spells</b>: To learn a mythic spell, you must either select the mythic spellcasting universal path ability or the Mythic Spell Lore feat. In doing so, you unlock the secret of using your mythic power to amplify non-mythic spells you choose.</p>
+<p><b>Casting Mythic Spells</b>: If you know the mythic version of a spell, any time you cast the spell, you may expend one use of mythic power to convert the spell into its mythic version as you cast it. This doesn't change the level of the spell slot you use to cast the spell.</p>
+<p>If you're a caster who prepares spells (such as a cleric or wizard), you never have to prepare the mythic version of a spell&#151;if you prepare the non-mythic version, you may cast it as the mythic version by expending one use of mythic power. Unless otherwise specified, casting the mythic version of a spell doesn't take any longer than casting the non-mythic version.</p>
+<p><b>Effects of Mythic Spells</b>: Unless otherwise specified, a mythic spell works just like the non-mythic version of the spell. For example, zombies created by both <i>animate dead</i> and <i>mythic animate dead</i> count toward the spell's HD limit of how many undead you can control at one time, and a chaotic creature is immune to <i>mythic chaos hammer</i> in the same way it's immune to <i>chaos hammer</i>.</p>
+<p>Unless a mythic spell's description says it improves, replaces, or upgrades an effect of the non-mythic spell, or says that it creates an effect instead of the non-mythic spell's effect, it retains all the effects of the non-mythic spell in addition to the effects of the mythic version. For example, the <i>mythic blasphemy</i> spell has penalties for creatures that fail their saves; because the description doesn't indicate that these penalties replace those of non-mythic <i>blasphemy</i>, the penalties are in addition to the non-mythic spell's effects.</p>
+<p><b>Augmented Mythic Spells</b>: An augmented version of a mythic spell has the same effect as the mythic spell, plus additional benefits, options, or an increased effect. Some augmented effects require you to have a minimum tier in order to cast it as an augmented mythic spell. If so, the tier requirement for the augmented effects is listed in parentheses in the entry. For example, "Augmented (4th)" means you must have at least 4 mythic tiers to use this option. If you know a mythic spell, you automatically know how to cast the augmented version of that mythic spell upon reaching the required tier.</p>
+<p>Casting the augmented version of a mythic spell requires you to expend more uses of mythic power when you cast it. The number of additional uses required for the augmented version is listed in the spell's augmented entry and includes the one use of mythic power necessary to cast the mythic version of the spell. When you cast a spell, you must decide whether you want to cast the non-mythic version, the mythic version, or the augmented mythic version, and expend the appropriate number of uses of mythic power. You can't cast the non-mythic version of the spell and later expend one use of mythic power to change it to the mythic version, nor can you cast the base mythic version of a spell and later in the duration expend the difference in mythic power to change it to the augmented version.</p>
+<p><i>Example</i>: You're a 9th-level wizard/6th-tier archmage who knows <i>mythic animate dead</i> and has <i>animate dead</i> prepared. Casting <i>animate dead</i> works as normal and requires no uses of mythic power. Casting <i>mythic animate dead</i> requires you to expend one use of mythic power when you cast your prepared <i>animate dead</i>. Casting the augmented version of <i>mythic animate dead</i> requires you to expend two (not three) uses of mythic power when you cast your prepared <i>animate dead</i> spell.</p>
+<p><b>Mythic Spells in Magic Items</b>: Mythic spells can't be crafted into magic items unless the item is an artifact (for example, you can't brew a <i>potion of mythic cure light wounds</i>).</p>
+<p><b>Mythic Spells in Stat Blocks</b>: In a creature stat block, a superscript "M" indicates the creature knows the mythic version of the spell.</p>
+<p><b>Potent</b>: Any spell you cast as a mythic spell can also be cast in a potent form that is harder to resist. By expending one additional use of mythic power, you increase the spell's save DC by 2 and gain a +2 bonus on your caster level check to overcome spell resistance.</p>
+<p><b>Resilient</b>: Any spell you cast as a mythic spell can also be cast in a resilient form that is harder to dispel or counterspell. Expend one additional use of mythic power; any check attempted in order to dispel the spell then takes a -4 penalty, and the spell can't be countered unless the opposing caster also expends a use of mythic power to overcome your spell's resilience (in which case the normal rules for counterspelling apply).</p>
+<p>You may combine the potent and resilient forms of a spell; to do so, you must expend a total of two additional uses of mythic power. You can cast potent and resilient forms of augmented mythic spells in the same manner.</p>
+<p><b>Tiers in Mythic Spell Descriptions</b>: Unless otherwise stated, any reference to tier in a mythic spell description refers to the tier of the creature casting the spell. Whenever a mythic spell refers to half your tier, the minimum is 1 (meaning you still get a benefit at 1st tier).</p>
+</text></MythicSpellsIntroduction><MythicSpellsLists><name type="string">Mythic Spells Lists</name><text type="formattedtext"><h>Spell Lists</h>
+<p>The following lists summarize all the mythic versions of existing spells presented in this section, as well as new spells that draw upon, grant, or steal mythic power.</p>
+<p><b>Order of Presentation</b>: In the spell lists and the short descriptions that follow them, the spells are presented in alphabetical order by name except for those belonging to certain spell chains. When a spell's name begins with "lesser," "greater," or "mass," the spell is alphabetized under the second word of the spell name instead.</p>
+<p><b>Hit Dice</b>: The term "Hit Dice" is used synonymously with "character levels" for effects that affect a specific number of Hit Dice of creatures.</p>
+<p><b>Caster Level</b>: A spell's power often depends on caster level, which is defined as the caster's class level for the purpose of casting a particular spell.</p>
+<p><b>Creatures and Characters</b>: "Creature" and "character" are used synonymously in the spell descriptions.</p>
+<p><b>New Spells</b>: An asterisk (*) after a spell name indicates a new spell presented in <i>Mythic Adventures</i>.</p>
+<p><b>Augmented Mythic Spells</b>: A superscript "A" appearing at the end of a spell's name in these lists indicates the spell has an augmented effect when the caster expends additional uses of mythic power. See the individual spell descriptions for information on the augmented effect.</p>
+<h>Alchemist Mythic Formulae</h>
+<p><b>1st-Level Alchemist Mythic Formulae</b>&#151;<i>anticipate peril</i>, <i>cure light wounds</i>, <i>endure elements</i>, <i>enlarge person</i>, <i>expeditious retreat</i>, <i>reduce person</i>, <i>true strike</i><sup>A</sup>.</p>
+<p><b>2nd-Level Alchemist Mythic Formulae</b>&#151;<i>ablative barrier</i>, <i>animal aspect</i>, <i>barkskin</i><sup>A</sup>, <i>blistering invective</i><sup>A</sup>, <i>cure moderate wounds</i>, <i>false life</i>, <i>invisibility</i><sup>A</sup>, <i>levitate</i><sup>A</sup>, <i>protection from arrows</i>, <i>resist energy</i>, <i>spider climb</i>, <i>touch injection</i>.</p>
+<p><b>3rd-Level Alchemist Mythic Formulae</b>&#151;<i>battle trance</i><sup>A</sup>, <i>beast shape I</i><sup>A</sup>, <i>burrow</i><sup>A</sup>, <i>cure serious wounds</i>, <i>draconic reservoir</i><sup>A</sup>, <i>fly</i><sup>A</sup>, <i>gaseous form</i><sup>A</sup>, <i>haste</i><sup>A</sup>, <i>heroism</i><sup>A</sup>, <i>monstrous physique I</i><sup>A</sup>, <i>vomit twin</i><sup>A</sup>.</p>
+<p><b>4th-Level Alchemist Mythic Formulae</b>&#151;<i>beast shape II</i><sup>A</sup>, <i>cure critical wounds</i>, <i>deathless</i><sup>A</sup>*, <i>dragon's breath</i>, <i>elemental body I</i><sup>A</sup>, <i>fire shield</i>, <i>monstrous physique II</i><sup>A</sup>, <i>scorching ash form</i><sup>A</sup>, <i>stoneskin</i>.</p>
+<p><b>5th-Level Alchemist Mythic Formulae</b>&#151;<i>beast shape III</i><sup>A</sup>, <i>dream</i>, <i>elemental body II</i><sup>A</sup>, <i>monstrous physique III</i><sup>A</sup>, <i>nightmare</i><sup>A</sup>, <i>sending</i><sup>A</sup>.</p>
+<p><b>6th-Level Alchemist Mythic Formulae</b>&#151;<i>beast shape IV</i><sup>A</sup>, <i>elemental body III</i><sup>A</sup>, <i>form of the dragon I</i><sup>A</sup>, <i>heal</i><sup>A</sup>, <i>mislead</i><sup>A</sup>, <i>monstrous physique IV</i><sup>A</sup>, <i>transformation</i>, <i>walk through space</i>.</p>
+<h>Antipaladin Mythic Spells</h>
+<p><b>1st-Level Antipaladin Mythic Spells</b>&#151;<i>bane</i>, <i>command</i>, <i>death knell</i><sup>A</sup>, <i>inflict light wounds</i>, <i>murderous command</i><sup>A</sup>, <i>protection from good/law</i>.</p>
+<p><b>2nd-Level Antipaladin Mythic Spells</b>&#151;<i>blindness/deafness</i>, <i>darkness</i>, <i>desecrate</i>, <i>invisibility</i><sup>A</sup>, <i>pernicious poison</i><sup>A</sup>, <i>silence</i>.</p>
+<p><b>3rd-Level Antipaladin Mythic Spells</b>&#151;<i>animate dead</i><sup>A</sup>, <i>battle trance</i><sup>A</sup>, <i>contagion</i><sup>A</sup>, <i>defile armor</i><sup>A</sup>, <i>dispel magic</i>, <i>inflict moderate wounds</i>, <i>magic weapon (greater)</i><sup>A</sup>, <i>vampiric touch</i>.</p>
+<p><b>4th-Level Antipaladin Mythic Spells</b>&#151;<i>inflict serious wounds</i>.</p>
+<h>Bard Mythic Spells</h>
+<p><b>1st-Level Bard Mythic Spells</b>&#151;<i>anticipate peril</i>, <i>chord of shards</i>, <i>cure light wounds</i>, <i>ear-piercing scream</i><sup>A</sup>, <i>expeditious retreat</i>, <i>feather fall</i><sup>A</sup>, <i>grease</i><sup>A</sup>, <i>hideous laughter</i><sup>A</sup>, <i>jitterbugs</i>, <i>memory lapse</i><sup>A</sup>, <i>saving finale</i><sup>A</sup>, <i>silent image</i><sup>A</sup>, <i>sleep</i><sup>A</sup>.</p>
+<p><b>2nd-Level Bard Mythic Spells</b>&#151;<i>blindness/deafness</i>, <i>blistering invective</i><sup>A</sup>, <i>boiling blood</i><sup>A</sup>, <i>cure moderate wounds</i>, <i>darkness</i>, <i>dust of twilight</i><sup>A</sup>, <i>heroism</i><sup>A</sup>, <i>invisibility</i><sup>A</sup>, <i>mirror image</i>, <i>shadow anchor</i>, <i>share glory</i>*, <i>shatter</i>, <i>silence</i>, <i>suggestion</i>, <i>summon swarm</i>.</p>
+<p><b>3rd-Level Bard Mythic Spells</b>&#151;<i>blink</i><sup>A</sup>, <i>confusion</i><sup>A</sup>, <i>cure serious wounds</i>, <i>daylight</i>, <i>deep slumber</i><sup>A</sup>, <i>dispel magic</i>, <i>divine favor</i>, <i>gaseous form</i><sup>A</sup>, <i>haste</i><sup>A</sup>, <i>phantom steed</i><sup>A</sup>, <i>restore mythic power</i>*, <i>slow</i>.</p>
+<p><b>4th-Level Bard Mythic Spells</b>&#151;<i>break enchantment</i><sup>A</sup>, <i>cure critical wounds</i>, <i>detect scrying</i><sup>A</sup>, <i>dimension door</i>, <i>discordant blast</i><sup>A</sup>, <i>dominate person</i>, <i>lend path</i>, <i>modify memory</i><sup>A</sup>, <i>shout</i>.</p>
+<p><b>5th-Level Bard Mythic Spells</b>&#151;<i>dream</i>, <i>mislead</i><sup>A</sup>, <i>nightmare</i><sup>A</sup>, <i>resonating word</i>.</p>
+<p><b>6th-Level Bard Mythic Spells</b>&#151;<i>animate objects</i>, <i>irresistible dance</i></p>
+<h>Cleric Mythic Spells</h>
+<p><b>1st-Level Cleric Mythic Spells</b>&#151;<i>bane</i>, <i>bless</i>, <i>command</i>, <i>cure light wounds</i>, <i>divine favor</i>, <i>endure elements</i>, <i>entropic shield</i>, <i>inflict light wounds</i>, <i>know the enemy</i>, <i>fist of the earth</i>, <i>murderous command</i><sup>A</sup>, <i>obscuring mist</i><sup>A</sup>, <i>protection from chaos/evil/good/law</i>, <i>sanctuary</i><sup>A</sup>, <i>shield of faith</i>, <i>sun metal</i>, <i>theft ward</i>.</p>
+<p><b>2nd-Level Cleric Mythic Spells</b>&#151;<i>blinding ray</i>, <i>boiling blood</i><sup>A</sup>, <i>consecrate</i>, <i>cure moderate wounds</i>, <i>darkness</i>, <i>death knell</i><sup>A</sup>, <i>desecrate</i>, <i>disfiguring touch</i><sup>A</sup>, <i>inflict moderate wounds</i>, <i>make whole</i>, <i>resist energy</i>, <i>shatter</i>, <i>shield other</i>, <i>silence</i>, <i>spiritual weapon</i>, <i>surmount affliction</i><sup>A</sup>.</p>
+<p><b>3rd-Level Cleric Mythic Spells</b>&#151;<i>animate dead</i><sup>A</sup>, <i>bleed glory</i>*, <i>blindness/deafness</i>, <i>contagion</i><sup>A</sup>, <i>cure serious wounds</i>, <i>daybreak arrow</i>, <i>daylight</i>, <i>dispel magic</i>, <i>glyph of warding</i>, <i>inflict serious wounds</i>, <i>magic vestment</i><sup>A</sup>, <i>prayer</i>, <i>restore mythic power</i>*, <i>sacred bond</i><sup>A</sup>, <i>sands of time</i><sup>A</sup>, <i>searing light</i>, <i>share glory</i>*, <i>stone shape</i>.</p>
+<p><b>4th-Level Cleric Mythic Spells</b>&#151;<i>battle trance</i><sup>A</sup>, <i>blessing of fervor</i>, <i>blood crow strike</i>, <i>chaos hammer</i>, <i>cure critical wounds</i>, <i>deathless</i><sup>A</sup>*, <i>giant vermin</i><sup>A</sup>, <i>holy smite</i>, <i>inflict critical wounds</i>, <i>magic weapon (greater)</i><sup>A</sup>, <i>mythic severance</i>*, <i>order's wrath</i>, <i>sending</i><sup>A</sup>, <i>unholy blight</i>.</p>
+<p><b>5th-Level Cleric Mythic Spells</b>&#151;<i>break enchantment</i><sup>A</sup>, <i>breath of life</i><sup>A</sup>, <i>flame strike</i>, <i>lend path</i>, <i>pillar of life</i><sup>A</sup>, <i>plane shift</i><sup>A</sup>, <i>steal power</i>*, <i>wall of stone</i><sup>A</sup>.</p>
+<p><b>6th-Level Cleric Mythic Spells</b>&#151;<i>animate objects</i>, <i>blade barrier</i><sup>A</sup>, <i>harm</i><sup>A</sup>, <i>heal</i><sup>A</sup>.</p>
+<p><b>7th-Level Cleric Mythic Spells</b>&#151;<i>blasphemy</i>, <i>control weather</i><sup>A</sup>, <i>dictum</i>, <i>holy word</i>, <i>regenerate</i>, <i>terraform</i>*, <i>word of chaos</i>.</p>
+<p><b>8th-Level Cleric Mythic Spells</b>&#151;<i>antimagic field</i>, <i>dimensional lock</i><sup>A</sup>, <i>earthquake</i><sup>A</sup>, <i>fire storm</i><sup>A</sup>, <i>orb of the void</i><sup>A</sup>.</p>
+<p><b>9th-Level Cleric Mythic Spells</b>&#151;<i>ascension</i>*, <i>storm of vengeance</i><sup>A</sup>.</p>
+<h>Druid Mythic Spells</h>
+<p><b>1st-Level Druid Mythic Spells</b>&#151;<i>call animal</i><sup>A</sup>, <i>cure light wounds</i>, <i>endure elements</i>, <i>entangle</i>, <i>faerie fire</i><sup>A</sup>, <i>goodberry</i><sup>A</sup>, <i>hydraulic push</i><sup>A</sup>, <i>magic fang</i>, <i>fist of the earth</i>, <i>obscuring mist</i><sup>A</sup>.</p>
+<p><b>2nd-Level Druid Mythic Spells</b>&#151;<i>animal aspect</i>, <i>barkskin</i><sup>A</sup>, <i>burning gaze</i><sup>A</sup>, <i>chill metal</i>, <i>feast of ashes</i><sup>A</sup>, <i>flame blade</i><sup>A</sup>, <i>fog cloud</i><sup>A</sup>, <i>gust of wind</i><sup>A</sup>, <i>heat metal</i>, <i>pernicious poison</i><sup>A</sup>, <i>pox pustules</i><sup>A</sup>, <i>resist energy</i>, <i>spider climb</i>, <i>summon swarm</i>, <i>unshakable chill</i><sup>A</sup>.</p>
+<p><b>3rd-Level Druid Mythic Spells</b>&#151;<i>burrow</i><sup>A</sup>, <i>call lightning</i>, <i>companion mind link</i>, <i>contagion</i><sup>A</sup>, <i>cup of dust</i><sup>A</sup>, <i>cure moderate wounds</i>, <i>daylight</i>, <i>hydraulic torrent</i><sup>A</sup>, <i>magic fang (greater)</i><sup>A</sup>, <i>share glory</i>*, <i>stone shape</i>.</p>
+<p><b>4th-Level Druid Mythic Spells</b>&#151;<i>arboreal hammer</i><sup>A</sup>, <i>cape of wasps</i>, <i>cure serious wounds</i>, <i>dispel magic</i>, <i>flame strike</i>, <i>giant vermin</i><sup>A</sup>, <i>ice storm</i><sup>A</sup>, <i>spike stones</i>, <i>true form</i><sup>A</sup>.</p>
+<p><b>5th-Level Druid Mythic Spells</b>&#151;<i>baleful polymorph</i><sup>A</sup>, <i>cure critical wounds</i>, <i>fire snake</i><sup>A</sup>, <i>lend path</i>, <i>stoneskin</i>, <i>wall of fire</i><sup>A</sup>, <i>wall of thorns</i><sup>A</sup>.</p>
+<p><b>6th-Level Druid Mythic Spells</b>&#151;<i>fire seeds</i>, <i>move earth</i>, <i>repel wood</i><sup>A</sup>, <i>terraform</i>*, <i>wall of stone</i><sup>A</sup>.</p>
+<p><b>7th-Level Druid Mythic Spells</b>&#151;<i>animate plants</i>, <i>black mark</i>, <i>changestaff</i><sup>A</sup>, <i>control weather</i><sup>A</sup>, <i>fire storm</i><sup>A</sup>, <i>heal</i><sup>A</sup>, <i>scouring winds</i><sup>A</sup>, <i>sunbeam</i><sup>A</sup>.</p>
+<p><b>8th-Level Druid Mythic Spells</b>&#151;<i>earthquake</i><sup>A</sup>, <i>finger of death</i>, <i>reverse gravity</i><sup>A</sup>, <i>whirlwind</i><sup>A</sup>.</p>
+<p><b>9th-Level Druid Mythic Spells</b>&#151;<i>ascension</i>*, <i>foresight</i>, <i>regenerate</i>, <i>storm of vengeance</i><sup>A</sup>, <i>tsunami</i><sup>A</sup>.</p>
+<h>Inquisitor Mythic Spells</h>
+<p><b>1st-Level Inquisitor Mythic Spells</b>&#151;<i>bane</i>, <i>bless</i>, <i>command</i>, <i>cure light wounds</i>, <i>divine favor</i>, <i>ear-piercing scream</i><sup>A</sup>, <i>expeditious retreat</i>, <i>hex ward</i><sup>A</sup>, <i>inflict light wounds</i>, <i>know the enemy</i>, <i>protection from chaos/evil/good/law</i>, <i>sanctuary</i><sup>A</sup>, <i>shield of faith</i>, <i>theft ward</i>, <i>true strike</i><sup>A</sup>.</p>
+<p><b>2nd-Level Inquisitor Mythic Spells</b>&#151;<i>blistering invective</i><sup>A</sup>, <i>consecrate</i>, <i>cure moderate wounds</i>, <i>darkness</i>, <i>death knell</i><sup>A</sup>, <i>desecrate</i>, <i>flames of the faithful</i><sup>A</sup>, <i>inflict moderate wounds</i>, <i>invisibility</i><sup>A</sup>, <i>knock</i><sup>A</sup>, <i>resist energy</i>, <i>sacred bond</i><sup>A</sup>, <i>shield other</i>, <i>silence</i>, <i>spiritual weapon</i>, <i>surmount affliction</i><sup>A</sup>.</p>
+<p><b>3rd-Level Inquisitor Mythic Spells</b>&#151;<i>battle trance</i><sup>A</sup>, <i>blinding ray</i>, <i>cure serious wounds</i>, <i>daybreak arrow</i>, <i>daylight</i>, <i>dispel magic</i>, <i>glyph of warding</i>, <i>heroism</i><sup>A</sup>, <i>inflict serious wounds</i>, <i>magic vestment</i><sup>A</sup>, <i>magic weapon (greater)</i><sup>A</sup>, <i>mythic severance</i>*, <i>prayer</i>, <i>searing light</i>.</p>
+<p><b>4th-Level Inquisitor Mythic Spells</b>&#151;<i>battlemind link</i>, <i>chaos hammer</i>, <i>cure critical wounds</i>, <i>deathless</i><sup>A</sup>*, <i>defile armor</i><sup>A</sup>, <i>detect scrying</i><sup>A</sup>, <i>holy smite</i>, <i>inflict critical wounds</i>, <i>named bullet</i><sup>A</sup>, <i>order's wrath</i>, <i>sanctify armor</i><sup>A</sup>, <i>sending</i><sup>A</sup>, <i>stoneskin</i>, <i>unholy blight</i>.</p>
+<p><b>5th-Level Inquisitor Mythic Spells</b>&#151;<i>break enchantment</i><sup>A</sup>, <i>divine pursuit</i>, <i>flame strike</i>.</p>
+<p><b>6th-Level Inquisitor Mythic Spells</b>&#151;<i>blade barrier</i><sup>A</sup>, <i>blasphemy</i>, <i>circle of death</i><sup>A</sup>, <i>dictum</i>, <i>harm</i><sup>A</sup>, <i>heal</i><sup>A</sup>, <i>holy word</i>, <i>word of chaos</i></p>
+<h>Magus Mythic Spells</h>
+<p><b>1st-Level Magus Mythic Spells</b>&#151;<i>burning hands</i>, <i>color spray</i>, <i>enlarge person</i>, <i>expeditious retreat</i>, <i>feather fall</i><sup>A</sup>, <i>floating disk</i>, <i>grease</i><sup>A</sup>, <i>hydraulic push</i><sup>A</sup>, <i>magic missile</i><sup>A</sup>, <i>obscuring mist</i><sup>A</sup>, <i>ray of enfeeblement</i>, <i>reduce person</i>, <i>shocking grasp</i><sup>A</sup>, <i>silent image</i><sup>A</sup>, <i>true strike</i><sup>A</sup>.</p>
+<p><b>2nd-Level Magus Mythic Spells</b>&#151;<i>ablative barrier</i>, <i>animal aspect</i>, <i>burning gaze</i><sup>A</sup>, <i>darkness</i>, <i>fog cloud</i><sup>A</sup>, <i>gust of wind</i><sup>A</sup>, <i>invisibility</i><sup>A</sup>, <i>levitate</i><sup>A</sup>, <i>mirror image</i>, <i>scorching ray</i>, <i>shatter</i>, <i>spider climb</i>, <i>web</i><sup>A</sup>.</p>
+<p><b>3rd-Level Magus Mythic Spells</b>&#151;<i>beast shape I</i><sup>A</sup>, <i>blink</i><sup>A</sup>, <i>daylight</i>, <i>dispel magic</i>, <i>fireball</i><sup>A</sup>, <i>firestream</i><sup>A</sup>, <i>fly</i><sup>A</sup>, <i>force punch</i><sup>A</sup>, <i>gaseous form</i><sup>A</sup>, <i>haste</i><sup>A</sup>, <i>hydraulic torrent</i><sup>A</sup>, <i>lightning bolt</i><sup>A</sup>, <i>magic weapon (greater)</i><sup>A</sup>, <i>monstrous physique I</i><sup>A</sup>, <i>phantom steed</i><sup>A</sup>, <i>slow</i>, <i>stinking cloud</i>, <i>vampiric touch</i>, <i>vomit twin</i><sup>A</sup>.</p>
+<p><b>4th-Level Magus Mythic Spells</b>&#151;<i>beast shape II</i><sup>A</sup>, <i>black tentacles</i><sup>A</sup>, <i>dimension door</i>, <i>dragon's breath</i><sup>A</sup>, <i>elemental body I</i><sup>A</sup>, <i>fire shield</i>, <i>ice storm</i><sup>A</sup>, <i>lend path</i>, <i>monstrous physique II</i><sup>A</sup>, <i>phantasmal killer</i><sup>A</sup>, <i>shout</i>, <i>solid fog</i><sup>A</sup>, <i>stoneskin</i>, <i>wall of fire</i><sup>A</sup>, <i>wall of ice</i><sup>A</sup>.</p>
+<p><b>5th-Level Magus Mythic Spells</b>&#151;<i>baleful polymorph</i><sup>A</sup>, <i>beast shape III</i><sup>A</sup>, <i>cloudkill</i><sup>A</sup>, <i>cone of cold</i><sup>A</sup>, <i>elemental body II</i><sup>A</sup>, <i>fire snake</i><sup>A</sup>, <i>monstrous physique III</i><sup>A</sup>, <i>telekinesis</i>, <i>wall of force</i>, <i>wall of stone</i><sup>A</sup>.</p>
+<p><b>6th-Level Magus Mythic Spells</b>&#151;<i>beast shape IV</i><sup>A</sup>, <i>chain lightning</i>, <i>disintegrate</i><sup>A</sup>, <i>elemental body III</i><sup>A</sup>, <i>flesh to stone</i><sup>A</sup>, <i>form of the dragon I</i><sup>A</sup>, <i>mislead</i><sup>A</sup>, <i>monstrous physique IV</i><sup>A</sup>, <i>transformation</i>, <i>walk through space</i>, <i>wall of iron</i><sup>A</sup>.</p>
+<h>Paladin Mythic Spells</h>
+<p><b>1st-Level Paladin Mythic Spells</b>&#151;<i>bless</i>, <i>cure light wounds</i>, <i>divine favor</i>, <i>endure elements</i>, <i>know the enemy</i>, <i>protection from chaos/evil</i>, <i>sun metal</i>.</p>
+<p><b>2nd-Level Paladin Mythic Spells</b>&#151;<i>blinding ray</i>, <i>resist energy</i>, <i>sacred bond</i><sup>A</sup>, <i>shield other</i>.</p>
+<p><b>3rd-Level Paladin Mythic Spells</b>&#151;<i>cure moderate wounds</i>, <i>daybreak arrow</i>, <i>daylight</i>, <i>dispel magic</i>, <i>magic weapon (greater)</i><sup>A</sup>, <i>prayer</i>, <i>sanctify armor</i><sup>A</sup>.</p>
+<p><b>4th-Level Paladin Mythic Spells</b>&#151;<i>break enchantment</i><sup>A</sup>, <i>cure serious wounds</i>, <i>oath of peace</i><sup>A</sup>.</p>
+<h>Ranger Mythic Spells</h>
+<p><b>1st-Level Ranger Mythic Spells</b>&#151;<i>anticipate peril</i>, <i>call animal</i><sup>A</sup>, <i>endure elements</i>, <i>entangle</i>, <i>know the enemy</i>, <i>magic fang</i>, <i>resist energy</i>, <i>sun metal</i>.</p>
+<p><b>2nd-Level Ranger Mythic Spells</b>&#151;<i>animal aspect</i>, <i>animate dead</i><sup>A</sup>, <i>cure light wounds</i>, <i>barkskin</i><sup>A</sup>, <i>ricochet shot</i><sup>A</sup>.</p>
+<p><b>3rd-Level Ranger Mythic Spells</b>&#151;<i>battle trance</i><sup>A</sup>, <i>burrow</i><sup>A</sup>, <i>companion mind link</i>, <i>cure moderate wounds</i>, <i>magic fang (greater)</i><sup>A</sup>, <i>named bullet</i><sup>A</sup>.</p>
+<p><b>4th-Level Ranger Mythic Spells</b>&#151;<i>cure serious wounds</i>.</p>
+<h>Sorcerer/Wizard Mythic Spells</h>
+<p><b>1st-Level Sorcerer/Wizard Mythic Spells</b>&#151;<i>anticipate peril</i>, <i>break</i><sup>A</sup>, <i>burning hands</i>, <i>color spray</i>, <i>ear-piercing scream</i><sup>A</sup>, <i>endure elements</i>, <i>enlarge person</i>, <i>expeditious retreat</i>, <i>feather fall</i><sup>A</sup>, <i>floating disk</i>, <i>grease</i><sup>A</sup>, <i>hold portal</i>, <i>hydraulic push</i><sup>A</sup>, <i>mage armor</i>, <i>magic missile</i><sup>A</sup>, <i>memory lapse</i><sup>A</sup>, <i>obscuring mist</i><sup>A</sup>, <i>protection from chaos/evil/good/law</i>, <i>ray of enfeeblement</i>, <i>reduce person</i>, <i>shadow weapon</i>, <i>shocking grasp</i><sup>A</sup>, <i>silent image</i><sup>A</sup>, <i>sleep</i><sup>A</sup>, <i>theft ward</i>, <i>true strike</i><sup>A</sup>.</p>
+<p><b>2nd-Level Sorcerer/Wizard Mythic Spells</b>&#151;<i>animal aspect</i>, <i>blindness/deafness</i>, <i>boiling blood</i><sup>A</sup>, <i>burning gaze</i><sup>A</sup>, <i>darkness</i>, <i>disfiguring touch</i><sup>A</sup>, <i>dust of twilight</i><sup>A</sup>, <i>false life</i>, <i>fog cloud</i><sup>A</sup>, <i>gust of wind</i><sup>A</sup>, <i>hideous laughter</i><sup>A</sup>, <i>invisibility</i><sup>A</sup>, <i>jitterbugs</i>, <i>knock</i><sup>A</sup>, <i>levitate</i><sup>A</sup>, <i>make whole</i>, <i>mirror image</i>, <i>pernicious poison</i><sup>A</sup>, <i>protection from arrows</i>, <i>resist energy</i>, <i>ricochet shot</i><sup>A</sup>, <i>scorching ray</i>, <i>shadow anchor</i>, <i>shatter</i>, <i>spider climb</i>, <i>summon swarm</i>, <i>unshakable chill</i><sup>A</sup>, <i>web</i><sup>A</sup>.</p>
+<p><b>3rd-Level Sorcerer/Wizard Mythic Spells</b>&#151;<i>ablative barrier</i>, <i>beast shape I</i><sup>A</sup>, <i>bleed glory</i>*, <i>blink</i><sup>A</sup>, <i>burrow</i><sup>A</sup>, <i>daylight</i>, <i>deep slumber</i><sup>A</sup>, <i>devolution</i><sup>A</sup>, <i>dispel magic</i>, <i>draconic reservoir</i><sup>A</sup>, <i>fireball</i><sup>A</sup>, <i>firestream</i><sup>A</sup>, <i>fly</i><sup>A</sup>, <i>force punch</i><sup>A</sup>, <i>gaseous form</i><sup>A</sup>, <i>haste</i><sup>A</sup>, <i>healing thief</i><sup>A</sup>, <i>heroism</i><sup>A</sup>, <i>hydraulic torrent</i><sup>A</sup>, <i>lightning bolt</i><sup>A</sup>, <i>magic weapon (greater)</i><sup>A</sup>, <i>monstrous physique I</i><sup>A</sup>, <i>phantom steed</i><sup>A</sup>, <i>restore mythic power</i>*, <i>sands of time</i><sup>A</sup>, <i>share glory</i>*, <i>slow</i>, <i>stinking cloud</i>, <i>strangling hair</i>, <i>suggestion</i>, <i>touch injection</i>, <i>vampiric touch</i>.</p>
+<p><b>4th-Level Sorcerer/Wizard Mythic Spells</b>&#151;<i>animate dead</i><sup>A</sup>, <i>beast shape II</i><sup>A</sup>, <i>black tentacles</i><sup>A</sup>, <i>confusion</i><sup>A</sup>, <i>contagion</i><sup>A</sup>, <i>deathless</i><sup>A</sup>*, <i>detect scrying</i><sup>A</sup>, <i>dimension door</i>, <i>dragon's breath</i>, <i>elemental body I</i><sup>A</sup>, <i>enervation</i><sup>A</sup>, <i>fire shield</i>, <i>ice storm</i><sup>A</sup>, <i>monstrous physique II</i><sup>A</sup>, <i>mythic severance</i>*, <i>named bullet</i><sup>A</sup>, <i>phantasmal killer</i><sup>A</sup>, <i>scorching ash form</i><sup>A</sup>, <i>shout</i>, <i>solid fog</i><sup>A</sup>, <i>stone shape</i>, <i>stoneskin</i>, <i>true form</i><sup>A</sup>, <i>vomit twin</i><sup>A</sup>, <i>wall of fire</i><sup>A</sup>, <i>wall of ice</i><sup>A</sup>.</p>
+<p><b>5th-Level Sorcerer/Wizard Mythic Spells</b>&#151;<i>baleful polymorph</i><sup>A</sup>, <i>beast shape III</i><sup>A</sup>, <i>break enchantment</i><sup>A</sup>, <i>cloudkill</i><sup>A</sup>, <i>cone of cold</i><sup>A</sup>, <i>damnation stride</i><sup>A</sup>, <i>dominate person</i>, <i>dream</i>, <i>elemental body II</i><sup>A</sup>, <i>fire snake</i><sup>A</sup>, <i>lend path</i>, <i>lightning arc</i><sup>A</sup>, <i>monstrous physique III</i><sup>A</sup>, <i>nightmare</i><sup>A</sup>, <i>sending</i><sup>A</sup>, <i>steal power</i>*, <i>telekinesis</i>, <i>wall of force</i>, <i>wall of stone</i><sup>A</sup>.</p>
+<p><b>6th-Level Sorcerer/Wizard Mythic Spells</b>&#151;<i>antimagic field</i>, <i>battlemind link</i>, <i>beast shape IV</i><sup>A</sup>, <i>chain lightning</i>, <i>circle of death</i><sup>A</sup>, <i>conjure black pudding</i><sup>A</sup>, <i>contingency</i><sup>A</sup>, <i>disintegrate</i><sup>A</sup>, <i>elemental body III</i><sup>A</sup>, <i>enemy hammer</i><sup>A</sup>, <i>flesh to stone</i><sup>A</sup>, <i>form of the dragon I</i><sup>A</sup>, <i>globe of invulnerability</i>, <i>guards and wards</i><sup>A</sup>, <i>mislead</i><sup>A</sup>, <i>monstrous physique IV</i><sup>A</sup>, <i>move earth</i>, <i>transformation</i>, <i>wall of iron</i><sup>A</sup>.</p>
+<p><b>7th-Level Sorcerer/Wizard Mythic Spells</b>&#151;<i>arcane cannon</i>, <i>control weather</i><sup>A</sup>, <i>elemental body IV</i><sup>A</sup>, <i>finger of death</i>, <i>form of the dragon II</i><sup>A</sup>, <i>limited wish</i><sup>A</sup>, <i>plane shift</i><sup>A</sup>, <i>power word blind</i><sup>A</sup>, <i>prismatic spray</i><sup>A</sup>, <i>resonating word</i>, <i>reverse gravity</i><sup>A</sup>, <i>scouring winds</i><sup>A</sup>, <i>terraform</i>*, <i>walk through space</i>.</p>
+<p><b>8th-Level Sorcerer/Wizard Mythic Spells</b>&#151;<i>dimensional lock</i><sup>A</sup>, <i>form of the dragon III</i><sup>A</sup>, <i>irresistible dance</i>, <i>maze</i>, <i>orb of the void</i><sup>A</sup>, <i>polar ray</i>, <i>power word stun</i><sup>A</sup>.</p>
+<p><b>9th-Level Sorcerer/Wizard Mythic Spells</b>&#151;<i>ascension</i>*, <i>foresight</i>, <i>mage's disjunction</i>, <i>meteor swarm</i><sup>A</sup>, <i>power word kill</i><sup>A</sup>, <i>prismatic sphere</i>, <i>time stop</i><sup>A</sup>, <i>tsunami</i><sup>A</sup>, <i>wish</i><sup>A</sup>.</p>
+<h>Summoner Mythic Spells</h>
+<p><b>1st-Level Summoner Mythic Spells</b>&#151;<i>endure elements</i>, <i>enlarge person</i>, <i>expeditious retreat</i>, <i>feather fall</i><sup>A</sup>, <i>grease</i><sup>A</sup>, <i>mage armor</i>, <i>magic fang</i>, <i>protection from chaos/evil/good/law</i>, <i>reduce person</i>.</p>
+<p><b>2nd-Level Summoner Mythic Spells</b>&#151;<i>ablative barrier</i>, <i>barkskin</i><sup>A</sup>, <i>haste</i><sup>A</sup>, <i>invisibility</i><sup>A</sup>, <i>levitate</i><sup>A</sup>, <i>phantom steed</i><sup>A</sup>, <i>protection from arrows</i>, <i>resist energy</i>, <i>share glory</i>*, <i>slow</i>, <i>spider climb</i>, <i>summon swarm</i>.</p>
+<p><b>3rd-Level Summoner Mythic Spells</b>&#151;<i>black tentacles</i><sup>A</sup>, <i>devolution</i><sup>A</sup>, <i>dimension door</i>, <i>dispel magic</i>, <i>fire shield</i>, <i>fly</i><sup>A</sup>, <i>heroism</i><sup>A</sup>, <i>magic fang (greater)</i><sup>A</sup>, <i>stoneskin</i>, <i>vomit twin</i><sup>A</sup>, <i>wall of fire</i><sup>A</sup>, <i>wall of ice</i><sup>A</sup>.</p>
+<p><b>4th-Level Summoner Mythic Spells</b>&#151;<i>baleful polymorph</i><sup>A</sup>, <i>damnation stride</i><sup>A</sup>, <i>lend path</i>, <i>sending</i><sup>A</sup>, <i>wall of stone</i><sup>A</sup>.</p>
+<p><b>5th-Level Summoner Mythic Spells</b>&#151;<i>conjure black pudding</i><sup>A</sup>, <i>plane shift</i><sup>A</sup>, <i>wall of iron</i><sup>A</sup>.</p>
+<p><b>6th-Level Summoner Mythic Spells</b>&#151;<i>dimensional lock</i><sup>A</sup>, <i>maze</i>, <i>walk through space</i>.</p>
+<h>Witch Mythic Spells</h>
+<p><b>1st-Level Witch Mythic Spells</b>&#151;<i>burning hands</i>, <i>command</i>, <i>cure light wounds</i>, <i>ear-piercing scream</i><sup>A</sup>, <i>enlarge person</i>, <i>hex ward</i><sup>A</sup>, <i>ill omen</i><sup>A</sup>, <i>inflict light wounds</i>, <i>mage armor</i>, <i>obscuring mist</i><sup>A</sup>, <i>ray of enfeeblement</i>, <i>reduce person</i>, <i>shadow weapon</i>, <i>sleep</i><sup>A</sup>, <i>theft ward</i>.</p>
+<p><b>2nd-Level Witch Mythic Spells</b>&#151;<i>blindness/deafness</i>, <i>boiling blood</i><sup>A</sup>, <i>burning gaze</i><sup>A</sup>, <i>cure moderate wounds</i>, <i>death knell</i><sup>A</sup>, <i>disfiguring touch</i><sup>A</sup>, <i>false life</i>, <i>feast of ashes</i><sup>A</sup>, <i>fog cloud</i><sup>A</sup>, <i>inflict moderate wounds</i>, <i>levitate</i><sup>A</sup>, <i>pernicious poison</i><sup>A</sup>, <i>pox pustules</i><sup>A</sup>, <i>shadow anchor</i>, <i>summon swarm</i>, <i>unshakable chill</i><sup>A</sup>, <i>web</i><sup>A</sup>.</p>
+<p><b>3rd-Level Witch Mythic Spells</b>&#151;<i>bleed glory</i>*, <i>cup of dust</i><sup>A</sup>, <i>deep slumber</i><sup>A</sup>, <i>dispel magic</i>, <i>fly</i><sup>A</sup>, <i>glyph of warding</i>, <i>healing thief</i><sup>A</sup>, <i>heroism</i><sup>A</sup>, <i>lightning bolt</i><sup>A</sup>, <i>restore mythic power</i>*, <i>sands of time</i><sup>A</sup>, <i>share glory</i>*, <i>stinking cloud</i>, <i>strangling hair</i>, <i>suggestion</i>, <i>vampiric touch</i>.</p>
+<p><b>4th-Level Witch Mythic Spells</b>&#151;<i>battle trance</i><sup>A</sup>, <i>black tentacles</i><sup>A</sup>, <i>cape of wasps</i>, <i>confusion</i><sup>A</sup>, <i>cure serious wounds</i>, <i>deathless</i><sup>A</sup>*, <i>detect scrying</i><sup>A</sup>, <i>dimension door</i>, <i>enervation</i><sup>A</sup>, <i>ice storm</i><sup>A</sup>, <i>inflict serious wounds</i>, <i>mythic severance</i>*, <i>named bullet</i><sup>A</sup>, <i>phantasmal killer</i><sup>A</sup>, <i>solid fog</i><sup>A</sup>.</p>
+<p><b>5th-Level Witch Mythic Spells</b>&#151;<i>baleful polymorph</i><sup>A</sup>, <i>break enchantment</i><sup>A</sup>, <i>cloudkill</i><sup>A</sup>, <i>cure critical wounds</i>, <i>damnation stride</i><sup>A</sup>, <i>dominate person</i>, <i>inflict critical wounds</i>, <i>lend path</i>, <i>steal power</i>*.</p>
+<p><b>6th-Level Witch Mythic Spells</b>&#151;<i>animate objects</i>, <i>cone of cold</i><sup>A</sup>, <i>flesh to stone</i><sup>A</sup>, <i>guards and wards</i><sup>A</sup>, <i>transformation</i>.</p>
+<p><b>7th-Level Witch Mythic Spells</b>&#151;<i>black mark</i>, <i>chain lightning</i>, <i>control weather</i><sup>A</sup>, <i>harm</i><sup>A</sup>, <i>heal</i><sup>A</sup>, <i>plane shift</i><sup>A</sup>, <i>power word blind</i><sup>A</sup>, <i>regenerate</i>, <i>scouring winds</i><sup>A</sup>, <i>terraform</i>*, <i>walk through space</i>.</p>
+<p><b>8th-Level Witch Mythic Spells</b>&#151;<i>irresistible dance</i>, <i>maze</i>, <i>power word stun</i><sup>A</sup>.</p>
+<p><b>9th-Level Witch Mythic Spells</b>&#151;<i>ascension</i>*, <i>foresight</i>, <i>power word kill</i><sup>A</sup>, <i>storm of vengeance</i><sup>A</sup>.</p>
+</text></MythicSpellsLists><MythicSpellsIndex><name type="string">Mythic Spells Index</name><text type="formattedtext"><h>New Mythic Spells</h>
+<p>The following are new spells that affect the mythic rules or mythic creatures in some way. You don't need a mythic tier to cast most of these spells.</p>
+<p><b>Mythic</b>: Some of these spells have mythic versions just as preexisting spells like <i>animate dead</i> and <i>fireball</i> do. The information for the mythic version is included in the new spell's description.</p>
+<p><b>Augmented</b>: If a spell has an augmented version, it's listed in the spell description.</p>
+<h>Enchanced Spells</h>
+<p>The following are enhanced versions of existing spells.</p></text></MythicSpellsIndex></MythicSpells>
   </lists>
   <License static="true">
     <librarylink type="windowreference">

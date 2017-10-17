@@ -29,6 +29,10 @@ file2_1 = "modulehtml/2-1 mythic-feats.html"
 file2_2 = "modulehtml/2-2 types of feats.html"
 file2_3 = "modulehtml/2-3 Feat Descriptions.html"
 file2_4 = "modulehtml/2-4 List of Feats.html"
+file3_0 = "modulehtml/3-0 intro.xml"
+file3_1 = "modulehtml/3-1 mythic_spells.html"
+file3_2 = "modulehtml/3-2 mythic_spell_list.html"
+file3_3 = "modulehtml/3-3 spell_index.html"
 
 ability_mythic_heroes = "cleandata/mythic_heroes.csv"
 ability_mythic_archmage = "cleandata/archmage.csv"
@@ -74,8 +78,8 @@ library_entries =   [{"Entry name":"---Legal Notice---",
                     {"Entry name":"Mythic Spells",
                     "Entry tag":"EA.MythicSpells",
                     "Link type":"librarylink",
-                    "Window class":"referencetextwide",
-                    "Record name": "lists.MythicSpells@" + module_name},
+                    "Window class":"referenceindex",
+                    "Record name": "lists.MythicSpells.intro@" + module_name},
                     ]
 
 
@@ -200,6 +204,7 @@ def populate_feats(feat_node, library_node):
     xml_mythic_feats_list = etree.SubElement(xml_mythic_feats, "ListOfFeats")
     xml_mythic_feats_list_name = etree.SubElement(xml_mythic_feats_list, "name", type="string")
     xml_mythic_feats_list_name.text = "List of Feats"
+    xml_mythic_feats_list_index = etree.SubElement(xml_mythic_feats_list, "index")
 
     with open(feats_data, 'r') as inputfile:
         csvreader = csv.reader(inputfile, delimiter='\t', quotechar="'")
@@ -223,7 +228,7 @@ def populate_feats(feat_node, library_node):
             xml_ref_special.text = special
             xml_ref_source.text = "Mythic Adventures"
             xml_ref_text.text = "<frame>" + description + "</frame>" + benefit
-            xml_mythic_feats_list_index = etree.SubElement(xml_mythic_feats_list, "index")
+
             xml_mythic_feats_list_index_ref = etree.SubElement(xml_mythic_feats_list_index, ref)
             xml_mythic_feats_list_index_ref_listlink = etree.SubElement(xml_mythic_feats_list_index_ref, "listlink", type="windowreference")
             xml_mythic_feats_list_index_ref_listlink_class = etree.SubElement(xml_mythic_feats_list_index_ref_listlink, "class")
@@ -234,7 +239,14 @@ def populate_feats(feat_node, library_node):
             xml_mythic_feats_list_index_refname.text = name2
 
 
-def populate_spells(spell_node):
+def populate_spells(spell_node, library_node):
+    library_node_mythicspells = etree.SubElement(library_node, "MythicSpells")
+    with open(file3_0, 'r') as inputfile:
+        library_node_mythicspells.text = inputfile.read()
+    library_node_mythicspells_mythicspellsintro = populate_library_page(file3_1, library_node_mythicspells, "MythicSpellsIntroduction", "Mythic Spells Introduction")
+    library_node_mythicspells_mythicspellslists = populate_library_page(file3_2, library_node_mythicspells, "MythicSpellsLists", "Mythic Spells Lists")
+    library_node_mythicspells_mythicspellsindex = populate_library_page(file3_3, library_node_mythicspells, "MythicSpellsIndex", "Mythic Spells Index")
+
     with open(spell_data, 'r') as inputfile:
         csvreader = csv.reader(inputfile, delimiter='\t', quotechar="'")
         for row in csvreader:
@@ -302,7 +314,7 @@ def generate_xml_structure(xml_root):
     populate_library_page(file0_0, xml_lists, "Glossary", "Glossary") # Glossary
     populate_mythic_heroes(xml_lists) #Chapter 1
     populate_feats(xml_ref_feats, xml_lists) #Chapter 2
-    populate_spells(xml_ref_spells) #Chapter 3
+    populate_spells(xml_ref_spells, xml_lists) #Chapter 3
     populate_running() #Chapter 4
     populate_items() #Chapter 5
     populate_monsters(xml_reference) #Chapter 6

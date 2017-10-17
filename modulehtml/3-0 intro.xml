@@ -1,0 +1,26 @@
+<intro>
+<name type="string">Mythic Spells</name>
+<index>
+	<AA>
+		<name type="string">Mythic Spells Introduction</name>
+		<listlink type="windowreference">
+			<class>referencetextwide</class>
+            <recordname>lists.MythicSpells.MythicSpellsIntroduction</recordname>
+		</listlink>
+	</AA>
+	<BA>
+		<name type="string">Mythic Spells Lists</name>
+		<listlink type="windowreference">
+			<class>referencetextwide</class>
+            <recordname>lists.MythicSpells.MythicSpellsLists</recordname>
+		</listlink>
+	</BA>
+	<CA>
+		<name type="string">Mythic Spells Index</name>
+		<listlink type="windowreference">
+			<class>referencetextwide</class>
+            <recordname>lists.MythicSpells.MythicSpellsIndex</recordname>
+		</listlink>
+	</CA>
+</index>
+</intro>
