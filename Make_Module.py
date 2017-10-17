@@ -1,6 +1,6 @@
 import html_cleaner
 from bs4 import BeautifulSoup
-
+import re
 import zipfile
 import shutil
 import csv
@@ -191,6 +191,9 @@ def populate_feats(feat_node, library_node):
         csvreader = csv.reader(inputfile, delimiter='\t', quotechar="'")
         for row in csvreader:
             [ref, name, description, prereq, benefit, special] = row
+            parsename = re.search('(.*)\((.*)\)', name)
+            feattype = parsename.group(2) if parsename != None else "Mythic"
+            print(name, feattype)
             xml_ref = etree.SubElement(feat_node, ref)
             xml_ref_name = etree.SubElement(xml_ref, "name", type="string")
             xml_ref_type = etree.SubElement(xml_ref, "type", type="string")
@@ -200,12 +203,12 @@ def populate_feats(feat_node, library_node):
             xml_ref_special = etree.SubElement(xml_ref, "special", type="formattedtext")
             xml_ref_text = etree.SubElement(xml_ref, "text", type="formattedtext")
             xml_ref_name.text = name
-            xml_ref_type.text = ""
-            xml_ref_prerequisites.text = prereq
-            xml_ref_benefit.text = benefit
+            xml_ref_type.text = feattype
+            xml_ref_prerequisites.text = prereq.replace("<p>","").replace("</p>","")
+            xml_ref_benefit.text = "<frame>" + description + "</frame>" + benefit
             xml_ref_special.text = special
             xml_ref_source.text = "Mythic Adventures"
-            xml_ref_text.text = benefit
+            xml_ref_text.text = "<frame>" + description + "</frame>" + benefit
 
     xml_mythic_feats = populate_library_page(file2_1, library_node, "MythicFeats", "Mythic Feats")
     xml_mythic_feats_types = populate_library_page(file2_2, xml_mythic_feats, "TypesOfFeats", "Types of Feats")
