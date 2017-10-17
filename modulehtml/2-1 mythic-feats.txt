@@ -1,0 +1,5 @@
+<h>Mythic Feats</h>
+<p>Mythic characters and monsters gain mythic feats as they gain tiers or ranks. These feats can be selected only as part of mythic advancement, not as part of a character's normal advancement or in place of any other bonus feat.</p>
+<p>Most mythic feats require a non-mythic feat as a prerequisite. These mythic feats enhance the benefits of their prerequisite feats, making them truly awe-inspiring. If a character doesn't possess any of the necessary prerequisite feats when she gains a mythic feat, she can wait to select a mythic feat until the next time she gains a tier or level.</p>
+<p>A value in a mythic feat based on a fraction of your tier (such as a +1 bonus for every 3 tiers you possess) always has a minimum of 1.</p>
+<p>This section includes some non-mythic feats. These grant a character who hasn't had a moment of ascension a measure of mythic might, and remain relevant if that character later becomes mythic.</p>

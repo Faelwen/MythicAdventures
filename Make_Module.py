@@ -25,6 +25,10 @@ file1_3_6 = "modulehtml/1-3-6 trickster.html"
 file1_4 = "modulehtml/1-4 Base Mythic Abilities.html"
 file1_5 = "modulehtml/1-5 Gaining Tiers.html"
 file1_6 = "modulehtml/1-6 Universal Path Abilities.html"
+file2_1 = "modulehtml/2-1 mythic-feats.html"
+file2_2 = "modulehtml/2-2 types of feats.html"
+file2_3 = "modulehtml/2-3 Feat Descriptions.html"
+file2_4 = "modulehtml/2-4 List of Feats.html"
 
 ability_mythic_heroes = "cleandata/mythic_heroes.csv"
 ability_mythic_archmage = "cleandata/archmage.csv"
@@ -61,6 +65,11 @@ library_entries =   [{"Entry name":"---Legal Notice---",
                     "Link type":"librarylink",
                     "Window class":"referencetext",
                     "Record name": "lists.MythicHeroes@" + module_name},
+                    {"Entry name":"Mythic Feats",
+                    "Entry tag":"DA.MythicFeats",
+                    "Link type":"librarylink",
+                    "Window class":"referencetext",
+                    "Record name": "lists.MythicFeats@" + module_name},
                     ]
 
 
@@ -153,8 +162,8 @@ def populate_library_page(htmlfile, node, tagname, name):
     return node_ref
 
 
-def populate_mythic_heroes(xml_lists):
-    xml_mythic_heroes = populate_library_page(file1_1, xml_lists, "MythicHeroes", "Mythic Heroes")
+def populate_mythic_heroes(library_node):
+    xml_mythic_heroes = populate_library_page(file1_1, library_node, "MythicHeroes", "Mythic Heroes")
     xml_creating_character = populate_library_page(file1_2, xml_mythic_heroes, "CreatingAMythicCharacter", "Creating a Mythic Character")
     xml_mythic_paths = populate_library_page(file1_3, xml_mythic_heroes, "MythicPaths", "Mythic Paths")
     xml_mythic_paths_archmage = populate_library_page(file1_3_1, xml_mythic_paths, "Archmage", "Archmage")
@@ -177,8 +186,11 @@ def populate_mythic_heroes(xml_lists):
     populate_mythic_abilities(ability_mythic_universal, xml_mythic_univ, "Mythic Universal Path Ability")
 
 
-def populate_feats():
-    pass
+def populate_feats(feat_node, library_node):
+    xml_mythic_feats = populate_library_page(file2_1, library_node, "MythicFeats", "Mythic Feats")
+    xml_mythic_feats_types = populate_library_page(file2_2, xml_mythic_feats, "TypesOfFeats", "Types of Feats")
+    xml_mythic_feats_description = populate_library_page(file2_3, xml_mythic_feats, "FeatDescription", "Feat Description")
+    xml_mythic_feats_list = populate_library_page(file2_4, xml_mythic_feats, "ListOfFeats", "List of Feats")
 
 
 def populate_spells():
@@ -221,7 +233,7 @@ def generate_xml_structure(xml_root):
     populate_license(xml_root) # Legal notice
     populate_library_page(file0_0, xml_lists, "Glossary", "Glossary") # Glossary
     populate_mythic_heroes(xml_lists) #Chapter 1
-    populate_feats() #Chapter 2
+    populate_feats(xml_ref_feats, xml_lists) #Chapter 2
     populate_spells() #Chapter 3
     populate_running() #Chapter 4
     populate_items() #Chapter 5
