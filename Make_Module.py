@@ -39,6 +39,7 @@ ability_mythic_marshal = "cleandata/marshal.csv"
 ability_mythic_trickster = "cleandata/trickster.csv"
 ability_mythic_universal = "cleandata/universal_abilities.csv"
 feats_data = "cleandata/mythic_feats.csv"
+spell_data = "cleandata/all_spells.csv"
 monster_data = "cleandata/mythic_monsters.xml"
 
 FG_module_directory = "E:\\Fantasy Grounds\\DataDir\\modules"
@@ -70,6 +71,11 @@ library_entries =   [{"Entry name":"---Legal Notice---",
                     "Link type":"librarylink",
                     "Window class":"referencetextwide",
                     "Record name": "lists.MythicFeats@" + module_name},
+                    {"Entry name":"Mythic Spells",
+                    "Entry tag":"EA.MythicSpells",
+                    "Link type":"librarylink",
+                    "Window class":"referencetextwide",
+                    "Record name": "lists.MythicSpells@" + module_name},
                     ]
 
 
@@ -228,8 +234,35 @@ def populate_feats(feat_node, library_node):
             xml_mythic_feats_list_index_refname.text = name2
 
 
-def populate_spells():
-    pass
+def populate_spells(spell_node):
+    with open(spell_data, 'r') as inputfile:
+        csvreader = csv.reader(inputfile, delimiter='\t', quotechar="'")
+        for row in csvreader:
+            [ref, name, school, level, time, components, s_range, target, duration, resist, sr, description] = row
+            xml_ref = etree.SubElement(spell_node, ref)
+            xml_ref_name = etree.SubElement(xml_ref, "name", type="string")
+            xml_ref_school = etree.SubElement(xml_ref, "school", type="string")
+            xml_ref_level = etree.SubElement(xml_ref, "level", type="string")
+            xml_ref_components = etree.SubElement(xml_ref, "components", type="string")
+            xml_ref_castingtime = etree.SubElement(xml_ref, "castingtime", type="string")
+            xml_ref_range = etree.SubElement(xml_ref, "range", type="string")
+            xml_ref_effect = etree.SubElement(xml_ref, "effect", type="string")
+            xml_ref_duration = etree.SubElement(xml_ref, "duration", type="string")
+            xml_ref_save = etree.SubElement(xml_ref, "save", type="string")
+            xml_ref_sr = etree.SubElement(xml_ref, "sr", type="string")
+            xml_ref_description = etree.SubElement(xml_ref, "description", type="formattedtext")
+            xml_source = etree.SubElement(xml_ref, "source", type="string")
+            xml_ref_name.text = name
+            xml_ref_school.text = school
+            xml_ref_level.text = level
+            xml_ref_components.text = components
+            xml_ref_castingtime.text = time
+            xml_ref_range.text = s_range
+            xml_ref_effect.text = target
+            xml_ref_duration.text = duration
+            xml_ref_save.text = resist
+            xml_ref_sr.text = sr
+            xml_ref_description.text = description
 
 
 def populate_running():
@@ -269,7 +302,7 @@ def generate_xml_structure(xml_root):
     populate_library_page(file0_0, xml_lists, "Glossary", "Glossary") # Glossary
     populate_mythic_heroes(xml_lists) #Chapter 1
     populate_feats(xml_ref_feats, xml_lists) #Chapter 2
-    populate_spells() #Chapter 3
+    populate_spells(xml_ref_spells) #Chapter 3
     populate_running() #Chapter 4
     populate_items() #Chapter 5
     populate_monsters(xml_reference) #Chapter 6
