@@ -38,7 +38,7 @@ ability_mythic_hierophant = "cleandata/hierophant.csv"
 ability_mythic_marshal = "cleandata/marshal.csv"
 ability_mythic_trickster = "cleandata/trickster.csv"
 ability_mythic_universal = "cleandata/universal_abilities.csv"
-
+feats_data = "cleandata/mythic_feats.csv"
 monster_data = "cleandata/mythic_monsters.xml"
 
 FG_module_directory = "E:\\Fantasy Grounds\\DataDir\\modules"
@@ -187,6 +187,26 @@ def populate_mythic_heroes(library_node):
 
 
 def populate_feats(feat_node, library_node):
+    with open(feats_data, 'r') as inputfile:
+        csvreader = csv.reader(inputfile, delimiter='\t', quotechar="'")
+        for row in csvreader:
+            [ref, name, description, prereq, benefit, special] = row
+            xml_ref = etree.SubElement(feat_node, ref)
+            xml_ref_name = etree.SubElement(xml_ref, "name", type="string")
+            xml_ref_type = etree.SubElement(xml_ref, "type", type="string")
+            xml_ref_prerequisites = etree.SubElement(xml_ref, "prerequisites", type="string")
+            xml_ref_benefit = etree.SubElement(xml_ref, "benefit", type="formattedtext")
+            xml_ref_source = etree.SubElement(xml_ref, "source", type="string")
+            xml_ref_special = etree.SubElement(xml_ref, "special", type="formattedtext")
+            xml_ref_text = etree.SubElement(xml_ref, "text", type="formattedtext")
+            xml_ref_name.text = name
+            xml_ref_type.text = ""
+            xml_ref_prerequisites.text = prereq
+            xml_ref_benefit.text = benefit
+            xml_ref_special.text = special
+            xml_ref_source.text = "Mythic Adventures"
+            xml_ref_text.text = benefit
+
     xml_mythic_feats = populate_library_page(file2_1, library_node, "MythicFeats", "Mythic Feats")
     xml_mythic_feats_types = populate_library_page(file2_2, xml_mythic_feats, "TypesOfFeats", "Types of Feats")
     xml_mythic_feats_description = populate_library_page(file2_3, xml_mythic_feats, "FeatDescription", "Feat Description")
