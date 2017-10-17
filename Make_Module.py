@@ -33,6 +33,16 @@ file3_0 = "modulehtml/3-0 intro.xml"
 file3_1 = "modulehtml/3-1 mythic_spells.html"
 file3_2 = "modulehtml/3-2 mythic_spell_list.html"
 file3_3 = "modulehtml/3-3 spell_index.html"
+file4_0 = "modulehtml/4-0 index.xml"
+file4_1 = "modulehtml/4-1 intro.html"
+file4_2 = "modulehtml/4-2 story structure.html"
+file4_3 = "modulehtml/4-3 mythic themes.html"
+file4_4 = "modulehtml/4-4 designing encounters.html"
+file4_5 = "modulehtml/4-5 mythic trials.html"
+file4_6 = "modulehtml/4-6 mythic boons.html"
+file4_7 = "modulehtml/4-7 recurring mythic villains.html"
+file4_8 = "modulehtml/4-8 mythic flaws.html"
+file4_9 = "modulehtml/4-9 ideas.html"
 
 ability_mythic_heroes = "cleandata/mythic_heroes.csv"
 ability_mythic_archmage = "cleandata/archmage.csv"
@@ -80,6 +90,11 @@ library_entries =   [{"Entry name":"---Legal Notice---",
                     "Link type":"librarylink",
                     "Window class":"referenceindex",
                     "Record name": "lists.MythicSpells.intro@" + module_name},
+                    {"Entry name":"Running a Mythic Game",
+                    "Entry tag":"EA.RunningAMythicGame",
+                    "Link type":"librarylink",
+                    "Window class":"referenceindex",
+                    "Record name": "lists.RunningAMythicGame.intro@" + module_name},
                     ]
 
 
@@ -277,8 +292,19 @@ def populate_spells(spell_node, library_node):
             xml_ref_description.text = description
 
 
-def populate_running():
-    pass
+def populate_running(xml_lists):
+    library_node_running = etree.SubElement(xml_lists, "RunningAMythicGame")
+    with open(file4_0, 'r') as inputfile:
+        library_node_running.text = inputfile.read()
+    populate_library_page(file4_1, library_node_running, "Introduction", "Introduction")
+    populate_library_page(file4_2, library_node_running, "MythicStoryStructure", "Mythic Story Structure")
+    populate_library_page(file4_3, library_node_running, "MythicThemes", "Mythic Themes")
+    populate_library_page(file4_4, library_node_running, "DesigningEncounters", "Designing Encounters")
+    populate_library_page(file4_5, library_node_running, "MythicTrials", "Mythic Trials")
+    populate_library_page(file4_6, library_node_running, "MythicBoons", "Mythic Boons")
+    populate_library_page(file4_7, library_node_running, "RecurringMythicVillains", "Recurring Mythic Villains")
+    populate_library_page(file4_8, library_node_running, "MythicFlaws", "Mythic Flaws")
+    populate_library_page(file4_9, library_node_running, "IdeasforMythicAdventures", "Ideas for Mythic Adventures")
 
 
 def populate_items():
@@ -315,7 +341,7 @@ def generate_xml_structure(xml_root):
     populate_mythic_heroes(xml_lists) #Chapter 1
     populate_feats(xml_ref_feats, xml_lists) #Chapter 2
     populate_spells(xml_ref_spells, xml_lists) #Chapter 3
-    populate_running() #Chapter 4
+    populate_running(xml_lists) #Chapter 4
     populate_items() #Chapter 5
     populate_monsters(xml_reference) #Chapter 6
 

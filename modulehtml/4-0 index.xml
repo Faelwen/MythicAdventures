@@ -1,0 +1,68 @@
+<intro>
+<name type="string">Running a Mythic Game</name>
+<index>
+	<AA>
+		<name type="string">Introduction</name>
+		<listlink type="windowreference">
+			<class>referencetextwide</class>
+            <recordname>lists.RunningAMythicGame.Introduction</recordname>
+		</listlink>
+	</AA>
+	<BA>
+		<name type="string">Mythic Story Structure</name>
+		<listlink type="windowreference">
+			<class>referencetextwide</class>
+            <recordname>lists.RunningAMythicGame.MythicStoryStructure</recordname>
+		</listlink>
+	</BA>
+	<CA>
+		<name type="string">Mythic Themes</name>
+		<listlink type="windowreference">
+			<class>referencetextwide</class>
+            <recordname>lists.RunningAMythicGame.MythicThemes</recordname>
+		</listlink>
+	</CA>
+	<DA>
+		<name type="string">Designing Encounters</name>
+		<listlink type="windowreference">
+			<class>referencetextwide</class>
+            <recordname>lists.RunningAMythicGame.DesigningEncounters</recordname>
+		</listlink>
+	</DA>
+	<EA>
+		<name type="string">Mythic Trials</name>
+		<listlink type="windowreference">
+			<class>referencetextwide</class>
+            <recordname>lists.RunningAMythicGame.MythicTrials</recordname>
+		</listlink>
+	</EA>
+	<FA>
+		<name type="string">Mythic Boons</name>
+		<listlink type="windowreference">
+			<class>referencetextwide</class>
+            <recordname>lists.RunningAMythicGame.MythicBoons</recordname>
+		</listlink>
+	</FA>
+	<GA>
+		<name type="string">Recurring Mythic Villains</name>
+		<listlink type="windowreference">
+			<class>referencetextwide</class>
+            <recordname>lists.RunningAMythicGame.RecurringMythicVillains</recordname>
+		</listlink>
+	</GA>
+	<HA>
+		<name type="string">Mythic Flaws</name>
+		<listlink type="windowreference">
+			<class>referencetextwide</class>
+            <recordname>lists.RunningAMythicGame.MythicFlaws</recordname>
+		</listlink>
+	</HA>
+	<IA>
+		<name type="string">Ideas for Mythic Adventures</name>
+		<listlink type="windowreference">
+			<class>referencetextwide</class>
+            <recordname>lists.RunningAMythicGame.IdeasforMythicAdventures</recordname>
+		</listlink>
+	</IA>
+</index>
+</intro>
