@@ -53,22 +53,22 @@ library_category = "PFRPG Extras"
 library_entries =   [{"Entry name":"---Legal Notice---",
                     "Entry tag":"AA.License",
                     "Link type":"librarylink",
-                    "Window class":"referencetext",
+                    "Window class":"referencetextwide",
                     "Record name": "License@" + module_name},
                     {"Entry name":"Glossary",
                     "Entry tag":"BA.Glossary",
                     "Link type":"librarylink",
-                    "Window class":"referencetext",
+                    "Window class":"referencetextwide",
                     "Record name": "lists.Glossary@" + module_name},
                     {"Entry name":"Mythic Heroes",
                     "Entry tag":"CA.MythicHeroes",
                     "Link type":"librarylink",
-                    "Window class":"referencetext",
+                    "Window class":"referencetextwide",
                     "Record name": "lists.MythicHeroes@" + module_name},
                     {"Entry name":"Mythic Feats",
                     "Entry tag":"DA.MythicFeats",
                     "Link type":"librarylink",
-                    "Window class":"referencetext",
+                    "Window class":"referencetextwide",
                     "Record name": "lists.MythicFeats@" + module_name},
                     ]
 
@@ -187,13 +187,21 @@ def populate_mythic_heroes(library_node):
 
 
 def populate_feats(feat_node, library_node):
+    xml_mythic_feats = populate_library_page(file2_1, library_node, "MythicFeats", "Mythic Feats")
+    xml_mythic_feats_types = populate_library_page(file2_2, xml_mythic_feats, "TypesOfFeats", "Types of Feats")
+    xml_mythic_feats_description = populate_library_page(file2_3, xml_mythic_feats, "FeatDescription", "Feat Description")
+
+    xml_mythic_feats_list = etree.SubElement(xml_mythic_feats, "ListOfFeats")
+    xml_mythic_feats_list_name = etree.SubElement(xml_mythic_feats_list, "name", type="string")
+    xml_mythic_feats_list_name.text = "List of Feats"
+
     with open(feats_data, 'r') as inputfile:
         csvreader = csv.reader(inputfile, delimiter='\t', quotechar="'")
         for row in csvreader:
             [ref, name, description, prereq, benefit, special] = row
             parsename = re.search('(.*)\((.*)\)', name)
+            name2 = parsename.group(1) if parsename != None else "Mythic"
             feattype = parsename.group(2) if parsename != None else "Mythic"
-            print(name, feattype)
             xml_ref = etree.SubElement(feat_node, ref)
             xml_ref_name = etree.SubElement(xml_ref, "name", type="string")
             xml_ref_type = etree.SubElement(xml_ref, "type", type="string")
@@ -209,11 +217,15 @@ def populate_feats(feat_node, library_node):
             xml_ref_special.text = special
             xml_ref_source.text = "Mythic Adventures"
             xml_ref_text.text = "<frame>" + description + "</frame>" + benefit
-
-    xml_mythic_feats = populate_library_page(file2_1, library_node, "MythicFeats", "Mythic Feats")
-    xml_mythic_feats_types = populate_library_page(file2_2, xml_mythic_feats, "TypesOfFeats", "Types of Feats")
-    xml_mythic_feats_description = populate_library_page(file2_3, xml_mythic_feats, "FeatDescription", "Feat Description")
-    xml_mythic_feats_list = populate_library_page(file2_4, xml_mythic_feats, "ListOfFeats", "List of Feats")
+            xml_mythic_feats_list_index = etree.SubElement(xml_mythic_feats_list, "index")
+            xml_mythic_feats_list_index_ref = etree.SubElement(xml_mythic_feats_list_index, ref)
+            xml_mythic_feats_list_index_ref_listlink = etree.SubElement(xml_mythic_feats_list_index_ref, "listlink", type="windowreference")
+            xml_mythic_feats_list_index_ref_listlink_class = etree.SubElement(xml_mythic_feats_list_index_ref_listlink, "class")
+            xml_mythic_feats_list_index_ref_listlink_recordname = etree.SubElement(xml_mythic_feats_list_index_ref_listlink, "recordname")
+            xml_mythic_feats_list_index_ref_listlink_class.text = "referencefeat"
+            xml_mythic_feats_list_index_ref_listlink_recordname.text = "reference.feats.{0}".format(ref)
+            xml_mythic_feats_list_index_refname = etree.SubElement(xml_mythic_feats_list_index_ref, "name", type="string")
+            xml_mythic_feats_list_index_refname.text = name2
 
 
 def populate_spells():
