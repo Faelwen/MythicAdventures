@@ -1,7 +1,7 @@
 ﻿from bs4 import BeautifulSoup
 import os
 
-input_dir = "html"
+input_dir = "mythicitems"
 output_dir = "cleanhtml"
 
 
