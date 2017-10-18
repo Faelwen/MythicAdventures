@@ -1,5 +1,3 @@
-<?xml version='1.0' encoding='iso-8859-1'?>
-<equipment static="true">
   <ambrosia>
     <aura type="string">strong conjuration</aura>
     <cl type="number">18</cl>
@@ -539,4 +537,3 @@
     <type type="string">Mythic Item</type>
     <weight type="number">2</weight>
   </torc-of-truespeech>
-</equipment>

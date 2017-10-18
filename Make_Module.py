@@ -66,6 +66,7 @@ weapon_data = "cleandata/mythic weapon.xml"
 armor_data = "cleandata/mythic_armor.xml"
 artifact_weapon_data = "cleandata/artifacts_weapon.xml"
 artifact_armor_data = "cleandata/artifacts_armor.xml"
+magic_items_data = "cleandata/Magic Items - Others.xml"
 
 FG_module_directory = "E:\\Fantasy Grounds\\DataDir\\modules"
 
@@ -323,7 +324,7 @@ def populate_running(xml_lists):
     populate_library_page(file4_9, library_node_running, "IdeasforMythicAdventures", "Ideas for Mythic Adventures")
 
 
-def populate_items(xml_ref_weapon, xml_ref_armor):
+def populate_items(xml_ref_weapon, xml_ref_armor, xml_ref_magicitems):
     with open(weapon_data, 'r') as inputfile:
         xml_ref_weapon.text = inputfile.read()
     with open(armor_data, 'r') as inputfile:
@@ -332,6 +333,8 @@ def populate_items(xml_ref_weapon, xml_ref_armor):
         xml_ref_weapon.text += inputfile.read()
     with open(artifact_armor_data, 'r') as inputfile:
         xml_ref_armor.text += inputfile.read()
+    with open(magic_items_data, 'r') as inputfile:
+        xml_ref_magicitems.text = inputfile.read()
 
 
 def populate_monsters(monster_node, library_node):
@@ -364,7 +367,7 @@ def generate_xml_structure(xml_root):
     xml_library_entries = etree.SubElement(xml_library, "entries")
     xml_reference = etree.SubElement(xml_root, "reference", static="true")
     xml_ref_armor = etree.SubElement(xml_reference,"armor")
-    xml_ref_equipment = etree.SubElement(xml_reference,"equipment")
+    xml_ref_magicitems = etree.SubElement(xml_reference,"magicitems")
     xml_ref_feats = etree.SubElement(xml_reference,"feats")
     xml_ref_skills = etree.SubElement(xml_reference,"skills")
     xml_ref_spells = etree.SubElement(xml_reference,"spells")
@@ -378,7 +381,7 @@ def generate_xml_structure(xml_root):
     populate_feats(xml_ref_feats, xml_lists) #Chapter 2
     populate_spells(xml_ref_spells, xml_lists) #Chapter 3
     populate_running(xml_lists) #Chapter 4
-    populate_items(xml_ref_weapon, xml_ref_armor) #Chapter 5
+    populate_items(xml_ref_weapon, xml_ref_armor, xml_ref_magicitems) #Chapter 5
     populate_monsters(xml_reference, xml_lists) #Chapter 6
 
 
