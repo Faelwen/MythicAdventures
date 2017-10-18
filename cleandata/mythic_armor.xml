@@ -1,4 +1,4 @@
-<armor>
+
 			<bastion-of-the-inheritor>
 				<ac type="number">2</ac>
 				<aura type="string">faint abjuration</aura>
@@ -68,4 +68,3 @@
 				<type type="string">Armor</type>
 				<weight type="number">40</weight>
 			</stalwart-breastplate>
-</armor>

@@ -1,4 +1,3 @@
-<weapon>
     <bow-of-erastil>
         <aura type="string">strong transmutation</aura>
         <bonus type="number">1</bonus>
@@ -299,4 +298,3 @@
         <type type="string">Weapon</type>
         <weight type="number">4</weight>
     </sword-of-inner-fire>
-</weapon>

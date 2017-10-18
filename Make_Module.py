@@ -62,6 +62,10 @@ ability_mythic_universal = "cleandata/universal_abilities.csv"
 feats_data = "cleandata/mythic_feats.csv"
 spell_data = "cleandata/all_spells.csv"
 monster_data = "cleandata/mythic_monsters.xml"
+weapon_data = "cleandata/mythic weapon.xml"
+armor_data = "cleandata/mythic_armor.xml"
+artifact_weapon_data = "cleandata/artifacts_weapon.xml"
+artifact_armor_data = "cleandata/artifacts_armor.xml"
 
 FG_module_directory = "E:\\Fantasy Grounds\\DataDir\\modules"
 
@@ -319,8 +323,15 @@ def populate_running(xml_lists):
     populate_library_page(file4_9, library_node_running, "IdeasforMythicAdventures", "Ideas for Mythic Adventures")
 
 
-def populate_items():
-    pass
+def populate_items(xml_ref_weapon, xml_ref_armor):
+    with open(weapon_data, 'r') as inputfile:
+        xml_ref_weapon.text = inputfile.read()
+    with open(armor_data, 'r') as inputfile:
+        xml_ref_armor.text = inputfile.read()
+    with open(artifact_weapon_data, 'r') as inputfile:
+        xml_ref_weapon.text += inputfile.read()
+    with open(artifact_armor_data, 'r') as inputfile:
+        xml_ref_armor.text += inputfile.read()
 
 
 def populate_monsters(monster_node, library_node):
@@ -367,7 +378,7 @@ def generate_xml_structure(xml_root):
     populate_feats(xml_ref_feats, xml_lists) #Chapter 2
     populate_spells(xml_ref_spells, xml_lists) #Chapter 3
     populate_running(xml_lists) #Chapter 4
-    populate_items() #Chapter 5
+    populate_items(xml_ref_weapon, xml_ref_armor) #Chapter 5
     populate_monsters(xml_reference, xml_lists) #Chapter 6
 
 
