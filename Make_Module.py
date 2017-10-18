@@ -43,6 +43,15 @@ file4_6 = "modulehtml/4-6 mythic boons.html"
 file4_7 = "modulehtml/4-7 recurring mythic villains.html"
 file4_8 = "modulehtml/4-8 mythic flaws.html"
 file4_9 = "modulehtml/4-9 ideas.html"
+file5_0 = "modulehtml/5-0 Mythic Magic Items.html"
+file5_1 = "modulehtml/5-1 Armor and Shield Special Abilities.html"
+file5_2 = "modulehtml/5-2 Specific Armors and Shields.html"
+file5_3 = "modulehtml/5-3 Weapon Special Abilities.html"
+file5_4 = "modulehtml/5-4 Specific Weapons.html"
+file5_5 = "modulehtml/5-5 Other Magic Items.html"
+file5_6 = "modulehtml/5-6 Minor Artifacts.html"
+file5_7 = "modulehtml/5-7 Major Artifacts.html"
+file5_8 = "modulehtml/5-8 Legendary Items.html"
 file6_0 = "modulehtml/6-0 index.xml"
 file6_1 = "modulehtml/6-1 mythic monsters.html"
 file6_2 = "modulehtml/6-2 monster index.xml"
@@ -66,6 +75,7 @@ weapon_data = "cleandata/mythic weapon.xml"
 armor_data = "cleandata/mythic_armor.xml"
 artifact_weapon_data = "cleandata/artifacts_weapon.xml"
 artifact_armor_data = "cleandata/artifacts_armor.xml"
+artifact_item_data = "cleandata/artifacts_items.xml"
 magic_items_data = "cleandata/Magic Items - Others.xml"
 
 FG_module_directory = "E:\\Fantasy Grounds\\DataDir\\modules"
@@ -329,7 +339,7 @@ def populate_running(xml_lists):
     populate_library_page(file4_9, library_node_running, "IdeasforMythicAdventures", "Ideas for Mythic Adventures")
 
 
-def populate_items(xml_ref_weapon, xml_ref_armor, xml_ref_magicitems):
+def populate_items(xml_ref_weapon, xml_ref_armor, xml_ref_magicitems, xml_lists):
     with open(weapon_data, 'r') as inputfile:
         xml_ref_weapon.text = inputfile.read()
     with open(armor_data, 'r') as inputfile:
@@ -340,6 +350,17 @@ def populate_items(xml_ref_weapon, xml_ref_armor, xml_ref_magicitems):
         xml_ref_armor.text += inputfile.read()
     with open(magic_items_data, 'r') as inputfile:
         xml_ref_magicitems.text = inputfile.read()
+    with open(artifact_item_data, 'r') as inputfile:
+        xml_ref_magicitems.text += inputfile.read()
+    mythic_items = populate_library_page(file5_0, xml_lists, "MythicMagicItems", "Mythic Magic Items")
+    populate_library_page(file5_1, mythic_items, "ArmorAndShieldSpecialAbilities", "Armor and Shield Special Abilities")
+    populate_library_page(file5_2, mythic_items, "SpecificArmorandShields", "Specific Armor and Shields")
+    populate_library_page(file5_3, mythic_items, "WeaponSpecialAbilities", "Weapon Special Abilities")
+    populate_library_page(file5_4, mythic_items, "SpecificWeapons", "Specific Weapons")
+    populate_library_page(file5_5, mythic_items, "OtherMagicItems", "Other Magic Items")
+    populate_library_page(file5_6, mythic_items, "MinorArtifacts", "Minor Artifacts")
+    populate_library_page(file5_7, mythic_items, "MajorArtifacts", "Major Artifacts")
+    populate_library_page(file5_8, mythic_items, "LegendaryArtifacts", "Legendary Artifacts")
 
 
 def populate_monsters(monster_node, library_node):
@@ -386,7 +407,7 @@ def generate_xml_structure(xml_root):
     populate_feats(xml_ref_feats, xml_lists) #Chapter 2
     populate_spells(xml_ref_spells, xml_lists) #Chapter 3
     populate_running(xml_lists) #Chapter 4
-    populate_items(xml_ref_weapon, xml_ref_armor, xml_ref_magicitems) #Chapter 5
+    populate_items(xml_ref_weapon, xml_ref_armor, xml_ref_magicitems, xml_lists) #Chapter 5
     populate_monsters(xml_reference, xml_lists) #Chapter 6
 
 
